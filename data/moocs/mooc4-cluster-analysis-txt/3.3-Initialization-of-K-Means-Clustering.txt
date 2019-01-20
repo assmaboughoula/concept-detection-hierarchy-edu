@@ -1,0 +1,43 @@
+[SOUND]
+As we just had discussed, the quality of K-means clustering is quite
+sensitive to the initial relation status. Then we need to see how to
+do good in initialization so we find a good quality
+clustering using K-means method. I just gave you a simple
+example everybody can see. Different initializations may generate
+rather different clustering results. Some may not be optimal at all. Just give you example,
+suppose we have only four points, we will find two clusters. If we initialize in the solid circle. That means these two points get into one
+cluster like if we give you the center like this two, they will attract these
+two and these two as in one cluster. Then actually it becomes stabilized,
+because you calculate the center, the center is still here. They will not move. So then you find a pretty ugly cluster,
+because you perceive these, if you vertically group
+things into two clusters. The sum of the square distance or
+SSE actually become rather small. From this point of view
+we know the quality of a clustering could be very
+sensitive to the initialization. More recently, MacQueen in 1967 said
+we should select the k seeds randomly. Now we need to run this algorithm
+multiple times using different seeds. In some software package,
+they may even say, run these algorithms 200 times. Finally find which one you derive
+the best K-Means cluster simply says you want to find the SSE,
+the sum of the square arrow is minimized. There are many other methods also
+proposed for better initialization. For example, there's one called K-Means++,
+proposed in 2007. Essentially this ++
+initialization is as follows. The first centroid that you can select
+randomly, but then the next centroid to be selected, you try to find the farthest
+point from the currently selected points. That means a selection based
+on weighted probability score based on a different probability you
+select which is best for the next one. Then this selection continues until
+all the k centroids are obtained. That initialization is done. Then we can run the K-Means algorithm. I'll give you a simple
+example of protein C, poor initialization may lead
+to some poor clustering. For example we take the same data sets, those black points as we've shown before,
+now we give you two same choice initialized as the red
+lines here, the blue lines here. With this initialization,
+we can get clusters, we can assign these objects into two
+different clusters in different colors. One, the upper part,
+those parts assigned to the red cluster. The lower part assigned
+to the blue cluster. Then we can recalculate the center again. You can probably see
+the center actually moved. And with this recalculation we
+can re-assign those points. You can run this if you want. You probably can see finally they're
+stable like this, but actually, this is not a very good cluster at all. That means that this run of the K-Means
+generates a poor quality clustering. That is simply giving us a simple show. We do need some smart interrelations or multiple random initialization
+is the best ones. So this is the initialization
+of K-Means clustering. [MUSIC]

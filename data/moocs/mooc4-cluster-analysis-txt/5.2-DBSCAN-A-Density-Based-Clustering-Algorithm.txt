@@ -1,0 +1,80 @@
+[SOUND] In this session,
+we are going to introduce a density-based clustering
+algorithm called DBSCAN. DBSCAN is a density-based spatial
+clustering algorithm introduced by Martin Ester,
+Hanz-Peter Kriegel's group in KDD 1996. This paper received
+the highest impact paper award in the conference of KDD of 2014. This paper developed
+an interesting algorithms that can discover clusters
+of arbitrary shape. Actually, DBSCAN itself is acronym of density-based spatial clustering
+of applications with noise. The method introduced a new notion
+called density-based notion of cluster. That means a cluster is defined as
+a maximal set of density-connected points. It defines two parameters. One called Epsom or EPS, it's
+the maximum radius of the neighborhood. That simply says, if you have a point q using the radius epsom,
+supposedly is 1 cm. You want to find out how many
+points include in q's disk. Then minimum points, a minimum number of points in
+the Epsom neighborhood of a point. For example, you can define minimum
+point as p then this q for sure is quite dense because it contains
+like 11 points within its radius. Then we can define the Epsom neighborhood
+of a point q which is defined as follows. For any point p is distance to q if it's decimal equal to Epsom then this p actually belonged
+to this Epsom neighborhood of q. For example, if you look at this
+point you probably can see. If using this one as q this neighborhood
+is including like 5 points so this one we actually can't
+call this one as a call. But if a does not have
+that many neighborhood but it can be reached by the cluster,
+we call is a spotter. But if it's isolated
+cannot form the cluster cannot be reachable by other clusters,
+we call this one outlier or noise. Now we look at an, a concept
+called directly density-reachable. Directly density-reachable means, for
+example, p is directly reachable by q. The reasoning is p actually is within q's Epsom neighborhood on the other hand,
+q itself is a core point because q's disk contain a number of points that's
+greater than the minimum number of points. Then we define another notion
+called density-reachable. Density-reachable means
+a point p is density-reachable from a point q with respect
+to the radius Epsom and minimum number of points,
+if there is a chain. There's a transitive closure, okay? You get the point p1 to pn. P1 actually is q then you can go to p2, then p2 is density reachable to p,
+eventually. Then we will say these p, i plus 1 is
+directly density reachable from p i and finally p stands a reachable
+from upon a q because there is a transitive closure of
+directly density-reachable. Then we define another notion
+called density-connected. Then we can say point of p
+it's density connected to point q if there exists a point o,
+which is density-reachable to p and
+also density reachable to q. That means p and q both can be at
+the border but as long as there is point o which can be directly
+density-reachable to these two points. Then these two points
+are density-connected or we say they are in the same cluster. So we introduce then the DBSCAN algorithm. The algorithm actually is saying
+arbitrarily select upon a p that means at the very beginning you
+can select at any point starting point. Then you retrieve all the points
+density-reachable from p with respect to Epsom and
+the minimum number of points. That means you try to find from this
+p how far it can density-reachable. That means you first find
+directly density-reachable then find its transitive closure or
+the reachable y, okay? That means you find a core and
+then you find the border. If p is a core point then
+the cluster is formed because it will reach from anywhere,
+you'll find you can't reach it. But if p is a border point, like this one
+is a border point, this one is a border point, then no point at density- reachable
+from p for example, like this point, okay? No point it can't be density-reachable,
+then you were think to this one is, noise [INAUDIBLE]. Then the DBSCAN where the, the, the next point in the database, it means
+you try to find a new point to start. You will continue this
+process until all the points have been processed so this is the output. This algorithm is quite efficient
+in the sense if you spatial index, so it accesses neighbors very fast then
+the computational complexity of DBSCAN is O(nlogn),
+where n is a number of database objects. Otherwise, the complexity is O
+n square because you have to check all the points every time but it comparatively this one is
+still pretty efficient algorithm. However, DBSCAN is sensitive
+to the setting of parameters, this one was published by Karypis
+group in 1999 in computer magazine. They show the DBSCAN, for
+example, if you said the minimum number point is full but
+Epsom you said this disc size, the radius size is 0.5 you actually
+find pretty nice clusters. However, if you said 0.4 you can
+see the clusters found many but they are pretty ugly. For the same experiments, you could see
+for these number of points, if you set minimum number of points for the Epsom
+is 5.0 you find a cross like this. If principally,
+probably even should find two clusters. On the other hand, if you select point
+3.5 you find a bunch of clusters but they break nice cluster into many. If you set up upon sweep on zero, you
+will find it pretty ugly scenes because there are many many small scattered
+points you found many small clusters. So we may need to invent another message,
+try to fix this one. That means to make the master less
+sensitive to the setting of parameters. This is the one we're going to
+discuss in the next session. [MUSIC]

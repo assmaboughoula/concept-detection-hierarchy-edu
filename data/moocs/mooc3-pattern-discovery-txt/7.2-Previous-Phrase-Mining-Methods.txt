@@ -1,0 +1,102 @@
+Now, we first introduced a few
+previous phrase mining methods. Phrase mining actually
+originally came from the natural language processing community
+called chunking or noun phrase chunking. Essentially is a remodel of phrase
+as a sequence of labeling problem. For example, you can squeeze a label word
+at the beginning of this noun phrase, then you see another word that could
+be inside of noun phrases, and you may have something
+outside of this phrase. This will need a lot of annotation and
+a training effort. For example, you may ask domain experts to annotate hundreds of
+documents as training data. Then we can use the software, use
+the measures to train a supervised model based on part-of-speech features
+like part of speech tracking. Okay, the recent trend is
+also try to use web n-grams. Those web n-grams,we can
+get some statistics, we'll be able to use this distributional
+features to generate good phrases. This one was found by Bergsma and
+others in 2010. The state-of-the-art
+performance using this approach is about 95% accuracy and
+about 88% phrase-level F-score. However, this method suffers
+from the high annotation cost. And then it will not be scalable
+to a new language for example, new labor English, it may not be used for
+French or a new domain like you labor the news may not be able to use for
+computer science or new genre, okay? So it may not fit domain-specific,
+dynamic, emerging applications. For example, there are lots of new
+articles in scientific domain, computer science domain or
+like medical domains. Or the machine may generate
+a lot of query logs. Our social media may contain Yelp and
+Twitter data. This kind of data set is so
+domain specific and dynamic, so it's hard to assign or change every
+subset of such data using annotation. So people want to develop
+unsupervised phrase mining method. Actually, many unsupervised
+phrase mining studies are close linked to as topic modeling. Topic modeling essentially is
+a new recent developed method. Represent topics by many,
+many phrase words. You get every topic is written by
+a word distribution, and documents a set of documents actually may contain
+many topics with different proportions. This method does not require any prior
+annotations or labeling of the documents. It relies on statistical
+topic modeling algorithm. One of the most popular ones, LDA, or
+we call Latent Dirichlet Allocation developed by David Blei and
+others in 2003. Actually to do phrase mining using
+topic modelling there are three different methods. One is we simultaneously
+infer the topics and the tokens, the phrases at the same time
+using some kind of generative model. The second method is first
+using generative model to generate topic models and
+using topic model, try to group different words into n-grams,
+into phrases to visualize such topics. The third one, the newest developed
+one is first we phrases mining before we do topic model. That means, we mine phrases and
+impose such phrases on the bag-of-words modelling process. So let's look at the first method. We call strategy 1 is simultaneously
+inferring phrases and topics. There studies the first one in 2006
+was called bigram topic model. That means we use some kind of
+probabilistic generating model to look at the previous words in
+the topic to see whether the next word should belong to the same
+topic should be a phrase. And it's generalization from this
+Bigram Topic Model is TNG or called Topical N-Grams model. It was developed in 2007. It is a probabilistic model. Generates words in textual order, then create n-grams by
+concatenating successive bigrams. Then the source that is by Lindsey and
+others into some twelve called PDLDA or Phrase-Discovering LDA. For this measure, we first view each
+sentence as a time-series of words. Then using PDLDA, and assume that generative parameter like
+those topic may change periodically, then each word is drawn based on the previous
+m words, based on the previous context. And the current phrase topic, so we can generate whether this
+word should be there or not. Okay, this method, due to its high model
+complexity, it tends to overfitting. That means it overfitting
+to a particular topic. Sometimes it may not generate
+very good quality phrases. Another why it has high inference cost, because of this complex generative
+process, it runs pretty slow. The second strategy is post
+topic-modelling phrase construction. That means refers topic modeling,
+then we do phrase construction. The first that work called TurboTopics. TurboTopics was developed in 2009
+by David Blei and John Lafferty. The general idea is first to Latent
+Dirichlet Allocation to do topic modeling, then based on topic modeling we do
+post-processing to construct the phrases. Okay, that means we first perform LDA on
+corpus to assign each token a topic model. This is topic modelling. Then, we'll merge adjacent unigrams
+with the same topic model by a distribution-free permutation test
+on arbitrary-length back-off model. For example, you can see this. If you see phase, transition, and you see phase transition
+are in same topic number 11. And they are consecutive,
+likely they could form a phrase. You can recursively merging
+generating such phrases. We will end recursive merging when all
+significant adjacent unigrams have been merged, so then you will be able
+to generate some good phrases. Another method called KERT is also first do topic modelling
+them do phrase construction. It was developed by Marina Danilevsky and others in 2014. It take first do some LDA, and then to post-processing for
+phrase construction. The first one the same is turbo topics,
+then the interesting thing is it performs frequent pattern mining to extract
+candidate phrases within each topic. Then perform phrase ranking,
+based on four different criteria. One criteria called popularity. For example, if you see information
+retrieval is more popular, then cross-language information retrieval,
+then information retrieval as a phrase will rank higher than the cross-language
+information retrieval. The second criteria is concordance. For example, if you see strong tea quite
+often rather you see powerful tea, or you see active learning quite often
+rather than you see learning and the classification getting together
+as a sequence, then we will say strong tea and
+active learning is higher concordance. The third one for informativeness
+essentially is, whether the phrase generator is more informative, it contains
+retrieved information, discriminative. For example, if you see this paper,
+it's almost every research paper, they have a lot of this paper, so
+this paper is more like a stock words here is more like a stock
+phras,e it is not informative. It rank low, like it should be removed. The first criteria is completeness. For example, you see vector machine, almost every time you see this phrase,
+you'll also see support vector machine. That means vector machine
+may not be complete, and support vector machine
+is a complete phase. Then not only you can compare
+phrase quality with the same lens, in many cases you can compare
+phrase quality of mixed lens. That means you compare vector
+machine vs support vector machine. Rather than using the same lens,
+you compare them. With this process, frequent pattern
+mining plus phrase ranking, this message generate
+better quality phrases.

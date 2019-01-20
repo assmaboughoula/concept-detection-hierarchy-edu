@@ -1,0 +1,83 @@
+[MUSIC] >> In this session, we're going to examine
+agglomerative clustering algorithms. We already introduced the general
+concepts of, you know, agglomerative and
+divideditive clustering algorithms. Now we look,
+from the computer science point of view, we can think agglomerative clustering
+essentially is a bottom up clustering. That means we start from
+the single den clusters, that means every single element
+treated as one cluster. Then we try to merge
+their nearest neighbor into bigger, bigger clusters and
+eventually merge them into one cluster. This one is a bottom up, or
+agglomerative clustering. In Kaufmann and
+Rousseeuw's 1990 book they describe one algorithm they call AGNES,
+or AGglomerative NESting. This algorithm uses a single-link method,
+or we call nearest neighbor method. And the dissimilarity matrix
+try to continuously merge nodes that have the least dissimilarity,
+or the nearest neighbor. Eventually, all the nodes
+merged into one cluster, okay. That means you start from the singleton,
+you try to find its, everyone's nearest neighbor. Then you check the, the, the closest
+nearest neighbor, you try to merge them. Okay. Then once you merge into bigger
+cluster you're looking at cluster, cluster their nearest
+neighbor they're single-link. Then decide which one to merge eventually
+you'll merge everything into one cluster. Actually in the rear agglomerative
+clustering algorithms, they vary different similarity measures. For example, we just discussed AGNES. It uses nearest neighbor we
+called single-link measure. You also can use the farthest neighbor,
+or diameter. That's complete link. Then you can use group average. That means you average of
+everything based on their distance. Every pair of elements, you average them. Then you calculate the distance
+based on the average link. Or we can use central link, that means we look at the distance
+between the centroids of those clusters. Let's examine a little detail
+on these different links. We first look at the single link,
+or we call nearest neighbor. Okay. So the similarity or
+the distance between the two clusters is defined based
+on the most similar or the closest elements
+in these two clusters. Okay. Just to give you an example,
+suppose one is in U.S., one is in Cuba, you want to find their closest points. Likely in the U.S.,
+it will be the Key West. So such kind of merging essentially
+is you examine its neighbors, or the close regions. So, you know the overall
+structure of the cluster. So, in that context,
+you will be able to find irregular shaped, or non-elliptical shaped,
+group of objects. This link is also sensitive to noise and
+outliers. Because obviously if you get outlier which
+is very close to the other one, you may, you may decide to merge them. Another approach called complete link is
+you check the diameter of the cluster. The idea is you try to define
+the similarity between the two clusters based on their farthest neighbors. That means between the most, the
+de-similar elements in these two objects. For example, if you define the distance
+between U.S. and Cuba, you probably, for the complete link, you may pick
+up the farthest point in Alaska. So that's pretty far apart. So that means you actually try to
+merge the two clusters to form one with the smallest diameter,
+because when you merge them together, you want the final one is pretty compact. You examine non-local behavior,
+you obtain compact shaped clusters. But this measure also
+sensitive to outliers, okay? Because you probably do not even
+want to think about Alaska. You may think about Hawaii or Guam,
+you know, you try to merge them. That's pretty far apart. Then we will look at the average link. The average link between two clusters
+actually is rather expensive to compute. Because what you want to calculate
+is the average distance between all the elements in one cluster and
+all the elements in the other cluster. That means you calculate all
+the pairs of the two clusters, then you try to average them. For example, if you have a number of cluster in C sub a is N sub a, and a number of elements in
+cluster C sub b is N sub b. So what you want to care,
+the distance, essentially you will get total number of pairs is
+N sub a times N sub b. That's pretty big, you know, average time. So an easy way, or
+a more efficient way to calculate the the distance between two clusters,
+actually use centroid link. The centroid link means you calculate
+the centroid of cluster C sub a, the centroid of cluster C sub b,
+then the distance between the two clusters is defined by
+the distance between these two centroids. And you may even want to put
+a weight there for example, if the cluster C sub a has many,
+many points versus C cluster C sub b,
+you want to take this into consideration. Then we introduce GAAC, or
+group averaged agglomerative clustering. That means,
+if you assume the two clusters C sub a and C sub b be merged into one cluster,
+C sub a unit b, then the centroid will be defined by,
+you get a centroid of C sub a. But you'll time the number
+of elements in the cluster, then you get a centroid of C C sub b
+of cluster C sub b, bigger C sub b. Then the, you want also times
+their number of elements. Then you finally normalize them, okay? So this is the GAAC measure. Another interesting Y is people
+define one called Ward's criterion. This Y's centering is to measure
+the increase, once you do this merge. Remember, once you merge the two clusters,
+C sub a and C sub b into C, the sub union b the SSE,
+the sum of the squared distance were increased because
+the cluster becomes bigger. Okay. Then once it's increased you want
+to see the original clustering. What's the difference? What's the increase you've got on this? Okay, this why is defined
+using this criteria and essentially is you look at the distance
+between the two centroids and then you, based on this weight,
+you calculate the increase. [MUSIC]

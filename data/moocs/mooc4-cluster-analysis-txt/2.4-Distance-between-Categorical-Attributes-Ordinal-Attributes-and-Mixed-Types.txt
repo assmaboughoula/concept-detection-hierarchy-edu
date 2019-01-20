@@ -1,0 +1,34 @@
+[SOUND] Now we examine distance between categorical attributes,
+ordinal attributes, and mixed types. What are categorical attributes? Categorical attributes, also called nominal attributes because
+their value references by names. Take color as a example, we may have
+yellow, red, orange, blue, green. If we get their positions in color
+spectrum in physics, they are not ordered. In the sense either the two values
+are the same or they are different. The same as profession and
+many other things. Then how to calculate their distance. We can use simple matching method. For example, suppose there are total
+p variables, and their m matches. Then the number of mismatch is p minus m. So their distance between i and j will be the number of mismatches
+versus the total number of variables. Another measure is we can
+mapthem into binary variables. That means each value like red if they are existing as a red
+we write down as one. If they are not red,
+we write down as zero. Then we can change the categorical
+attributes into a set of binary variables. Then we can use the previous
+binary attribute evaluation function to evaluate them. Another kind of variable
+called ordinal variables. Ordinal variable means they do have order. They can be discrete like a rank,
+like a military rank, or even the rank for undergraduate
+students in the university, okay. Or they could be continuous,
+like time, okay? Then order becomes important. For example, in the University, a freshman is a first year,
+a senior is a fourth year student. In that sense, we can replace
+ordinal variable value by its rank. Then we can map any particular variable using this formula map
+onto this either 0 or 1, okay. Just give you an example. For example, we can map freshman into
+0 because their position is 1- 1 0. And the same for senior it is four so
+by the total range is four. That's why they map into one. Then the distance for
+example between freshman and senior would be one minus zero,
+their distance is one. But between junior and senior their distance is only
+one third because with this one, now we can compute the other dissimilarity
+using the interval scale variables. What about we get a dataset may
+contain all attribute types, nominal symmetric binary,
+asymmetric binary, numerical or ordinal. No one can use a weighted
+formula to combine the facts. Then, if they are numerical data, we can use normalize the distance,
+like [INAUDIBLE]. If they are binary, or nominal data, we
+can use this formula as we just discussed. If they are ordinal data we can compute
+their distance using this formula. Then we can combine all their effects
+to compute their overall distance. [MUSIC]

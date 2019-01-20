@@ -1,0 +1,34 @@
+[SOUND]
+So first, we will introduce basic
+concepts of partitioning algorithms. The partitioning method is essentially
+to discover the groupings in the data. That means you get K groups if you want to
+partition, I mean, 2K groups by optimizing a specific object function, for
+example, sum of the square distance. And then we iteratively improve
+the quality of such partitioning. So the K-partitioning method, we partition a dataset D of n
+objects into a set of K clusters. Then we definitely can
+iteratively improve it, so that an object function is optimized,
+for example, the object function could be the sum
+of the square distance is minimized, where C sub k is the centroid or
+medoid of cluster capital C sub k. So a typical objective function is Sum of
+Squared Errors is often written as SSE. So a clustering, okay, for the SSE, is sum of K clusters,
+k is from 1 to K, okay. Then for each such cluster if
+an object's i is in this cluster, then the square error that simply says
+the distance of sum of these squares. These such distance, the whole function,
+is a K clusters, and each cluster get its points to its
+center the sum of such a square, distance or square errors. We want to minimize this
+objective function. Then in general what we can think,
+conceptual we can think of this, if you get a very nice K cluster, then, all the objects to the center
+is somehow shorter, okay. It is shorter than the sum of the square
+distance or the square errors. Actually, it will be pretty small. That's why we can't get
+within the cluster center, the sum of the square
+error is pretty small. Then if we get a K such thing, we add them
+together, the whole thing will be smaller. For the K-partitioning method, essentially
+the problem is given a K, the number of clusters, we want to find a partition
+of these K clusters that optimize the chosen partitioning criterion, for
+example, the sum of square distance. However, to find a global optimal, actually we need to exhaustively
+enumerate all partitioning because the potential number of partitioning
+actually is exponential. So more realistically,
+we should get a heuristic method, that means the greedy algorithms. For example, the typically used
+like the K-Means, K-Medians, K-Medoids and all the other methods
+are all greedy algorithms or heuristic methods to find
+such a nice partition. [MUSIC]

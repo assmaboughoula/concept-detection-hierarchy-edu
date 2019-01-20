@@ -1,0 +1,75 @@
+We will discuss
+Mining Spatial Colocation Patterns. What is spatial colocation pattern? Usually, a group of
+spatial features of events can be frequently colocated
+in the same region. For example,
+West Nile Virus may often occur in the regions with poor mosquito control and
+the presence of birds. So if we can find such patterns, we may have better way to
+control the spread of the virus. Let's look at the example on the right. So we have A, B, C,
+D as four types of objects. You can think A could be West Nile Virus,
+spread in region. B could be some mosquito region. Or C could be in some cities, D could
+be the presence of birds, something. Then we use the address,
+means they are colocated. For example, 3, 6, 17 are co-located,
+we used edge to link them together. And a 4, 7, 10,
+16 are co-located together. We use the edge, linking them together. Okay, like 2, 9 could be collocated,
+but on the other hand a 2, 14, 18, 11, and 15,
+these are collocated regions, okay? Then we may be able to find rowset. The rule set is this, okay? If we want to find A, B,
+C, D, how many things are, how many objects are colocated
+together as A, B, C, D for types. When I be able to find four,
+seven, 10, 16 are colocated. And 2, 11, 14, 15 are co-located or
+8, 11, 14, 15 are co-located. That means A, B, C, D we may find two, actually three instances
+they are co-located. That's they are all set. On the other hand, A,
+B may be a little more. For example, 5,13 is co-located, 7, 10 is co-located, so
+we may find more instances. Then we may get a colocation
+rule like this. If pattern A is colocating,
+whether pattern B may also colocating. We may find this conditional
+probability of the colocation patterns. That means if we want to find AB may
+imply CD, that means if AB are colocated, likely CD will be colocated
+with certain probability. Then, we need to compute the pattern A,
+at what condition, in how many cases, when A is there,
+and AB is also there. That means Actually AB,
+the cases is usually is the case. You can find A and
+in the row AB set, rowset. Okay, essentially what we need to
+calculate is A, B, C, D is a rowset. You are probably going to see there
+are three such cases A, B, C, D together. But there are four cases A,B together. So the condition, if you find the A,
+B then you find the C, D, colocated. The condition equals 3 over 4 is 75%. The conditional probability for
+this rule is 75%. Then the interesting thing is, can we find such colocation patterns and
+rules automatically and efficiently? Okay. So let's see how we can derive
+an efficient algorithm to find them. To find efficient algorithms, we first introduce another concept
+called participation ratio. That means that the feature f is
+participating in this pattern c. What's the probability? Okay. So for example A participating in A,
+B, C, D, you're broken in C. A is the red one. We have one, two, three, four, five. Five cases you'll find A. But every time we find A We can find a,
+b, c, d. There are only two such cases like 7 and
+14. That's why we get a 2 over 5
+is the participation ratio. Similarly, if you want to
+find D participating in A, B, C, D, d It actually is the blue circle. You can see there are only
+two blue circles, but both of them are completely partitioned,
+participating in this ABCD pattern. This simply says you get cases
+two over two is 100 percent. Then we may derive a interesting property called monotonicity property
+of participation ratio, okay? That means suppose we have c and
+c prime as two core location patterns. But c prime is a subset of c. Then for every feature f, if feature is participating in C prime, okay? Then the probability will be higher
+than participating in a superset. This is quite easily,
+can be an either and or [INAUDIBLE] because you can think about
+this, if A participating in A, B then the chance is higher than
+A participating into, in A, B, C, D. Because every time when A, B occurs. ABCD also will be. When A, B, C D occurs,
+a, b will also be there. That's why when f participating in c for
+sure the probability or the participation ratio will be
+higher then participating supersect. So based on the monotonicity,
+we can work out an Apriori-like algorithm to efficient mine colocation patterns. Let's give such an example. Suppose minimum feature
+support is riveting a sigma, and a minimum participation
+ratio is rewritten as roe. Then we start from a set
+of single feature patterns. If they are frequent, that means if
+their support is no less than sigma. Okay. Then, we can keep using upper array
+like a principle to find their pairs. That mean from the single feature pattern
+try to find two feature patterns, three feature patterns grow up to size k. Anytime we can stop if
+the pattern is frequent to anyone Because once it's not frequent,
+it's super patterned will not be frequent. This is simply based on
+the Apriori principle. Then based on these participation in
+ratio monotonicy we will be able to find all the super patterns of a single
+feature or the multiple features. Suppose we got a feature Is p, we want to find it's super feature,
+okay nor super-pattern. And we know we can get a little bigger super-pattern to see
+whether it's greater in row. Anytime if it's not greater in row,
+it's super-pattern would not need to be examined because they cannot
+be bigger than row anymore. So based on these Apriori principle, we
+can easily work out efficient algorithms. So that's the trick or that's the interestingness if we
+can find a monotonicity pattern, we will be able to work out, Apriori-like
+efficient processing algorithms.

@@ -1,0 +1,35 @@
+[MUSIC] Now we study another interesting issue
+called Mining Closed Sequential Patterns. The algorithm mining this
+is called CloSpan, so what is closed sequential patterns,
+similar to closed frequent item sets? The closed sequential pattern s means,
+if there exists no superpattern s prime and this s prime and
+s have the same support. Then s is a closed sequential pattern,
+in another word, closed pattern means for the same support,
+you will find the longest one. That's the closed pattern, the other
+ones probably does not really matter, okay, for example,
+let's look at this example. Supposed we find three sequences,
+abc with support 20, abcd with support 20 and
+the abcde with support of 15. Which ones are closed,
+abcd is closed in the sense for support 20, abcd is a longest one. Then abcde is also closed
+because the support at 15, there is no longer 1 and
+15 which is a super sequence of abcde. So there are two ways to mine
+closed sequential patterns, one way is you first mine
+all the sequential patterns. Then you find which one is
+closed to like this abc, you can knock it down, then you'll get
+set of closed sequential patterns. But this is not a very efficient, what we want is directly mine
+closed sequential patterns. This will reduce a number of redundant
+patterns to be generated in the middle. But it will attain the same expressive
+power because it's last it's compression, so there's a one interesting
+property like this. If s is the superset of s1, s is closed if and only if two
+projected database have the same size. Let's look at this, for example, for
+this sequence database, if you find f the project database and
+another sequence is af. This is the project database, if these
+project database have exactly same size, then this actually means af is closed. Essentially, you only need to mine one,
+that means you can merge them, so you will be able to
+develop two kinds of pruning. One called backward subpattern pruning,
+this is a subpattern, you can prune it, another is backward
+superpattern pruning, so you probably see. That you can use superpattern to
+chop up the subpattern you will get into this, okay? So with this spirit we can develop
+an efficient algorithm called CloSpan. It greatly enhance
+the processing efficiency, I'm not going to discuss very detailed. But details you can read this paper, it
+gives you all the detail on the CloSpan. [MUSIC]

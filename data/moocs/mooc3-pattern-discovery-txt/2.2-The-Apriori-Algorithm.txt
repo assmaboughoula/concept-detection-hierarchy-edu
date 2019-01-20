@@ -1,0 +1,51 @@
+[SOUND]
+Hi, let's introduce the very
+famous Apriori Algorithm. This algorithm is the first
+candidate generation and test approach for frequent pattern mining. It is a level-wise candidate
+generation test approach. Initially, the first time you just
+scan the database once to get frequent 1-itemset. Then taking this frequent 1-itemsets, you are going to generate
+lens two candidate itemsets. In the case iteration,
+you're going to take a length-k frequent itemsets to generate landscape
+plus one candidate itemset. Then you go against the database to
+test these candidates generated, and to find the real
+frequent k+1 itemsets. Every iteration you set k to k+1,
+so you can go and tier the no frequent itemsets
+will be generate, or no candidate itemsets can be generated. Then after you exit from loop, you just return all the frequent
+itemsets derived, that's the algorithm. Let's look at the pseudo-code. We set C sub k to be
+candidate itemset of size k, F sub k to be frequent itemset of size k. Initially, we just get
+a frequent 1-itemsets. Then we get into the loop. Suppose the frequent k itemset
+is not empty, then we get in. We use ks frequent itemset to
+generate k+1's candidate itemsets. Then we go against the database
+using the minimum support to see which k+1 candidate itemset or
+frequent. We derive the frequent k+1 itemsets. Then we reset k to k+1, and
+here we get out of this loop. We just return all the frequent k
+itemsets for all the ks derived. Let's look at the concrete example. You look at this transaction database. It contains only four transactions. The first scan, you just try to find
+their support for every single itemset. Then we find d, the support is only one,
+so it's not a frequent. So then we just remove it, we get
+a frequent 1-itemsets and their support. Then we use this to derive
+the candidate 2-itemsets, C sub 2. Then we scan the database again,
+we find the real support count. Then we find these two blue
+marker lines are infrequent, we derive frequent 2-itemsets. Then using frequent 2-itemsets, we derive
+the frequent three candidate itemsets. Remember, this one you
+probably can't see a big cut. Why? Because you probably see A,
+C, B, C are frequent, you may think maybe A, B,
+C could be candidate itemset. But A, B is not frequent here,
+so A, B, C will not be derived. So we only derive B, C, E. With another scan, we find it's support
+is two, so it's frequent as well. Then we find all the frequent one,
+two, three itemsets. The concrete implementation actually
+involve self-joining and the pruning. Self-joining goes like this. We get abc, abd,
+the first two are the same. The third one is different, so we generate this self-join,
+generate this candidate set. A similar thing we get acd, ace,
+the first two are just the same. The third one we get them together,
+we get this candidate sets. But we may need a pruning process. The pruning is pretty simple. Before you count against a database,
+you proceed for abcd, this bcd is there. So this is a candidate one. But for acde,
+cde is not in the frequent three itemset. So acd can not be the candidate,
+so it's pruned. So that's the simple way,
+you bring in the self-joining and pruning, we can solve this problem. You'll find out we get only
+one candidate sets, abcd. Let's look at the SQL implementation of
+this candidate set generation and test. So we proceed the candidate
+generation essentially this. You proceed the self-joining. How to do self-joining? You'll see the first k-2. They are all identical. Then the last one, k-1 item. One is smaller than the other. We get one candidate set. Then for this candidate set,
+we still need the pruning. The pruning essentially is
+a check whether these subsets, the k-1 subset containing this one. If s is not in F k-1,
+then we just delete this candidate from the candidate set C sub k. So this is a candidate generation. The key step of SQL
+implementation of Apriori. [MUSIC]

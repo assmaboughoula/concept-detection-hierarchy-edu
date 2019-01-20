@@ -1,0 +1,50 @@
+[SOUND]
+Now we come down to study another interesting issue called
+mining quantitative associations. What is quantitative association? Quantitative association
+means some attributes after a numerical data like age and
+a salary. So how to mine such rules? There's one way is we can
+do static discretization. The reason we need to do static
+discretization is if you do not discretize them, you're trying to parallelized
+every possible age and a salary. You will not be able to
+find any interesting or sensitive rules with sufficient support. But if we try to say,
+we partition age every ten years, or partition income every
+$10,000 using some predefined concept of hierarchy, we are going to
+be able to construct a data cube and we're going to be able to generate
+some interesting association. But this fixed, predefined concept hierarchy may
+not fit your data distribution. For example, in the university, likely you may want to
+partition the age for students. You may say it's 18 to 20,
+20 to 22, or something like that. But for income, you may say $10,000
+is one partition or low and high. But if you go to hospital, their age distribution you may like
+to say middle age or old or young. So another way is we do
+clustering based on data. That means we take every dimension,
+we study their distribution of the age and income, we perform certain clustering
+algorithm, generate a few clusters, and then we find the parallelized frequent
+pattern of each such cluster of pairs. Then finally there's also popular
+ways to do deviation analysis. That means instead of
+doing fixed interval, we may do based on certain
+condition like gender is female. We may find their mean or a median or
+something, some statistic measure, you will find if the wage mean
+is substantially deviated from the overall mean,
+then this could be an interesting rule. Let's go a little further to see
+how to find some such deviation. We also call extraordinary or
+interesting phenomena. Usually for this we may say the left-hand
+side is a subset of the population and the right-hand side is some kind of
+extraordinary behavior expressed using some statistical measure which
+could deviate from the overall. Then the rule, whether is true rule or
+is just a very exceptional case, we need to do some statistic test,
+like a Z-test, to confirm whether such kind
+of rule is of high confidence. Further, in many cases, you may even want to go deeper to
+get a subset of the population, for example, not only look at the gender as
+female, but look at the location as south. You may get the wage could further
+deviate from the overall mean, or even from the bigger rule
+like a gender is female. So that subrule could become
+a extraordinary subrule associated with its super rule. For example, sometimes you do not have the
+left-hand side as a subset of population, but based on numerical data you can group
+them into certain intervals or clusters. For example, the left-hand
+side could be if the education has pretty many years,
+like 14 to 18 years, and you will find the mean wage actually
+is substantially higher than the mean, so that may form another
+interesting quantitative rule. Efficient methods actually have
+been developed to mine such extraordinary rules. For example,
+one research paper published by Aumann and Lindell@KDD'99 is a very interesting case
+study of a very interesting algorithm. [MUSIC]

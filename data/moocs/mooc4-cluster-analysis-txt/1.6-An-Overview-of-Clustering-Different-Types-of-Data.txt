@@ -1,0 +1,66 @@
+[SOUND]
+Hi, in this session we are going to give a brief overview
+on clustering different types of data. We encounter various
+kinds of types of data. For example, the early clustering algorithm most times
+with the design was on numerical data. And the second type of data is category
+data, including the binary that most people consider as also can be
+handled in categorical data or category. For example, gender, race, zip code, or market-basket data,
+you would consider the data is discrete. There's no natural order, but
+certain kind of data is text data, this is very popular in social media,
+on the Web, or social networks. Usually if we consider
+a word as one dimension, then we are handling very high dimensional
+data, but they are very sparse. Their value usually corresponding
+to word frequencies. The methods to handle such data,
+include a combination of k-means and agglomarative method, topical modelling
+methods, or co-clustering methods. We are going to discuss
+this extensive later. Multimedia data is another
+kind of data needs clustering. Usually images, audio, video, those are Flickr and
+YouTube actually are multimedia data. They are multi-modal in a sense. They have image, audio, video, many cases
+they have text, as captions as well. We can consider data are contextual data,
+they contain both behavioral and the contextual attributes. For example for images,
+we can consider the position of a pixel represents its context,
+the value represents its behavior. For video and music data, we can consider temporal ordering of
+the records represents its meaning. Time-series data is another
+popularly encountered data like in sensors, stock markets,
+temporal tracking, or forecasting, those task
+are usually handled time-series. Time-series, we usually consider
+data are temporally dependent. They are consecutive,
+usually the interval is somehow equal. Like, we can consider time
+as contextual attributes, data value as behavioral attribute. Usually such analysis include
+correlation-based online analysis, like online clustering of
+stocks to find stock tickers. Or we use shape-based offline analysis,
+for example, we can cluster ECG based
+on overall shapes. Sequence data is another kind of data. Usually in weblog analysis,
+or biological sequence analysis, or analyze the system commands. These, we can think the placement rather
+than time, the contextual attribute. That means where they are. Then the similarity function,
+include Hamming distance, edit distance, longest common subsequences. The clustering method, we call sequence
+clustering may use suffix tree, may use generative model,
+like Hidden Markov Model. Stream data is another kind of data. Stream data can be considered
+as a real-time data, like water flowing in and out. It may evolve a long time. It may have concept shifts
+because stream coming and go. So, we need a single pass algorithm,
+rather you can see it again and again. And the typical method for stream
+clustering could be micro-clustering, that means we need to create efficient
+intermediate representation by some kind of a micro-clustering method. Graphs and homogeneous networks
+is another kind of data. This then kind of data usually, so-called homogeneous networks that
+means we consider networks as graphs, the nodes and
+edges actually are of one kind, one type. Actually any kind of data
+can be modeled as a graph with the nodes as different attributes and entries, and
+edge graph in their similarity values. The typical method for handling graph
+clustering could be generative models, combinatorial algorithm like graph cuts,
+spectral clustering method, non-negative matrix factorization methods. Then a little bit beyond homogeneous
+network are heterogeneous networks. This kind of network consists of
+multiple types of nodes and edges. Like a bibliographical data, hospital,
+handling disease, patients, doctors, and treatments to cluster different
+kinds of nodes and links together. There are some interesting algorithms,
+like the NetClus algorithm. Uncertain data,
+means the data may contain noise, may have approximate values,
+or multiple possible values. Usually we need to incorporate
+some probabilistic information, like distribution, or approximate values that were
+improve the quality of clustering. Finally, recently,
+there are lots of discussion on big data. That means, we can model systems. That may store and process very big data,
+like weblog analysis. Usually, like Google's MapReduce
+framework is you have Map function to distribute
+the computation across many machines. Then we have Reduce function to aggregate
+the results obtained from the Map step. So we can see, the data is very
+rich that's why the clustering is a rather sophisticated methodologies,
+trying to handle different kinds of data. [MUSIC]

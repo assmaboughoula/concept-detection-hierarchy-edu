@@ -1,0 +1,33 @@
+[SOUND] The first thing we want to discuss is, The Limitation of
+the Support Confidence Framework. As we know, pattern mining may
+generate a large number of rules but not all of the patterns and
+rules generated are interesting. In general we can classify the interesting
+measures into two classes, objective versus subjective. For objective measure like support,
+confidence, correlation are defined
+by mathematical formulas, not change from person to to person. But the subjective measure may
+change from person to person, because one man's trash could
+be another man's treasure. So the first thing, is we may want
+a user to say, what do you like to see? So it's query based. Another thing is we may base
+on user's knowledge base, try to mine something unexpected,
+fresh or recent. Or we can map patterns and
+rules into two-dimensional space, let user to interactively
+pick some interesting things. So we know we have support and confidence as two interestingness
+measures in association rules. So we may be careful about this,
+because not all the strong support and
+confidence rules are interesting. For example, take the following table,
+a 2-way contingency table, to look at this to see how to
+interpret things we found. For example, in this table, 400 out
+of 1000 students play basketball and eating cereal, but 200 students, they play
+basketball but they may not eat cereal. In this one,
+you may derive association rule like this. Playing basketball implies eating cereal. You probably will get a 40% support
+because it's 400 over 1,000. You will get two thirds of the confidence
+because you get 400 over 600. So this is pretty high support and
+confidence. Is this really interesting? Let me try another rule regenerated. Actually you will see, if we say not
+playing basketball, eating cereal. You will see not playing basketball is
+35%, with the confidence even higher, because they have 350 eating
+cereal out of 400 people. So this one is even higher. So, if you recommend these two
+rules to the cereal company, they will get confused. They'll say, the first rule say that
+I better give some free basketball because if they play basketball,
+eating cereal. The second rule say I better
+take their basketball away, because if they do not play basketball
+they actually eat cereal even more. Which one is right? Let's examine it. [MUSIC]

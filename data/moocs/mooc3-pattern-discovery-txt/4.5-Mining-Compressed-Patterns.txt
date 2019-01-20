@@ -1,0 +1,73 @@
+[SOUND] Now we are going to
+discuss another interesting problem, mining compressed patterns. We know frequent pattern mining may
+often generate many many patterns. But in many of such patterns
+may share some similarity. Maybe there is scattered, but not so meaningful if you generate
+all those patterns. Let's look at such an example. Suppose we finally get five pattern IDs. So you perceive these five
+patterns are like P1 and P2. They are very similar and
+their supports are also very similar. But P2 and P3,
+they are similar in item sets but their supports are rather different. Can we compress them? When we first examine closed patterns,
+actually for closed pattern,
+there's nothing you can compress. The reason is closed pattern
+require the supports are identical, then you can compress them. But none of them have
+identical support counts. So nothing can be compressed. What about max pattern? Of course we can use max pattern,
+that's P3, to represent all the patterns. But on the other hand you probably see P3,
+this support, is rather different from all the others. To use P3 you may lose a lot of
+information on the support of other patterns. So that desired output
+actually is P2 P3 and P4. The reason you probably can see is P1 and
+P2, they share a similar item sets and also they share very
+similar support counts. So we may need a good measure to
+see what things can be compressed. A good measure could be
+pattern distance measure. We use this definition to
+define the pattern distance. You probably can look at a P1 and
+P2 when we look at this. P1 and P2, their transaction,
+intersection of their transaction ID. What should be the count? The number of transactions they can
+intersect, actually it's a smaller one here, because every transaction
+containing P2 must also contain P1. So their support counts intersection
+should be this number, okay? What about the unit? The unit actually says all those
+transactions, because we know all the transactions, P1 must also
+containing the transactions of P2. So their unit number should
+be this number, okay? In that case,we perceive these
+two numbers very close to one. Then the distance 1 minus
+this very close to 1 number, you get something very close to 0. That means their pattern
+distance is rather small. Based on this,
+we probably can see we may be able to define a theta clustering or
+theta cover. That means if we can see the pattern P, the theta cover of pattern P
+is finding those patterns, all the pattern can be expressed by this,
+the distance is within delta. Actually, you probably see, P2 is a good
+one, because P2 essentially can cover P1, because P1 just have a little less item
+sets, but their support is so close. To that extent we may say they
+are within this theta cover. So for data clustering, we will be able to cluster P1 P2 together
+using P2 to represent the pattern. So that means if we do
+this data clustering, then all the patterns in the cluster
+can be represented by one pattern, P. So the problem becomes whether we should
+mine all the patterns then compress them, or should directly mine
+these compressed patterns. Actually there's a efficient method
+which can directly mine those compressed patterns. I'm not going to get into the detail but
+you may refer to this interesting paper. Okay, then another interesting thinking
+is Redundancy-Aware Top-k Patterns. That means we want to get a desired
+pattern which is similar to the compressed one, because want to get high
+significance and low redundancy. These kind of of set up patterns, okay. Let's look at this a, b, c, d,
+four different kind of compression. Actually a is a set of original patterns. There are cluster shields,
+their pattern distance, and the color the darker shows is more significant,
+the lighter shows is less significant. Okay, in that case you probably
+can see in this bigger cluster, there are three patterns. They are quite significant. If you just do the top-k pattern mining,
+that means you take it as a support count, or other significant measure,
+you would only find these three patterns. Suppose we wanted only find top three,
+then all the remaining patterns like here in the other
+cluster is completely missing. But if you say I just do the
+summarization, try to find no clusters. And within each cluster
+try to find their centers. Then you'll pretty well find those
+less significant patterns, so this may not be a good balance. Actually better balance is you take care
+of both significance and the redundancy. Simply says, you look at this one,
+there is something very significant. And that they are also
+in the cluster center you may want to show these patterns. In the meantime,
+suppose you can only show three, you may show these are significant and
+less redundant. This one is significant and
+also it represents this cluster. So the problem becomes how
+to develop efficient and effective method finding such
+redundancy aware top-k patterns. There's an interesting study
+which uses the max marginal significance to measure the combined
+significance of a pattern and develop efficient methods
+to mine such patterns. We are not going to get
+into detail of this method. Interested readers we made
+read the paper we pointed out. Thank you. [MUSIC]

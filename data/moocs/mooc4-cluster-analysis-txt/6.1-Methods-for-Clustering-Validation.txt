@@ -1,0 +1,13 @@
+[MUSIC] We first introduce some basic
+concepts of clustering validation. We know clustering is unsupervised method, in the sense we do not have
+any expert to judge whether this clustering is good or
+what should be clustered. So it is important to
+evaluate clustering quality. That means evaluating
+the goodness of the clustering. Also we want evaluate
+clustering stability. That means to understand the sensitivity
+of the clustering results to various algorithm parameters, for
+example, the number of clusters. That means, what number of clusters is
+really good based on our evaluation. The third one is clustering tendency. That means whether it's
+suitable to do clustering. That means whether the data has
+inherent to grouping structure, then we should, for
+some kind of clustering, to discover it. [MUSIC]

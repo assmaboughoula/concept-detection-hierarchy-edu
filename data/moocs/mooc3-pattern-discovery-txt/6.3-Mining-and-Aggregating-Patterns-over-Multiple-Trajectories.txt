@@ -1,0 +1,92 @@
+In this unit,
+we're going to study Mining and Aggregating Patterns over
+Multiple Trajectories. When we study spatial and temporal patterns, an important
+pattern is trajectory pattern. That means you look at the points,
+the objects, the moving along the spatial map,
+along with time. So we call these the trajectories. What we want to find
+are trajectory patterns. One interesting trajectory
+pattern mining method called partition-based
+trajectory pattern mining. They are mining T-patterns,
+T means trajectory. This is a work done by a group
+of Italian researchers. They published in KDD 2007 called
+Trajectory Pattern Mining. Their mining method essentially
+is a really good study like busy traffic in the city. You can think a city
+can't be partitioned into equal width grids to obtain
+regions of interest. For example,
+one grid may represent the museum, the other grid may represent
+the railway or campus. Then when you study the busy traffic,
+they go along the route. You will be able to find either
+what hours or how much time you will find a very busy traffic and how
+long it may take to reach the other side. So, what we can do is we
+can transform each input's trajectory into a time
+annotated symbolic sequence. For example, you may transform one
+location is a railway station. Another location is Castle Square. The third location could be museum. And based on a time, you may say from
+the railway station, it takes about 15 minutes to reach Castle Square and takes
+2 hours and 15 minutes to reach museum. And we can use a constraint-based
+sequential pattern mining because each grid is matched
+into a symbolic sequence. So the finer you can use
+the symbolic sequence to represent the whole trajectory and
+try to find trajectory pattern is trying to use constraint-based
+sequential pattern mining. The constraints can be
+the range of time delay. Then, the constraint-based
+sequential pattern mining results can be mapped onto the map
+to show how much time it may take from one location going
+to the other location. That kind of matching T-pattern
+will be something like (x0, y0) after alpha time delay,
+you will reach (x1, y1) points. This will get into explicit
+representation of the pattern. Then another interesting group of studies
+are detecting moving object clusters. That means, you may think trucks. You may think animals. They are moving together, you may want to find their moving
+object clusters in this sense. The first one, definition is flock. Both flock and a convoy require k consecutive time
+stamp in order to find patterns. The flock essentially is they require
+at least m entities are within the circular region of radius r, and they
+are moving together in the same direction. Then we call these the flock pattern. But a flock pattern is a little too
+rigid in the sense they require at least m entities moving in
+k consecutive time stamps. And it's within their movement are within
+the circular region of radius r, they are relative distances. And sometimes this radius r is too rigid. The convoy definition is using
+density-based clustering. They don't have to be within radius r. They can be tighter, or
+they can be a little looser. As long as they form
+a density-based clustering, you'll be able to find those m entities,
+and in the k consecutive time stamps, they move together,
+you can think they are convoy patterns. However, such movement
+constraints are still very rigid in the sense both require
+k consecutive time stamps. We may think like animal
+movements as certain time stamp, the animal may not be so
+closely clustered together. They may spread around to graze or
+to do other things. In that sense, we may relax
+this k consecutive time stamps to allow at certain time stamps,
+they probably are quite far apart. But on the other time stamps, you will be able to find they
+are very closely moving together. In that sense,
+we define such pattern as swarm. Swarm means the moving objects may
+not need to be close together, all the consecutive time stamps. Of course, to find such movement pattern,
+it will be more costly than finding flocks and convoys
+because the pattern is more relaxed. Some efficient algorithm has been
+developed to mine such pattern. The paper was published in VLDB 2010. Now we look at another trajectory pattern
+is during clustering try to find them. We call trajectory clustering. This could be useful in, for example, try to find land,
+try to forecast a hurricane landfall. If you overlay many years
+of hurricane together, you may find they may
+form very close clusters. However, if you try to take the whole
+hurricane paths as inseparable, you will not be able to find
+such patterns, just because at certain points of time,
+these hurricanes may already nicely. But at other time,
+they may become more spreading because they were influenced
+by different flow of the air. So try to find such patterns. We will propose a partitioning and
+a grouping approach. Partitioning means you will first
+chop these trajectories, for each trajectory, you will chop them
+into a sequence of segments, okay? Then after chopping these into sequence
+of segments, you will be able to find for certain fragments,
+they are moving in the same direction. They may form nice patterns. You can group them together
+as trajectory clusters. Then how we can nicely find such patterns? For partitioning, you can use minimum
+description lens principle called MDL. The MDL, the general philosophy is, you try to use minimum number of points,
+but maximally reflect the real
+trajectory paths. That means instead of thinking you
+use many, many small fragments, which are too costly,
+you try to use less of them. But you don't want to use too few,
+because you will distort the picture. You will try to maximally approximate
+the real trajectory pass. In that sense you may say I use
+minimum description length principle when the trajectory started
+turning in the sharper angle, I would try to say these
+should be separate points. Then you may find smaller
+number of fragments, but maximum preserve the shape
+of the trajectory. So this is interesting algorithm
+published in SIGMOD 2007 called Trajectory Clustering:
+A Partition-and-Group Framework. [MUSIC] [SOUND]

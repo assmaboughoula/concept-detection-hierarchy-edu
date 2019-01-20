@@ -1,0 +1,65 @@
+[SOUND]
+In this session, we are going to introduce CLIQUE, a
+grid-based subspace clustering algorithm. This algorithm, CLIQUE, actually is
+an abbreviation of Clustering In QUEst. QUEst is an IBM data mining system. It was developed by a group
+of researchers at IBM. It was published in SIGMOD,
+1998 conference. CLIQUE is a density-based,
+grid-based subspace clustering algorithm. Why it is grid-based? Because it discretizes the data
+space through a grid structure, and estimates the density by counting
+the number of points in a grid cell. Why it is density-based? Because a cluster actually is maximal set
+of connected dense units in a subspace. That means a unit is dense
+in the fraction of the total data points contained in the units,
+it exceeds certain parameters. Then you try to connect those dense
+units into a structure, into a cluster. That means it is density-based. But why it is subspace clustering? Because it starts from a low dimension,
+like a single dimension. For this particular subspace,
+you try to find neighboring dense cells in arbitrary subspace, and
+you can grow into 2-D, 3-D and find the maximum number of dimensions
+in this subspace, it contains clusters. It also discovers a minimum
+description of the clusters. That means for this particular algorithm,
+it automatically identifies the subspaces of a high
+dimensional data space that allow a better clustering than the original
+space using the Apriori principle. Let's look at an example. Suppose we want to find
+the clusters based on salary, age and number of vacation weeks. And we can first start from one dimension,
+to find out where are the dense points. For example, if you just look at salary, you may find the salary at
+the dense points is 20K to 50K. That part is pretty dense,
+especially around 40K. You find that the age is
+pretty dense between 30 to 50, and is very few, probably, lower ones. Then, based on number of vacation,
+you probably can see the vacation is clustered around two to four weeks. That means we find a dense
+region in each subspace, then generate their minimum descriptions. Then we use this dense region to find
+the promising candidates in 2-D space based on the Apriori principle. It simply says, if you find
+it's dense in 1-D on salary and on 1-D on h, then you probably can
+find that they are combined at one, that is, you try to find clusters
+within this candidate's space. Similarly, you can find the clusters
+within the candidates for the space in salary and vacation, okay? Then we can repeat this process
+in the level-wise manner in higher dimensional subspaces
+using the Apriori principle. It simply says, if you find a dense
+in this 2-D part and this 2-D part, then you may find the candidates in this
+3-D region based on their intersections. So the major step of the CLIQUE algorithm is first try to identify
+subspace that contains clusters. That means we can partition the database
+space into the grid structure, then find the number of points that lie
+inside each cell of the grid partition. Then try to identify the subspaces that contain the clusters
+using the Apriori principle. That is, we try to identify clusters, and as a second step determine the dense
+units in all subspace of the interests. Then we determine the connected, dense
+units in all the subspaces of interests. Then, we will generate the minimal
+descriptions of the cluster. That means determine the maximal regions
+that cover a cluster of the connected dense units, then determine
+the minimal cover of each cluster. So this master,
+the interesting points is it automatically finds subspaces of
+the highest dimensionality as long as a high density cluster
+exists in those subspaces. Because if you find a 2-D,
+you'll try to find their intersection. If the 2-D form a cluster,
+the intersection is 3-D space, likely you may be able to find clusters. It is an insensitive to
+the order of records, the input, and also does not assume
+a particular data distribution. And it scales linearly with
+the size of the input, and has good scalability as the number of
+dimensions when the data increases. But this is a quite efficient algorithm. The weakness of the method, essentially, is because we use the grid-based
+clustering approach. So the quality of the results will
+depend on how to choose the number and width of the partitions and
+the grid cells. Nevertheless, it's a very interesting
+subspace clustering method. Finally, I should say all the original
+papers on this density-based and grid-based clustering are listed here. Also, for Sheryl Aggarwal and
+Reddy's book there are two chapters. One is called Density-Based Clustering
+by Martin Ester, another is called Grid-Based Clustering
+by Cheng, Wang and Batista. They have a very good summary and
+also introduce many more methods on density-based clustering and
+grid-based clustering methods. [MUSIC]

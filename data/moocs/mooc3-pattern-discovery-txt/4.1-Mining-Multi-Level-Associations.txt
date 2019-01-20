@@ -1,0 +1,58 @@
+[SOUND]
+We first discuss how to mine
+Multi-level Association Rules. Multi-level Association rules come
+down to a very natural setting. For example, to your boss if you say,
+now I find milk and bread sold together, probably
+everybody thinks this is common sense. But if you find 2% milk
+with a brand Dairyland sold together with Wonder Wheat Bread, probably
+it becomes something more interesting. But if you see this Dairyland 2% milk
+actually sitting in the hierarchy, the top level could be milk, then go down to 2%
+milk then go down to Dairyland 2% milk. So, it is interesting to mine
+Multi-level Association Rule patterns. Then the interesting thing becomes
+how to set a min-support threshold? While we set up uniform min-support
+threshold across all the levels. But there's one problem,
+if you set it very high because they naturally have lower support,
+the low-level patterns will not show up. But if you set it very low
+the high level you get too many interesting patterns because
+everything may show up. So a reasonable way is set
+Level-reduced min-support. That means items at higher level use
+higher level min-support like 5%, where you go down to the lower level, you
+may adopt lower level min-support like 1%. To that extent,
+the skim milk will show up. But at high levels, some you know peanuts
+or some other things may not show up if they are not interesting,
+they are not frequent at all. So then the problem is if we
+set a multi-level minimum support thresholds associated with
+different levels then how can we use one scan in one shot we
+mine all the different levels? The interesting thing could be we
+can use shared multi-level mining. We can use the lowest min-support to let
+the high level pass down to the low level. But in the meantime when we analyze
+rules and analyze patterns, we can fill out the higher level rules
+using higher level support threshold. So another problem for mining Multi-level
+Association Rules is redundancy. Because the rules may have
+some hidden relationships. For example, suppose 2% milk sold is
+about 1/4 of total milk sold in gallons. Then if you see these two rules,
+one and two, the Rule (1) says, milk implies wheat bread which is
+supports is 8% and the confidence, 70%. The Rule (2), if you drop down
+a little down to from milk to 2% milk. In the meantime the support also
+dropped down correspondingly, for example from 8% to 2%,
+Un that case, people can see. Rule (2) is a redundant because we
+can derive such things from Rule (1). That means,
+if the rule can be derived from the higher level rules that lower level rules
+are redundant, we shall remove them. Another interesting thing is
+different kinds of items. Inherently, many different
+support thresholds. For example, you go to Walmart,
+you may see diamond, watch, or some expensive things that more valuable
+but they sold maybe less frequent. But milk and
+bread probably sold very frequent. So, if we set min-support for all kinds of items using the same
+minimum support threshold. Then the valuable items may
+be easily feared out, so, to that extent it is necessary to have
+customized minimum support settings for different kinds of items. Instead of taking each item try
+to decide ib minimum support, we can use group-based,
+individualized, min-support. For example, we can group,
+diamond, watch, or some expensive things
+set a lower min-support. Take a milk and bread,
+those frequent things, and set up higher min-support threshold. Then the question becomes how to
+mine such patterns efficiently. Actually, if we take our previous study,
+the scalable pattern mining methods, we can easily extend them by adding
+different minimum support threshold. I would not discuss the detail, but
+I think it could be a good exercise. [MUSIC]

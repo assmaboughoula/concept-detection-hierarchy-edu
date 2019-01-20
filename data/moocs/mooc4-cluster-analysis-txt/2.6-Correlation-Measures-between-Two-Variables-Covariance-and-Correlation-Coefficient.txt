@@ -1,0 +1,120 @@
+[SOUND]. In this session, we are going to discuss
+correlation measures between two variables, especially we will introduce
+covariance and a correlation coefficient. Before we introduce covariance
+between two variables, we will first examine, or
+review the variance for single variable. What is variance? I think you all know what is average. For example the average salary
+of employees in a company. The average also core mean mathematically,
+as mu. So mu is actually the expected value of X,
+however, if we just use mean, we may not be sufficiently
+represent the trend or the spread of the value in the variable X. Okay. For example, we may not only like to
+know the average salary in a company, but we also like to know
+how this value spreads. That means whether they are very
+close to the middle, to the mean or they are widespread. They have many very high salaries and
+many very low salaries. In that case,
+we introduce the concept of variance. Which actually,
+is to measure how much the value of X deviate from the mean, or
+the expected value of X. Essentially we'll use sigma square
+to wrap in the variance of X. Sigma is called a standard deviation. Variance of X actually is
+expected value of X deviates from the mean if we take
+the square simply says, no matter if it's positive or negative,
+we all change them into positive. Then if X is a discrete variable, okay,
+then the formula is written like this. It simply says we use
+some of this function. This function is actually X deviate
+from the meal, from the mean value. Take the square times X density function. If X is a continuous variable,
+so we will take integral, where the range is from
+minus infinity to infinity. To that stand we see
+variance is the expected value of the square
+deviation from the mean. For this formula,
+we can also do a little transformation. For example, we can transform for the expect value of X square
+deviation from the mean. We can write down it's the expected
+value of X square minus means square. This transformation actually has
+been introduced in many textbooks. It's quite simple when I
+continue to introduce here. In many cases, if we write in this form,
+it may lead to more efficient computation, especially when you want to
+do incremental computation. If we take a sample, then the sample
+variance is actually the average square deviation of the data value
+xi from the sample mean mu hat. So the sample variance is
+written as sigma hat square. So we often use this formula, I'll use
+a similar transform formula to compute it. Now we introduce a covariance for
+two variables. Once we get two variables, X1 and X2,
+we want to see how these two variable, they change together,
+whether they're going up together or going down together Which would
+be the positive covariance. Let's look at the definition. The definition, actually, original
+definition is X1 minus mu 1 square. Now we see, actually these two
+variable we want to see X1, the difference from it's mean value of X1. X2 the difference from X2's mean value,
+or expected value. And then we look at
+their expectation okay. Mathematically we also can
+transform this into this form. If we get a sample covariance, we look at
+the sample covariance between X1 and X2. So the sample covariance is calculated by
+their difference from the sample mean. So that's also popular to use. Actually, the sample covariance can be considered as
+a generalization of sample variance. For example, originally we'll want
+to look at the two variables X1 and the X2, their covariance. But if we think this 2, X1 and
+X2, we replace it by X1. That means we just look at the two
+variable X1, X1, what is their covariance? Then we can represent these two by one. Then in that case this sample covariance
+of formula., we'll look at this formula, we change the variable from i2 to i1 and
+mu2 to mu1 hat. So then we'll derive this formula, and this formula essentially is sigma1 hat,
+it's square. So we probably can easily see,
+the sample variance is just a special case of sample covariance when
+the two variables are just the same. When the covariance
+value is greater than 0, we say it is a positive covariance. If it's this value is less than
+0 it is negative covariance. If these two variables are independent,
+then their covariance is 0. However, the converse is not true. That means not when the covariance is 0, then that mean X1 and
+X2 are always independent. Only under certain additional assumptions,
+for example, if the data follows multivariate
+normal distributions. In that case the covariance
+of 0 implies independence. Now we will look at a concrete example. Suppose we have two stocks, X1 and X2. They have the following values in one
+week, like these five pairs of values. Then the question is, whether the stock effected by the same industry trends,
+term is, whether their price will rise or
+fall together. Then we calculate their covariance. We were be able to know whether they
+are possibly correlate on that one. So if we look at a covariance
+formula especially, we use more simplified
+computation formula. Then we can carry the expect value
+of X1 which is the mean value of X1. Expect value of X2,
+which is the mean value of X2, then we look at their covarience
+actually is, we use this formula. We look at their product,
+their dot product, then divide by sum of them,
+divide by the number of variable pairs. Then we minus, this is expected value
+of X1 and expected value of X2. Then we get the finer value is 4. That is, the covariance is greater than 0, that means X1 and X2,
+they rise or fall together. Then if want to normalize them,
+we will introduce correlation coefficient. That means for two numerical variables, we want to study their correlation which
+essentially is the standard covariance. That mean we want o normalize the
+covariance value where it is the standard deviation of each variable. So it is defined as correlation
+coefficient as the covariance divided by the product of
+their standards deviation. Or you can say, the covariance is
+divided by the product of variance, get their square root. So, if we look at sample correlation for
+2 attributes X1 and X2, then essentially we get a row 1,
+2 hat is equal to the sigma 1, 1's hat is essentially
+their sample covariance divided by the sample standard deviation. In a concrete formula we
+can write in this way. Then, if this correlation
+coefficient is greater than 0, that means A and
+B are positively correlated. That means X1's values increase as X2's. The higher value greater than 0,
+the stronger correlation. If rho 1, 2 equals 0,
+that implies they are independent under the same assumption as
+discussed in the co-variance. If they are less than 0,
+they are negatively correlated. Then we can look at
+the a set of variables. We can see for example, for 2 variables when they're
+perfectly negative correlated, they line up like this,
+their correlation coefficient is -1. Then if they become not so
+perfectly negative correlated, you will see their trend. When this value is 0, that's,
+you could not see anything like a positive correlated or
+negative correlated. But when you gradually grow
+these correlation coefficient, you will see their value become more and
+more correlated. When they are perfect correlated,
+then their correlation coefficient is 1. That simply says the correlation
+coefficient value range is from -1 to 1. Okay. Then if we draw this in the scatter plot,
+we'll see the set of points, their correlation coefficient
+changes from -1 to 1 in this shape. In many cases,
+we may want to write for 2 variables, we may want to write their variance and the correlation information into
+the 2 by 2 covariance matrix form. For example, you may say the variable
+1 is self correlation there, essentially is their variance Is this 1. And for their coverence between 1 and 2 is defined here between 2 and
+1 is defined here and then that's variable 2's variance. So this is a typical 2
+by 2 covariance matrix. In general if we have t,
+d numerical attributes, that means suppose we find a data
+sets it has [INAUDIBLE] rows and d columns that means we really
+have d numerical attributes. Then their covariance matrix
+essentially written in this form. We can see this is the variance
+of variable 1, this is variable of the second dimentions and
+this is the variance of the d dimentions. And the covariance for
+each one would be lining up like this. And we give a few interesting
+additional reading. These are the several books, they contain interesting chapters
+discussing the different measures. Thank you. [MUSIC]

@@ -1,0 +1,64 @@
+[SOUND] Hi, in this session we are going to provide a brief overview of
+typical clustering methodologies. There are many clustering methods. They can be roughly categorized into
+a few clustering methodologies. The first method's called
+distance-based methods. Essentially there are two
+kinds of methods. One called partitioning algorithms,
+the other we call hierarchical algorithms. Partitioning algorithms essentially is, partitioning the data in a high
+dimension space, into multiple clusters. The typical methods include K-Means,
+K-Medoids, K-Medians, those methods
+we are going to introduce. For hierarchical algorithms, essentially
+we can either do an agglomerative, or we call bottom-up,
+merging many points into clusters, merging small clusters into bigger ones,
+then from hierarchical clusters. Or we can use divisive methods. Start with a single big,
+all the data is encased in one cluster, then we try to split them,
+divide them using the top-down splitting, into smaller and smaller clusters. And then the second methodology,
+called density-based methods. The third one called grid-based methods. Of course they have some linkages as well. Density-based method essentially is, we can think the database space,
+made at a high-level granularity, may you think about it with certain grade,
+or certain structures, or certain k nearest
+neighbors, we may find certain density. For the dense small regions,
+we can merge them into bigger regions. In this way,
+we will be able to find clusters, those events regions,
+with arbitrary shape. The grid-based method, essentially is partitioning the data
+space into grid-like structures. Each grid is a summary of
+the characteristics of the data, in the lower grid or lower cells. Then the third method is called
+probabilistic and generative models, that means we can model data
+from a generative process. We can assume underneath, there
+are certain distributions, for example, mixture of Gaussians, okay? Then with the data,
+we can think the current points are generated from these
+underlying generative model, or underlying generative mechanisms. Then we can model parameters, using a Expectation-Maximization
+algorithm we are going to introduce. Based on the available data sets, we may
+try to find the maximum likelihood fit. And based on this fit, we will be able to estimate the generative
+probability of the underlying data points. And based on this, we may find the models. Then, in many cases the data may be
+sitting in a high-dimensional space. We may need to study
+high-dimensional clustering methods. One influential method
+called subspace clustering, essentially you try to find
+the clusters on various subspaces. So, that method can be categorized
+into bottom-up methods, top-down high-dimensional clustering
+method, or correlation-based methods. We will also introduce some interesting
+method, a delta clustering. Then, for high-dimensional clustering, there are many methods developed for
+dimensionality reduction. Essentially is we can
+think the height dimension is in a vertical form there,
+containing lots of columns. And for those columns,
+when we perform clustering, essentially the columns are clustered,
+the rows or columns can be clustered together,
+we call co-clustering. There are several typical methods. One is probabilistic
+latent semantic indexing. Later, people develop another method
+called Latent Dirichlet Allocation. So PLSI or LDA, are typical topic
+modeling methods for text data. Essentially, we can think the text can
+be clustered into multiple topics. Each topic is a cluster, and each topic is associated with a set of words, or
+we can think of they are dimensions. And also a set of documents, you can
+think they are rows, simultaneously. And the second popular
+study method's called nonnegative matrix factorization, NMF. This is a kind of co-clustering
+method you can think as, you'll get a nonnegative
+matrix because the word, a word frequencies in documents
+are nonnegative, okay? They are zero or more, but
+they are nonnegative values in the matrix. For this nonnegative matrix,
+we can approximately factorize it into two nonnegative
+lower ranked matrices, type U and V,
+that will reduce the number of dimensions. Another very interesting
+method we're going to study is called spectral clustering. That means we use a spectrum of
+the similarity matrix of the data, to perform dimensionality reduction. The higher dimension
+reduced into the lower, fewer dimensions, then we can perform
+clustering in fewer dimensions. That's spectral clustering methods. In this course, we are going to
+study many low-dimension and high-dimension clustering methods, and study their different variations,
+and applications as well. [MUSIC]

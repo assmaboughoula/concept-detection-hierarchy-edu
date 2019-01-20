@@ -1,0 +1,60 @@
+[MUSIC] In this session, I'm going to introduce
+the K-median and the K-modes clustering methods as two interesting alternatives
+to the K-means clustering method. Why we want to do K-Medians. Because medians are better than
+means when we encounter outliers. Medians usually less sensitive
+to outliers comparing to means. For example, in a large firm, okay,
+there could be many employees. We want to find the median salary,
+even when you're adding, when you add a few top executives,
+the mean salary may change quite a lot. The median could still be very stable. So that's the reason, instead of
+computing the mean value of the object in the cluster, so
+we take the medians of the centroid. And we use L1 norm. That means the distance
+as our distance measure. The criterion function for the K-Medians
+algorithm is written as this. The center is sum, the total sum should
+be K from one to the number of cluster K, and for each cluster the object in the
+cluster you just look at the difference. The difference take the absolute value of their distance to the median. The K-Medians clustering algorithm
+essentially is written as follows. The first,
+at the very beginning we selected K points as the initial
+representative objects. That means as initial K medians. Then we get into this loop, we assign
+every point to its nearest median. Then we re-compute the median using
+the median of each individual feature. Then this process repeats until
+the convergence criterion is satisfied. Then we look at k-modes as another
+interesting alternative to k-means. K-modes essentially is to
+handle categorical data. Because K-Means cannot handle
+non-numerical, categorical, data. Of course we can map
+categorical value to 1 or 0. However, this mapping cannot
+generate the quality clusters for high-dimensional data. Then people propose K-Modes
+method which is an extension to K-Means by replacing the means
+of the clusters with modes. The Similarity measure
+between object X and the center of cluster Z is
+written as follows, okay. This is the similarity,
+we can see distance measured, distance function, okay. For the jth field of object x,
+that means x sub j, and look at the jth field of the cluster
+center z, what's a distance? It essentially is if this object is not
+equal to the center on the same attribute, essentially say they are different,
+then we just say the distance is one because it's very dissimilar,
+or the distance is largest. However, when this value is equal to this attribute center here
+then we use this formula. This formula actually means if
+there are many many objects occur the same in this cluster, okay. Then, this value actual be very small. For example if the attribute cluster,
+there's only one value. But if very frequent,
+then this guy have to equal to this value. Then, this division where it lead to one,
+and the distance is smallest. In most cases,
+the more frequent for this j value, and this one would be closer to one,
+so the distance is smaller. And if this one is very rare you
+go to the very rare value and the number of distinct value is quite big. So this your distance is closer to l. But this is a quite reasonable definition. That means this dc measure, distance
+function is essentially frequency-based. The more frequented the closer
+the last frequent and there are far away evan it
+may equal to this value. The whole algorithm that were not list
+here but is still based on the iterative one we first will object cluster
+assignment then to centroid update then we take this one into loop and
+tear the criterion reached. Then there is another iterative
+method called fuzzy K-Modes method. The fuzzy K-Modes method essentially
+is to calculate a fuzzy cluster membership value for
+each object to it's cluster. Simply says,
+you give a fuzzy cluster value, if it's very close to this cluster,
+the fuzzy value is closer to 1. It's far away from this cluster, and the
+fuzzy value is somewhat closer to zero. Okay, and if we have the data some
+attributes are categorical attributes, some attributes are numerical attributes
+we can use K-Prototype method essentially for numerical one we can use a method
+the function similar to the K-Means. And the categorical one we
+can use similar to K-Mode and finally we integrate this,
+we can get a K-Prototype method. [MUSIC]

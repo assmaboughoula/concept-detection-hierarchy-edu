@@ -1,0 +1,77 @@
+[MUSIC] Since the proposal of
+the famous Apriori algorithm, there have been many interesting
+extensions or improvements in this method. Let's just examine some of them. So the first line of work is how to reduce the number of passes
+of transaction database scans. We know that database scanning
+involve disk accessing which could be quite expensive. But if you want to find
+size 10 frequent item sets. Likely, you will have to scan
+this database ten times. That's quite expensive. To reduce a number of scans, so
+there's several publications. One is called partitioning method,
+we're going to introduce. Another one called dynamic
+itemset counting method. You will probably notice the first author, Serge Brin who was a PC student
+of Stanford university. The second year, 1998 he actually proposed one of the most famous algorithm
+PageRank and set up a Google company. Okay. So this another line of the work is how
+to shrink the number of candidates. You will generate very large number
+of candidate sets in many cases. How to shrink the number of candidate sets
+to be generated could be a big saving. Hashing method is interesting one for
+mining max patterns. Bayardo also proposed pruning
+by support lower bounding. Another interesting method is
+Toivonen proposed sampling method. The third item's work is to explore
+some special data structures. Some tree projection method
+using H-tree to do H-miner. And hypercube decomposition is
+another interesting method. We're going to introduce a new
+tree structure called FP-tree. Let's look at the first one,
+partitioning method. Partitioning method guarantee
+you only need to scan data twice before you generate all the frequent item
+sets no matter for how many case that is. So they observed a very
+interesting property called any itemset potentially frequent
+in transaction database must be frequent in at least
+one of its partitions. That means suppose you get
+a big transaction database, you partition them into k partitions. If items at X is not frequenting
+any one of these k partitions, it cannot be frequent in this
+global transaction database. Why? Before you can see, if you got items at x
+which is not frequent in the first one. Not frequent in the second one. Even not frequent in the case one. So you add them together. You add all these support together,
+you get a global support. You add all these database together,
+you get a global database. You frequently can see if every one
+is smaller then sigma more times its size then the finally the global
+hour also smaller than 6, sigma times the size of global database. That's why at least one of this
+database contain TDB frequent. So with this operation, you can see this
+partition method will need only two scans. The first scan is you partition
+database into K partition database. How do you partition them? Each partition you want them
+to fit into the main memory. Why? Because no matter how you scan them,
+you will not involve any database I/Os. So that's a reason you can scan once
+you put them the database, you can work on it to derive k frequent items that for
+no matter for how many case you can get. Okay, that means you can derive
+all the local frequent item sets. Okay. Then based on this property you
+can do the second scan like this. You can say,
+since any frequent item set in one of these k transactions
+can be potentially frequent. So the global candidate sets
+is which is frequenting any one of them,
+it will be a global candidate item set. Then, the second scan, just count
+against each database kind of those counts of the global candidate sets. Then you will get their account,
+you add them together, you will be able to derive
+global frequent patterns. That's why this method is guaranteed
+to scan the database only twice. So this is pretty interesting. Another method I'm going to introduce to
+you called Direct Hashing and Pruning. This method is trying to reduce
+a number of candidate sets based on hashing and pruning techniques. The general philosophy can be like this,
+okay. The observation is, if the k-itemset is
+frequent, then in this hashing bucket, it contains several potential
+itemsets that must be frequent. So if the hash count is not frequent,
+than any one of them cannot be frequent. The general philosophy like this. Okay. Why are you going to derive
+the frequent one item? In the mean time you set
+of the hash entry for the potential two itemsets but
+why you set a hash entry rather than count each one because there could be many,
+many distinct items. So the frequent tool items as before,
+you get a frequent 1, the candidate 2 could be really,
+really big. But if you set a hash entry
+to get several items, share 1 hash entry,
+the whole hash table will not be too big. Then the interesting thing is,
+while you derive frequent one itemset, you also can cut many two itemsets
+that can not be frequent. For example suppose our
+minimum support count is 70. Then this one has only 35,
+this one has only 58. That implies those items,
+none of those items can be frequent. Because they share this entry, their support count is
+still below the threshold. So only the second one, this bd,
+be, de, the support is quite big. The past support threshold,
+these could be poked. This may contain the real candidates sets. Okay. That's a reading you can
+reduce the number of candidates substantially using
+this hashing and pruning method. [MUSIC]

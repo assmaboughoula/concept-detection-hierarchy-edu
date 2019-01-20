@@ -1,0 +1,41 @@
+Now we are going to discuss another
+interesting pattern mining applications called Mining Quality Phrases
+from Text Data. We encounter massive
+unstructured text data. To get knowledge out of text data, a very
+important thing is mining quality phrases. We will discuss how we do it from mining
+frequent patterns to mining phrases. We'll reintroduce some previous
+phrase pattern mining methods, then we are going to discuss two interesting
+new algorithms developed by those. Many of my students,
+they are ToPMine and SegPhrase. ToPMine is mining phrases
+without training data, and SegPhrases by introducing
+tiny training data sets you can further enhance
+the phrase mining quality. Let's first study why we want to get from
+frequent pattern mining to phrase mining. The first question you may ask is
+why we want to do phrase mining. Actually, if we think every word
+is a unigram, and then phrases actually are a set of consecutive words
+made from some meaningful semantic unit. We probably can see, for single words, or
+we call unigrams, they're often ambiguous. For example, when you say united,
+people often do not know you mean United States or
+United Airlines or United Parcel Service? However, once you present them
+as a phrase like United States, or United Airlines,
+these kind of phrases are actually natural meaningful and
+unambiguous semantic units. That means if we want automatically
+transform text data to some meaningful sentences or
+to some meaningful analysis structures, the first important thing is mining
+semantically meaningful phrases? This would transform
+text data analysis from word granularity to phrase granularity. This will enhance the power and efficiency
+and manipulating unstructured data. However why we want to start
+with frequent pattern mining? The general principle is we want to
+explore information redundancy and use data-driven criteria to
+determine phrase boundaries and the salience instead of using laws
+of curation and training data set. The general methodology is
+to explore three ideas. One is frequent pattern mining and
+a colocation analysis. The second one is explore phrasal
+segmentation in documents. The third one is we will have some
+quality phrase assessment criteria. Using this,
+we will be able to work out efficient and effective phrase mining methods, okay. We are going to introduce two interesting
+methods developed just recently. One is ToPMine, is mining quality
+phrases without training date. This one was developed by
+Ahmed El-Kishky and his collaborators. The second one was SegPhrase, is mining
+quality phrases with tiny training sets has been developed by Jialu Liu and
+his collaborators.

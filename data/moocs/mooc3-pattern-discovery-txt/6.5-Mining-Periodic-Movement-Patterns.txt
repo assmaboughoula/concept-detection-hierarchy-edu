@@ -1,0 +1,69 @@
+Now we study another interesting issue
+called Mining Periodic Movement Patterns. Usually the sensor may
+register movement data, but in many cases you may
+have very sparse data. Just giving you a very
+interesting example. For example, animal scientists or
+bird scientists, they would like to study animal
+movements and bird movements. They put censors on
+the body of those animals. But remember the sensor
+usually is pretty small, on the other hand it will last,
+it will need to be last for a long time. Like, for a study of bird migration, a sensor on the body of the bird
+is expected to last for a year. So, how could a sensor be lasting for a year without charging the battery? The only thing you can think is
+we will get very sparse data, like 24 hours we may only register
+one GPS location although 24 hours the birds may fly very far away. Then if we want to find the periodicity, the interesting thing could
+be it's very hard to find the periodicity if there's not overlap,
+just because the data is so sparse. Then just to look at how to,
+thinking about bird flying patterns, we just think the bird, suppose this
+place is the nest of the bird, okay. Then, if you just look at the bird, how they exactly fly with
+a very sparse sensor data, you'll not be able to find any meaningful
+periodic patterns of bird flying. However, you may find every night, every evening the birds were
+flying back to the nest. [COUGH] In the morning it
+will fly out from the nest. So, from the nest point of view or from the cluster center point of
+view it does have some periodicity. Then we may take such location
+as our reference spots. That means the reference spots can
+be detected using density-based method because they come
+back quite frequently. Then with this,
+if we do just based on the nest, we say when they're in the nest,
+when they're out of the nest, so we will be able to find a nice and
+interesting periodic patterns. That means the periodicity is more obvious when we look at the binary sequence
+like in and out of the nest. So that's interesting [INAUDIBLE]
+can see if we only think of a nest the periodicity will
+be able to be detected for each reference spot using
+Fourier Transform and auto-correlation. Now we look at an interesting
+example on mining periodic patterns with sparse data. This is a real data sets about
+birds flying in North America. So this actually accumulate
+three-year bird migration data, they are very, very sparse. However, if you based on the dense points, you take those dense
+regions as reference spots, you will be able to find
+a periodicity because in the winter they're going
+to fly down to the South. In the summer they may
+fly back to the North. In the middle they may fly some
+places to have some other activities, so you will find a few
+interesting reference spots. Once we detect periodicity based
+on those reference points, we will be able to summarize such
+patterns in a periodic way because we find a period and
+we find the nice periodic patterns. So this is an interesting study,
+based on the very sparse data we will be able to mine periodic
+behaviors for moving objects. Then the previous study we
+will assume the periodicity can be detected because the period
+is sort of knowing, okay. Then, in many cases, the time related
+data can be scattered and sparse. For example, phone calls at a location,
+they could be very sparse. And then for such sparse data,
+if we look at the time, we will be able to map
+the calling time in the sequence based on the time you're say 5,
+13, 26, 29. If you map this into the time sequence,
+it's very hard to find a periodicity. Then what about if we can
+guess a right period, like t. If t is 20, if we guess it right, you probably can easily see
+they form a very dense cluster. However, if you got a wrong
+guess on the period, likely this mapping will be
+scattered along the whole period. So that means the projection
+on the true period, it will show highly skewed
+(clustered) distribution. Based on this observation,
+some in-depth study and algorithm have been developed
+to detect the true pattern in a mining event periodicity
+from incomplete observations. So in this whole session,
+we discussed a few interesting issues. We studied Mining Spatial Associations,
+Mining Spatial Colocation Patterns, Mining and Aggregating Patterns
+over Multiple Trajectories, Mining Semantics-Rich Movement Patterns
+and Mining Periodic Movement Patterns. In this session we actually used
+the following research papers. If you would like to know more, we strongly encourage you to
+read those research papers. Thank you. [MUSIC]

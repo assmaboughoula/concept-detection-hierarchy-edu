@@ -1,0 +1,25 @@
+[SOUND] Now, I'm going to introduce an interesting algorithm called GSP, that's Apriori-Based Sequential
+Pattern Mining mass search. This mass search is pretty simple. You start from a sequence database. Then you first try to get the singleton
+sequences like the first one appears. That means you scan database once,
+you count every single item that occurred in every sequence. Then you can see a occurs three times,
+occurs five times. So if you said min_sup = 2, likely g and h will be gone
+because their support is only 1. Then you find frequent lens one
+subsequent a, b, c, d, e, f. With this you can combine
+them as candidate sub-sequences, you may have aa,
+ab, ac, ba, bb, bc remember, aa is still important means,
+you first buy aa then, buy another a. Then, for the, for the shopping basket,
+you may get ab together. That's why you may have ab is one event,
+one element, ac is another element. You may get these kind of subsequences. In total, you look at six by six, then
+you get it no six by five divided by two, you will get this number of
+candidate size two sequence. But without Apriori, without this pruning,
+you'll get much more. So even this minimal pruning still can
+reduce search space substantially. So in general,
+we can work out the algorithm like this. You put this one into a loop. At the very beginning, you can scan to
+find length k, which is length one, frequent sequence. Then, based on the Apriori you
+can generate the length two or length k plus one, candidate sequence. then you can go back to check and
+find the real frequent sequence, then you go back to the Apriori
+based candidate generation. So generation test, you can go into
+the loop until no frequent sequence or not candidates can be found. So if you look at the execution
+sequence for this particular dataset, you will find, at the very
+beginning you get a, b, c, d, e, f. And g, h, will be gone. They are painted in blue. So then you can, from here you can go up, get a frequent length-2 sub-sequences. Then you can generate lengths three,
+length four, length five, and here, you cannot go along anymore. So, this is the GSP algorithm [MUSIC]

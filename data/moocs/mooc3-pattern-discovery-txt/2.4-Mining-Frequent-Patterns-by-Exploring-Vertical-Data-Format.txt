@@ -1,0 +1,36 @@
+[SOUND]
+Now we are going to look at another
+interesting pattern mining method. It's Mining Frequent Patters by
+Exploring Vertical Data Format. This method is called ECLAT, or
+equivalence class transformation method, which in our philosophy looked like this,
+okay? In original transaction database, it's horizontal data format in
+the sense you get every row you get transaction IDs and
+a set of items in this item entry. Then you can transform this
+horizontal data format into vertical data format like this. For every item, a, you will see which transaction IDs
+is associated with this item a. That means a bot, you reach transactions. What's the benefit of this? The first thing is,
+you transform the Itemset into TidList. The total size is approximately
+the same if every entry or every ID,
+they have the similar number of bytes, but the way to compute this will be
+different with this TidList. For example,
+if you say what is TidList of e? You get 10, 20, and 30. What is TidList of a? You get a 10 and 20. Then how to derive ae? You just intersect them together, you can
+see you intersect this set with this set, intersect two TidList, you derive
+the TidList of this ae, this Itemset. If this one contains sufficient
+number of transactions, then this is frequent like two,
+then ae or be frequent. If this one's infrequent,
+then you don't need ae to go further, that's a similar thing
+as Apriori principle. Then the properties of TidLists
+basically say if these two TidList is equivalent, that means they
+have the same set of transactions. If this one is the subset of the other
+one, that simply says the transaction containing X must always containing Y,
+because this one is this one's subset. So you probably can see, if we try to derive frequent patterns
+based on these vertical intersection, we just need to see the size
+of these transaction list. But there's one interesting method
+called diffset to accelerate the mining. The reason is, when you get very
+large number of transactions, each item may be associated
+with a very long TidList. Then,their intersection,
+like this e and the ce, their intersection could be small,
+but their difference could be small. So you look at the intersection,
+it's large, the difference could be small. For example, you intersect these two,
+the intersection is 10 and 20. But the difference is only one. So you only keep this,
+you don't have to keep t(ce). That may save a lot of space, okay? This is the general idea. Using diffset you can further
+improve this efficiency. [MUSIC]

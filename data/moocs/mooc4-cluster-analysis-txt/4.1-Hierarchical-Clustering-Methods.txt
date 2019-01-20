@@ -1,0 +1,17 @@
+[SOUND] In the first
+section we will introduce, Basic Concepts of Hierarchical Algorithms. So what is hierarchical clustering? The hierarchical clustering means we can
+start from either singleton cluster, iteratively merge them into
+higher level clusters, okay. Or we can start from
+one big macro cluster, iteratively split the bigger
+cluster into smaller ones. Then in this way we will
+generate a clustering hierarchy, drawn as a dendrogram like this. There is no requirement to specify K,
+the number of clusters. And it is more deterministic. There is no iterative refinement process. Hierarchical clustering methods
+contain two categories of algorithms. In general, the hierarchical
+clustering methods have two categories of algorithms,
+one called agglomerative. It start with singleton clusters,
+continuously merge two clusters at a time to build
+bottom-up hierarchy of clusters. The second category is
+called divisive cluster. Essentially, it starts
+with a huge macro-cluster, then split them continuous
+into two groups. It will generate a top-down
+hierarchy of clusters. [MUSIC]

@@ -1,0 +1,59 @@
+[SOUND] Now we examine Session 2: Distance on
+Numerical Data: Minkowski Distance. So we first introduced data matrix and
+dissimilarity matrix, or distance matrix. Data matrix is referenced in the typical
+matrix form is we have n data points, we use n rows. We have l dimensions, we use l
+columns to reference this data set. The distance matrix or
+dissimilar matrix usually is referenced in triangular matrix because
+you have n data points, we register only the distance
+between like objects one versus one or
+two versus one to look at their distance. But the distance function usually
+could be quite different, but different kinds of variables, like a real, boolean, categorical, ordinal,
+ratio, and vector variables. Their distance definition
+could be different. Moreover, sometimes they may have
+weights associated with those different variables based on
+the applications and data semantics. We are going to introduce this more later. Then, we look at an example. Suppose we have four points,
+four objects in two dimensional space. Then the data matrix is rampant
+in this typical form, okay. Then for dissimilarity matrix, or
+distance matrix, for Euclidean distance, you can see the matrix is in this way,
+like x1, x1, they are identical. Their distance is 0. x2, x1, their computation
+is based on the distance. This part is two, this distance is three,
+you take the sum of the square area. You take square root, you get this value. Then in general, we define
+the Minkowski distance of this formula. It means if we have area dimensions for
+object i and object j. Then their distance is defined by
+taking every dimension to look at their absolute value of their distance,
+then to the power of p, then you sum them up, get the root of p. Then we get the Minkowski distance. Such distance that P is the order
+we usually also call this distance this LP norm. The Minkowski distance in
+general have these properties. The first property is called positivity. It means, the distance be equal zero when they are identical otherwise
+they are greater in there. The second property called symmetry means the distance between I and J, distance
+between J and I should be identical. Then the third one called
+triangular inequality means for the distance between i and j. If you go through k, that means you
+go first to k, then from k to j. That distance should be no less
+than directly go from i to j. Should be greater than or equal to d(i,j). The distance measure that satisfies these
+three properties are metric distance. Notice not all the distance are metric for
+example set difference is not metric. Of course in this lecture we
+mainly discuss metric distance. Then we look at some special
+cases of Minkowski distance. If p = 1, we call L1 norm,
+they also call Manhattan or city block distance define this formula. In particular, if we are dealing
+with binary vectors we call these Hamming distance is the number
+of bits that are different. Then if p equals two,
+you can find also L2 norm. As Euclidean distance defined
+the typical way like this, and this vary for the middle one I think for
+all people, okay? Then if p goes to infinity means
+we're dealing with L infinity norm or L max norm,
+this is also caused supernum distance. Is that you find, is limit for
+p goes for infinity. In that case, actually
+the distance is really the maximum difference between any
+attribute of the vectors. For example you can see for
+F, from 1 to L. The maximum such absolute
+value of the distance, is the distance of L infinity norm or
+supremum distance. Let's look at some examples, for
+the same data sets, we get a four points. We get two dimensions. Then we look at the Manhattan distance
+is just a city block distance. For example from x2 to x1 you will go three blocks down
+then two blocks left. So the Manhattan distance is 3 plus 2,
+we get 5, okay. Of course x1 to x1 itself, is 0. And you Euclidean distance, as we
+discussed already, that's the measure. For Supremum distance, L infinity norm. You probably can see x2 to x1. So probably you can see the difference
+is you first go down 3 blocks for Manhattan distance,
+you can see you get a 3 plus 2. But for Supremum distance you
+could just see which attribute would give the maximum distance or
+maximum difference so you probably can see the maximum amount is
+3 instead of 2 that's why x2 to x1 is 3. So it's pretty easy to compute, thank you. [MUSIC]

@@ -1,0 +1,68 @@
+[SOUND] First, we are going to
+discuss Sequential Pattern and Sequential Pattern Mining, the concept. So the first thing is we should say, sequential pattern mining is very useful,
+has very broad applications. One application could be in
+costumer shopping sequences. For example, you get a loyalty card for
+your shops, you may want to see. Maybe one costumer likely
+going to first buy a laptop, then a digital camera,
+then a smartphone within 6 months. If this forms a pattern, you may be able
+to try to do some kind of advertisement to other similar customers or serving
+some new incentive for this customer. Like a medical treatment form sequences,
+natural disasters like earthquake happening it may have some sequences
+of natural and also human phenomenon. Science engineering a lot
+of things are processes. They evolve along with time. Similarly, stocks markets they have
+some kind of duration of sequences. Weblog click streams,
+calling patterns for telephones and other things forming sequences. Even for software engineering, the program
+execution from sequential patterns. The biological sequences very, very
+useful for analysis like DNA sequences, protein sequences. So we see trying to get
+sequential patterns out of those very big vast applications,
+could be very useful and important. Actually, we can distinguish
+transaction databases, usually may not be important
+to look at their time effect. Sequence databases,
+they have a time stamp attached with it. Time-series databases, usually the time, things happened actually along the even or
+equivalent time intervals. Sometimes, it's very consecutive. Then for sequential patterns,
+actually there are two kinds. One is gapped, another is non-gapped. The gapped pattern means, you do allow
+to have gaps within those patterns. The non-gapped patterns means,
+you will not allow these patterns, the sequence, everything is important. The concept of this important
+if you have gapped and you have to trade them very seriously. For example, for shopping transactions. Probably, you don't care customer in
+the middle buying some other things, so it's not important to study the gaps. Click streams sometimes you may say, some
+click streams, you may care about gaps. Some, you probably do not
+care of gaps that much. For biological sequences,
+in many case you do carry gaps, so the protein sequence or DNA sequences,
+if you insert many things, in the middle of the two DNA sets, sometimes
+you may completely change the function. So let's look at the customer
+shopping sequence as a major example to study how
+to do sequential pattern mining. Sequential pattern mining essentially is,
+you give me a set of sequences. The algorithm is trying to find
+the complete set of frequent sub-sequences satisfying a certain
+minimum support threshold. Let's look at this example. We have a sequence database containing
+four customer shopping sequences. Okay, what's the meaning of this? We look at this particular sequence. This sequence, the parenthesis means this
+one is within the same shopping basket. Then after that, you get another one
+ab that means this ab following ef. But ab is getting together
+at the same time. Similarly, df getting together but
+following ab, and then c, then b, okay. That means each one of these
+you can think is a element. It may contain a set of items or
+you call events. Then this one event may
+follow another one. The items within the event, the order is
+not important because they are in the same shopping basket but for our convenience,
+we can sort them alphabetically. Then what is subsequence? Actually any sub-strings within this line probably can see here
+the subsequence you may have a gap. For example, you say, you can have a,
+you have bc, bc actually you chop this a. You can chop complete ac, then you get d. You can chop one f, you can get it c. So, this one is a subsequence
+of this longer sequence. Then, sequential pattern mining,
+the sequential pattern essentially is if you set a support,
+like a minimum support is 2, that means, at least 2 sequences
+contain the subsequence. You find those subsequence,
+this is a sequential pattern. For example, ab getting together then c, in this sequence database,
+this is a pattern of support 2. So sequential pattern mining algorithm is, you try to develop algorithms
+which are efficient, scalable and these algorithms should find the complete
+set of frequent subsequences. What we call sequential patterns. And also should be able to incorporate
+various kinds of user-defined constraints. For sequential pattern mining,
+actually Apriori property, the property we have used in
+frequent pattern mining still holds. For example, if we say a subsequence
+s sub 1 is infrequent, then any of this supersequence
+cannot be frequent. So that's almost the same idea as Apriori. So based on this idea, we actually
+can develop lots of algorithms. One, represented the algorithm called GSP, Generalized Sequential Pattern mining,
+developed in 1996. Another way is a Vertical
+format-base mining called SPADE, developed in year 2000. The third one we're going to introduce
+is Pattern-growth methods called PrefixSpan developed in year 2001. And then we are going to study mining
+closed sequential patterns called CloSpan. Finally, we're going to discuss
+constraint-based sequential pattern mining. [MUSIC]

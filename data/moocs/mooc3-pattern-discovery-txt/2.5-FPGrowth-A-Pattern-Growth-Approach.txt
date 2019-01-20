@@ -1,0 +1,83 @@
+[SOUND] Hi, I'm going to introduce you another interesting pattern mining approach
+called pattern growth approach. This approach is represented by
+interesting algorithm called FPGrowth. Let's look at how this algorithm works. The general idea is first we find
+the frequent single items and then we partition the database
+based on each such item. Then we recursively grow frequent patterns
+by doing the above iteratively or recursively for each partitioned database,
+also called conditional database. To facilitate efficient processing, we
+use a new data structure called FP-tree. The whole mining can be
+summarized as follows. We recursively construct and
+a mine conditional FP-trees. Until the result FP-tree is empty or until it contains only one path,
+the single path will generate all the combinations of its sub-paths
+each of which is a frequent pattern. Let's look at a simple example. For this transaction database,
+it has only five transactions. Each contains a set of items. So we can scan the database once. Find the single of item frequent
+pattern like the following. Suppose minimum support is three. We will be able to find
+the following frequent single item. Then we can sort the frequent
+items based on it's support frequency in
+descending order like this. Base on this, we can construct a tree by
+first construct the header, following this order, then scan the database,
+we can construct this tree as follows. For example, okay, if you look at
+the first transaction, it's f, c, a, m, p, so we construct it f, c,
+a, m, p with only support as 1. Then we get f, c, a, b, m,
+we constructed this f, c, a, b, m. And this power support becomes 2,
+this maintains to be 1. You can go one by one working
+on the following tree. Then to mine this tree, we can use the
+divide and conquer and do it recursively. We can do it like this, okay, for each
+tree we can construct this pattern base. We call it p's conditional pattern base,
+m's conditional pattern base. Let's look at how p's conditional
+pattern base is constructed. So if you can see,
+p is the leaf of the node. You only look up. You get f, c, a, m that supports 2 because p occurs together with
+this branch only twice. That's why you get f, c, a, m 2. Then for the same reason,
+you look at the other p, it's cb happens only once together with p,
+that's why we get cb1, okay. Then if you want to look at
+m's conditional database, the philosophy you were thinking
+the patterns having m but not having p because of p already being taken care
+of by the p's conditional pattern base. So you look at m's conditional database,
+actually you also look up and you get f, c, a, so for this branch they
+occur twice, that's why you get f, c, a 2. For the same reason, you look at
+this m and you get an f, c, a, b 1. So you get f, c, a, b 1. You can do this on and on. And with this, you can get into transform the prefix paths
+of p to get the following. Then, the remaining task which is,
+mind this, conditional pattern base. For this conditional pattern base,
+we mine single item patterns, we construct the FP-tree and
+mine it recursively. For example, for p's conditional
+pattern base, you will get only c: 3, the reason is f, a, m,
+and b they never occur more than three times, so they are out,
+they are not frequent so you only get 3. But for m-conditional pattern-base,
+you per can see f, c, a really occurs three times, the b only occurred
+once, then you'll get a f, c, a 3. And b-conditional pattern-base gives
+you where you can see none of them, actually pass the support threshold of 3,
+so it's empty. So let's just look at of course,
+you'll get a and c's pattern-base like f: 3 and fc:3. Actually for the single branch, you can
+dump all the possible combinations there, support our tree. But we just look in the recursive way
+how we can mine this pattern-base. For this pattern-base,
+you probably can see, you can say for a's conditional pattern-base
+you'll get this. You'll get fc: 3, and for c you get f: 3,
+you can see that's the same thing. Then for this particular am
+conditional FP-tree you might, you just take a c,
+you say c's that means a, m, c or c, a, m their conditional pattern-base
+is only f: 3, you get this. Then you can dump all
+the patterns like this. For single branch essentially that's
+the same thing, you will dump all the patterns, like all the possible
+combinations, they are all three, okay. You can see if you get
+a single prefix-path, you actually can partition this into two
+parts like this path you can mine it, and this path you can mine it and then you
+can just concatenate the path and results. What about if tree cannot
+fit in the main memory? If you cannot fit in the memory,
+we can use database projection. That means, we project the database
+based on the patterns, based on single items set, okay. So, then we can construct and mine
+this tree for each projected database. So we can have parallel projection or partition projection,
+two different methods. The parallel projection means for
+this one, you will get f4 predict database and
+f3 predict database. For example, for this first stream you will see gh
+suppose is non frequent to only f. F's a frequent. You will get an f4 predict database,
+you'll get an f2, f3. Okay, then, f3's predicted base,
+you get f2. That's one, and every one of these projected
+databases is independent of the others. So, you can mine them in parallel. But then,
+you also can have partition projection. Partition projection the general
+philosophy is for each string. You only put into one place. For example, this one country is
+therefore you only put f2, f3, but you don't put this f2
+to f3 projected database. When you're finished mine this f4,
+when you do this projection then you think this one migrates to f3,
+you put this one into f3, okay. So that's just a different choices for different partition of
+parallel projections, it's just a different way of implemented,
+thank you. [MUSIC]

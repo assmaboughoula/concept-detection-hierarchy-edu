@@ -1,0 +1,60 @@
+[SOUND]
+In this session, I'm going to introduce you another
+interesting applications of Pattern Discovery called
+Pattern Discovery for Image Analysis. We know image analysis or computer vision, there have been lots
+of technology developed in this field. Then for, there's one
+interesting recent line of work is using visual pattern
+discovery to do image analysis. We can take this picture as a example. For this image, we may find
+there are many interest points. These interest points we
+call visual primitives. Every visual primitives can be described
+by a set of visual features or you can think is a high
+dimension feature vector. And then, each image is
+a collection of visual primitives. Then, we will study how to turn those
+visual primitives into patterns and how to do pattern minning
+on large number of images. So that means we want to study
+visual pattern discovery problem. For visual pattern discovery,
+we can think about it from this images. We can use feature extraction. We can extract lots of high dimension
+features, they form visual primitives. Those visual primitives can be clustered, based on their space they may
+cluster into visual items, okay? Those visual items, if they are similar,
+then they belong to the same item. You can map them into different item ID,
+for example. You can map this feature into W, and maybe another picture I have of similar
+one, they actually also called W, okay? Then each visual primitive, they can have,
+based on that k-nearest-neighbor, they can form small clusters, and those
+we usually called them a transaction. For example,
+you may find these three visual primitives can form a transaction
+like CBA as a transaction. Then an image may have many transactions,
+okay, in every image. Then if there are many, many images,
+you may, based on their transactions, you do the frequent pattern mining, you
+will be able to find some visual patterns. For example, in these pictures,
+you may find a BA and CA, actually are quite frequent
+together in those transactions. So you can say, B and CA or
+CBA are frequent patterns, are the frequent visual
+patterns in those images. So the simple example could be this,
+suppose we have four pictures. Each picture you may find note, certain
+primitives, visual primitives from items. Those items based on
+the k-nearest-neighbor, they form transactions. Then for this car,
+you may find the two transactions here, G12 and G13, okay? Then they contain a set of items, EDABC, could be the transactions
+containing those items. Each item actually is a set of visual
+primitives from the items, okay? But if you do frequent pattern mining,
+you may find among those images, you can get an AB as frequent item set and actually these AB wrapped in something
+related to the wheels of the car. So that's a reason those frequent
+pattern mining can help identify certain unique features
+in different images. So then the interesting thing could be, because images are spatial data,
+then spatial configuration does matter. Then because sometimes those
+transactions spatially very close, they may overlap each other. Then they may have over counting problem. For example, this AB actually in this
+image, there is only one such AB pattern. But since based on your feature
+image there, clustered together, you get two transactions, you actually
+count AB twice in this picture, okay? So, there's a over counting problem. Another problem encountered in this visual
+pattern discovery is uncertainty problem. Because you may have some,
+like those wheels can be partially occluded
+by other objects or mixed with other objects,
+we have lots of noise, okay? Some feature you may
+not be able to detect. Another is visual synonym and
+polysemy problem that essentially is sometimes the same feature actually
+may erupt in different objects or one object can be represented by
+different kinds of feature sets, okay? So we need to revise our frequent pattern discovery algorithm
+to handle these over counting problem, uncertainty problems, synonym and
+the polysemy problems. Actually, there are interesting studies in
+computer vision community, they developed some interesting visual pattern discovery
+methods for images and video data. So if you are interest in this, I would recommend you study those research papers to gain your
+knowledge to certain depths. [MUSIC]

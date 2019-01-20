@@ -1,0 +1,118 @@
+Now we introduce an interesting
+phrase mining method called ToPMine which mines quality
+phrases without training data. This method actually belongs to
+strategy three as we discussed. We first do phrase mining,
+then do topic modeling. Why we want to do that way? We can see if we use Strategy 2,
+we first do topic modelling, then try to do phrase
+modeling, we may encounter some problems. For example, let's look at this example. Suppose we first do topic
+modeling in this one. But remember, the topic modeling you will
+regenerate a larger number of topics. Suppose knowledge discovery,
+you see knowledge is in the red topic and discovery is in the blue topic. Okay. The same thing as support vector machine,
+you may get a support as in one topic vector is another and the machine is
+in the topic the same as support. If that's the case, we'll never be able
+to generate knowledge discovery also for a vector machine is quality phrases
+because they belong to different topics. How can we fix this problem? If we switch order between phrase
+mining and topic modeling That means we first two phrase mining if we can find
+knowledge, discovery is a quality phrase. A least a squares is
+another quality phrase and support vector machines
+assert quality phrase. Then, we will be able to generate
+the very high quality topic models for example knowledge discovery is one topic, least a squares is another topic Support
+vector machine is another topic. Can we do that? Okay, so the trick is we
+can first do phrase mining. Then we do document segmentation. Then we do phrase ranking. After that,
+we take those phrase as constraints. Then we do topic modeling inference
+then we will be able to get those high quality phrases and
+high quality topic models. Let's look at this method top mine method. The method was developed
+by Ahmed El-Kishky's and his team, In publishing VLDB 2015. At first do phrase mining then
+do phrase-based topic modelling. The phrase mining is first mine
+frequent contiguous patterns that only can extract these
+candidate phrases and their counts. This method is very much like a typical
+frequent pattern mining methods. Then we can agglomerative merging those adjacent unigrams guided
+by a significance score. We are going to ensure you see all later,
+okay? Then we can do documents segmentation. That means we will work out to the base
+of raw frequency based going back to the document to see which one we count
+which we get rectified true frequency. For example,
+just give you a simple example, suppose we have support
+vector machine as a phrase. It occurs 90 times. Then vector machine,
+as a phrase it occurs 95 times. Support vector occurs even 100 times. However you go back to the documents you will find if you count support
+vector machines it's a phrase. You will not recount vector
+machine as independent phrase or support vectors, independent phrase. Actually you'll decrease
+their count substantially. That the count is we call
+the rectified frequency. Analysis can be based on rectified
+frequency instead of raw frequency. Now we can rank those phrases
+based on popularity, concordance, informativeness and the completeness
+as we just discussed in KERT. After this we can do phrase
+space topic modelling. That means we can,
+taking those mined bag of phrases. We pass them PhraseLDA which
+is the extension of LDA. This method will constrains
+all the words in a phrase. So, each sharing the same latent topic. In that way, we'll be able to
+divide better quality topic models. This matter essentially doing
+collocation mining, then is, we were to find a sequence of the words
+that occur more frequently than expected, then we would say they likely
+should be a phrase, okay? For example,
+if you see "strong tea", okay? You see it happens frequently together. Then you look at a strong, how many times
+happens tea, how many times it happens. Then you see strong tea happen together
+more frequently than expected frequency. That means strong tea should be a phrase. How can we measure such things? We can measure this based
+on different measures. For example, the mutual information, okay. And this essentially is
+paralyzed mutual information. And we can do t-test, can do z-test, can do chi-squared test,
+can do likelihood ratio, actually using all the different
+measures we can confirm, the phrase would generate
+a truly good phrases. Usually use any of the good measures,
+little work. That means many of these
+measure can be used to guide the agglomerative
+phrase segmentation. Let's look at the example. Suppose we have a bunch of documents,
+one says Markov blanket feature selection for support
+vector machines and all the others. How can we know without training to see
+feature selection should be a phrase, support vector machine should be a phrase,
+Markov blanket should be a phrase. Actually the trick is very simple,
+if we think about the normal distribution, the Gaussian distribution,
+by basic statistics we know, if you've got a Gaussian distribution,
+you get a one standard deviation away. Actually it's about the chance
+to get this is one minus 68.2%. But, you get three
+standard deviations away. The chance is very, very small. It simply says you only got 0.3% of chance
+to have three standard deviation away. And then how do you explain it? Likely they should get together, as an exception, but
+not as a random distribution. They should be a phrase. Okay. We can use some significant score like a church developing in
+1991 right on this former. This is very much in the same
+spirit as the Z score. You know how many standard
+of deviation away. Suppose in these documents we found
+a support vector getting together is about 12 standard iterations away,
+okay? That means that the support vector
+coming together so tight, so unusual they should be a phrase. Even you merge support vector as a phrase,
+then you still calculate this machine you find there
+are still eight standard deviation away. Simply says Support Vector Machine
+getting together should be a phrase. The interesting case could
+be you see feature selection some people see selection for
+which when should be a good phrase. Actually if you check
+the whole document you'll see features selection likely
+should be a good phrase. Because they're getting
+together is more than expected. Okay, then you team up with
+feature selection as a phrase. In that case it's selection for
+would not be a candidate in this case. If we do phraser sequestration,
+features selection will have a count. Selection for, in this particular
+sentence, will now contribute to a count to selection for, because
+feature selection is already there. Okay so if we do the good
+ratification of the phrase frequency, we'll be able to make
+a very good judgement. So we did some good
+experiments you probably see. If we use DBLP which is
+compromise research publication bibliographic data base. We actually can see the unigram
+generated and the n-gram generated has already better quality
+than purely topic modelling. However you see this n-gram
+generated very informative. For example, almost anybody working
+on natural language processing, you probably can see natural language,
+speech recognition, language model, natural language
+processing, machine translation. All these become very,
+very good top rank of phrases for natural language processing. That implies this phrase mining not only
+helps in generating quality phrases but also generally better
+quality topic models. That means ToPMine is efficient and generates high-quality topics and
+phrases without any training data. Similar experiments on Yelp. Yelp actually is a social media data sets. For Yelp reviews, people writing
+something not a quite formerly but still we probably can see the phrase generated
+are actually pretty high quality. And for example if you look
+at this the Mexican food, the chips and salsa, hot dog, rice and
+beans you will see these are the very typical Mexican food you can generate
+using this and phrase mining. First, do phrase mining,
+then do topic mining. One thing we should note is, for
+example, food was good generate here. Food was good actually is a sentence. It's a short sentence, it's not a phrase. If we add a little more, for example, part-of-speech tagging,
+we'll be able to rectify it. Carried out this food was good as
+a short sentence, it's not a phrase. The remaining ones are pretty good. So, that implies top mine, and
+it can't further integrate it with some natural language
+processing features. And we will be able to generate
+pretty high quality phrases for the subsequent process.

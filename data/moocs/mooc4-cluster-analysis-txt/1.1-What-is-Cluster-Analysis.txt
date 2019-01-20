@@ -1,0 +1,22 @@
+The first session is on
+what is Cluster Analysis? To understand what is cluster analysis,
+we should know first what is a cluster? A cluster is actually
+a collection of data objects, those objects are similar
+within the same cluster. That means the objects are similar to
+one another within the same group. And they are rather different,
+or they are dissimilar, or unrelated, to the objects in other
+groups or in other clusters. Okay, then cluster analysis which
+is also called clustering or data segmentation, the essential is
+getting a set of tape data points. The cluster analysis is to partition them
+into a set of clusters, or set of groups. They are as similar as possible
+within the same group and as far apart as possible
+among different groups. Cluster analysis is unsupervised learning, in the sense there's
+no predefined classes. This is very different from classification
+which needs supervised learning or needs to give in the class labors then you
+can construct the classification models. There are many ways to use
+our apply cluster analysis, essentially cluster analysis can
+either provide as a stand alone tool to get insight into your
+data distribution like a summary. Or you can serve, you can use it
+to serve as pre-processing step or intermediate step for other algorithms, like a classification or
+a prediction or like many other tasks, including data mining and
+other applications. Thank you. [MUSIC]

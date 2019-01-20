@@ -1,0 +1,688 @@
+Index
+L2 distance, 131
+χ2 feature selection, 275
+δ codes, 104
+γ encoding, 99
+k nearest neighbor classiﬁcation, 297
+k-gram index, 54, 60
+1/0 loss, 221
+11-point interpolated average
+precision, 159
+20 Newsgroups, 154
+A/B test, 170
+access control lists, 81
+accumulator, 113, 125
+accuracy, 155
+active learning, 336
+ad hoc retrieval, 5, 253
+add-one smoothing, 260
+adjacency table, 455
+adversarial information retrieval, 429
+Akaike Information Criterion, 367
+algorithmic search, 430
+anchor text, 425
+any-of classiﬁcation, 257, 306
+authority score, 474
+auxiliary index, 78
+average-link clustering, 389
+B-tree, 50
+bag of words, 117, 267
+bag-of-words, 269
+balanced F measure, 156
+Bayes error rate, 300
+Bayes Optimal Decision Rule, 222
+Bayes risk, 222
+Bayes’ Rule, 220
+Bayesian networks, 234
+Bayesian prior, 226
+Bernoulli model, 263
+best-merge persistence, 388
+bias, 311
+bias-variance tradeoff, 241, 312, 321
+biclustering, 374
+bigram language model, 240
+Binary Independence Model, 222
+binary tree, 50, 377
+biword index, 39, 43
+blind relevance feedback, see pseudo
+relevance feedback
+blocked sort-based indexing
+algorithm, 71
+blocked storage, 92
+blog, 195
+BM25 weights, 232
+boosting, 286
+bottom-up clustering, see hierarchical
+agglomerative clustering
+bowtie, 426
+break-even, 334
+break-even point, 161
+BSBI, 71
+Buckshot algorithm, 399
+buffer, 69
+caching, 9, 68, 146, 447, 450
+capture-recapture method, 435
+cardinality
+in clustering, 355
+CAS topics, 211
+case-folding, 30
+Online edition (c)(cid:10)2009 Cambridge UP
+538
+Index
+category, 256
+centroid, 292, 360
+in relevance feedback, 181
+centroid-based classiﬁcation, 314
+chain rule, 220
+chaining
+in clustering, 385
+champion lists, 143
+class boundary, 303
+classiﬁcation, 253, 344
+classiﬁcation function, 256
+classiﬁer, 183
+CLEF, 154
+click spam, 431
+clickstream mining, 170, 188
+clickthrough log analysis, 170
+clique, 384
+cluster, 74, 349
+in relevance feedback, 184
+cluster hypothesis, 350
+cluster-based classiﬁcation, 314
+cluster-internal labeling, 396
+CO topics, 211
+co-clustering, 374
+collection, 4
+collection frequency, 27
+combination similarity, 378, 384, 393
+complete-link clustering, 382
+complete-linkage clustering, see
+complete-link clustering
+component coverage, 212
+compound-splitter, 25
+compounds, 25
+concept drift, 269, 283, 286, 336
+conditional independence
+assumption, 224, 266
+confusion matrix, 307
+connected component, 384
+connectivity queries, 455
+connectivity server, 455
+content management system, 84
+context
+XML, 199
+context resemblance, 208
+contiguity hypothesis, 289
+continuation bit, 96
+corpus, 4
+cosine similarity, 121, 372
+CPC, 430
+CPM, 430
+Cranﬁeld, 153
+cross-entropy, 251
+cross-language information retrieval,
+154, 417
+cumulative gain, 162
+data-centric XML, 196, 214
+database
+relational, 1, 195, 214
+decision boundary, 292, 303
+decision hyperplane, 290, 302
+decision trees, 282, 286
+dendrogram, 378
+development set, 283
+development test collection, 153
+Dice coefﬁcient, 163
+dictionary, 6, 7
+differential cluster labeling, 396
+digital libraries, 195
+distortion, 366
+distributed index, 74, 458
+distributed indexing, 74
+distributed information retrieval, see
+distributed crawling, 458
+divisive clustering, 395
+DNS resolution, 450
+DNS server, 450
+docID, 7
+document, 4, 20
+document collection, see collection
+document frequency, 7, 118
+document likelihood model, 250
+document partitioning, 454
+document space, 256
+document vector, 119, 120
+document-at-a-time, 126, 140
+document-partitioned index, 75
+dot product, 121
+East Asian languages, 45
+edit distance, 58
+effectiveness, 5, 280
+eigen decomposition, 406
+Online edition (c)(cid:10)2009 Cambridge UP
+Index
+539
+eigenvalue, 404
+EM algorithm, 369
+email sorting, 254
+enterprise resource planning, 84
+enterprise search, 67
+entropy, 99, 106, 358
+equivalence classes, 28
+Ergodic Markov Chain, 467
+Euclidean distance, 131, 372
+Euclidean length, 121
+evidence accumulation, 146
+exclusive clustering, 355
+exhaustive clustering, 355
+expectation step, 370
+Expectation-Maximization algorithm,
+336, 369
+expected edge density, 373
+extended query, 205
+Extensible Markup Language, 196
+external criterion of quality, 356
+external sorting algorithm, 70
+F measure, 156, 173
+as an evaluation measure in
+clustering, 359
+false negative, 359
+false positive, 359
+feature engineering, 338
+feature selection, 271
+ﬁeld, 110
+ﬁltering, 253, 314
+ﬁrst story detection, 395, 399
+ﬂat clustering, 350
+focused retrieval, 217
+free text, 109, 148
+free text query, see query, free text,
+124, 145, 196
+frequency-based feature selection, 277
+Frobenius norm, 410
+front coding, 93
+functional margin, 322
+GAAC, 388
+generative model, 237, 309, 311
+geometric margin, 323
+gold standard, 152
+Golomb codes, 106
+GOV2, 154
+greedy feature selection, 279
+grep, 3
+ground truth, 152
+group-average agglomerative
+clustering, 388
+group-average clustering, 389
+HAC, 378
+hard assignment, 350
+hard clustering, 350, 355
+harmonic number, 101
+Heaps’ law, 88
+held-out, 298
+held-out data, 283
+hierarchic clustering, 377
+hierarchical agglomerative clustering,
+378
+hierarchical classiﬁcation, 337, 347
+hierarchical clustering, 350, 377
+Hierarchical Dirichlet Processes, 418
+hierarchy
+in clustering, 377
+highlighting, 203
+HITS, 477
+HTML, 421
+http, 421
+hub score, 474
+hyphens, 24
+i.i.d., 283, see independent and
+identically distributed
+Ide dec-hi, 183
+idf, 83, 204, 227, 232
+iid, see independent and identically
+distributed
+impact, 81
+implicit relevance feedback, 187
+in-links, 425, 461
+incidence matrix, 3, 408
+independence, 275
+independent and identically
+distributed, 283
+in clustering, 367
+index, 3, see permuterm index, see also
+parametric index, zone index
+index construction, 67
+Online edition (c)(cid:10)2009 Cambridge UP
+540
+Index
+indexer, 67
+indexing, 67
+sort-based, 7
+indexing granularity, 21
+indexing unit, 201
+INEX, 210
+information gain, 285
+information need, 5, 152
+information retrieval, 1
+informational queries, 432
+inner product, 121
+instance-based learning, 300
+inter-similarity, 381
+internal criterion of quality, 356
+interpolated precision, 158
+intersection
+postings list, 10
+inverse document frequency, 118, 125
+inversion, 71, 378, 391
+inverted ﬁle, see inverted index
+inverted index, 6
+inverted list, see postings list
+inverter, 76
+IP address, 449
+Jaccard coefﬁcient, 61, 438
+K-medoids, 365
+kappa statistic, 165, 174, 373
+kernel, 332
+kernel function, 332
+kernel trick, 331
+key-value pairs, 75
+keyword-in-context, 171
+kNN classiﬁcation, 297
+Kruskal’s algorithm, 399
+Kullback-Leibler divergence, 251,
+317, 372
+KWIC, see keyword-in-context
+label, 256
+labeling, 255
+language, 237
+language identiﬁcation, 24, 46
+language model, 238
+Laplace smoothing, 260
+Latent Dirichlet Allocation, 418
+latent semantic indexing, 192, 413
+LDA, 418
+learning algorithm, 256
+learning error, 310
+learning method, 256
+lemma, 32
+lemmatization, 32
+lemmatizer, 33
+length-normalization, 121
+Levenshtein distance, 58
+lexicalized subtree, 206
+lexicon, 6
+likelihood, 221
+likelihood ratio, 239
+linear classiﬁer, 301, 343
+linear problem, 303
+linear separability, 304
+link farms, 481
+link spam, 429, 461
+LM, 243
+logarithmic merging, 79
+lossless, 87
+lossy compression, 87
+low-rank approximation, 410
+LSA, 413
+LSI as soft clustering, 417
+machine translation, 240, 243, 251
+machine-learned relevance, 113, 342
+macroaveraging, 280
+MAP, 159, 227, 258
+map phase, 75
+MapReduce, 75
+margin, 320
+marginal relevance, 167
+marginal statistic, 165
+master node, 75
+matrix decomposition, 406
+maximization step, 370
+maximum a posteriori, 227, 265
+maximum a posteriori class, 258
+maximum likelihood estimate, 226,
+259
+maximum likelihood estimation, 244
+Mean Average Precision, see MAP
+medoid, 365
+memory capacity, 312
+Online edition (c)(cid:10)2009 Cambridge UP
+Index
+541
+memory-based learning, 300
+Mercator, 445
+Mercer kernel, 332
+merge
+postings, 10
+merge algorithm, 10
+metadata, 24, 110, 171, 197, 373, 428
+microaveraging, 280
+minimum spanning tree, 399, 401
+minimum variance clustering, 399
+MLE, see maximum likelihood
+estimate
+ModApte split, 279, 286
+model complexity, 312, 366
+model-based clustering, 368
+monotonicity, 378
+multiclass classiﬁcation, 306
+multiclass SVM, 347
+multilabel classiﬁcation, 306
+multimodal class, 296
+multinomial classiﬁcation, 306
+multinomial distribution, 241
+multinomial model, 263, 270
+multinomial Naive Bayes, 258
+multinomial NB, see multinomial
+Naive Bayes
+multivalue classiﬁcation, 306
+multivariate Bernoulli model, 263
+mutual information, 272, 358
+Naive Bayes assumption, 224
+named entity tagging, 195, 339
+National Institute of Standards and
+Technology, 153
+natural language processing, xxxiv,
+33, 171, 217, 249, 372
+navigational queries, 432
+NDCG, 163
+nested elements, 203
+NEXI, 200
+next word index, 44
+nibble, 98
+NLP, see natural language processing
+NMI, 358
+noise document, 303
+noise feature, 271
+nonlinear classiﬁer, 305
+nonlinear problem, 305
+normal vector, 293
+normalized discounted cumulative
+gain, 163
+normalized mutual information, 358
+novelty detection, 395
+NTCIR, 154, 174
+objective function, 354, 360
+odds, 221
+odds ratio, 225
+Okapi weighting, 232
+one-of classiﬁcation, 257, 284, 306
+optimal classiﬁer, 270, 310
+optimal clustering, 393
+optimal learning method, 310
+ordinal regression, 344
+out-links, 425
+outlier, 363
+overﬁtting, 271, 312
+PageRank, 464
+paid inclusion, 428
+parameter tuning, 153, 314, 315, 348
+parameter tying, 340
+parameter-free compression, 100
+parameterized compression, 106
+parametric index, 110
+parametric search, 197
+parser, 75
+partition rule, 220
+partitional clustering, 355
+passage retrieval, 217
+patent databases, 195
+perceptron algorithm, 286, 315
+performance, 280
+permuterm index, 53
+personalized PageRank, 471
+phrase index, 40
+phrase queries, 39, 47
+phrase search, 15
+pivoted document length
+normalization, 129
+pointwise mutual information, 286
+polychotomous, 306
+polytomous classiﬁcation, 306
+polytope, 298
+Online edition (c)(cid:10)2009 Cambridge UP
+542
+Index
+pooling, 164, 174
+pornography ﬁltering, 338
+Porter stemmer, 33
+positional independence, 267
+positional index, 41
+posterior probability, 220
+posting, 6, 7, 71, 86
+postings list, 6
+power law, 89, 426
+precision, 5, 155
+precision at k, 161
+precision-recall curve, 158
+preﬁx-free code, 100
+principal direction divisive
+partitioning, 400
+principal left eigenvector, 465
+prior probability, 220
+Probability Ranking Principle, 221
+probability vector, 466
+prototype, 290
+proximity operator, 14
+proximity weighting, 145
+pseudo relevance feedback, 187
+pseudocounts, 226
+pull model, 314
+purity, 356
+push model, 314
+Quadratic Programming, 324
+query, 5
+free text, 14, 16, 117
+simple conjunctive, 10
+query expansion, 189
+query likelihood model, 242
+query optimization, 11
+query-by-example, 201, 249
+R-precision, 161, 174
+Rand index, 359
+adjusted, 373
+random variable, 220
+random variable C, 268
+random variable U, 266
+random variable X, 266
+rank, 403
+Ranked Boolean retrieval, 112
+ranked retrieval, 81, 107
+model, 14
+ranking SVM, 345
+recall, 5, 155
+reduce phase, 75
+reduced SVD, 409, 412
+regression, 344
+regular expressions, 3, 18
+regularization, 328
+relational database, 195, 214
+relative frequency, 226
+relevance, 5, 152
+relevance feedback, 178
+residual sum of squares, 360
+results snippets, 146
+retrieval model
+Boolean, 4
+Retrieval Status Value, 225
+retrieval systems, 81
+Reuters-21578, 154
+Reuters-RCV1, 69, 154
+RF, 178
+Robots Exclusion Protocol, 447
+ROC curve, 162
+Rocchio algorithm, 181
+Rocchio classiﬁcation, 292
+routing, 253, 314
+RSS, 360
+rule of 30, 86
+rules in text classiﬁcation, 255
+Scatter-Gather, 351
+schema, 199
+schema diversity, 204
+schema heterogeneity, 204
+search advertising, 430
+search engine marketing, 431
+Search Engine Optimizers, 429
+search result clustering, 351
+search results, 351
+security, 81
+seed, 361
+seek time, 68
+segment ﬁle, 75
+semi-supervised learning, 336
+semistructured query, 197
+semistructured retrieval, 2, 197
+sensitivity, 162
+Online edition (c)(cid:10)2009 Cambridge UP
+Index
+543
+sentiment detection, 254
+sequence model, 267
+shingling, 438
+single-label classiﬁcation, 306
+single-link clustering, 382
+single-linkage clustering, see
+single-link clustering
+single-pass in-memory indexing, 73
+singleton, 378
+singleton cluster, 363
+singular value decomposition, 407
+skip list, 36, 46
+slack variables, 327
+SMART, 182
+smoothing, 127, 226
+add α, 226
+add 1
+2 , 232
+add 1
+2 , 226–229, 262
+Bayesian prior, 226, 228, 245
+linear interpolation, 245
+snippet, 170
+soft assignment, 350
+soft clustering, 350, 355, 377
+sorting
+in index construction, 7
+soundex, 63
+spam, 338, 427
+email, 254
+web, 254
+sparseness, 241, 244, 260
+speciﬁcity, 162
+spectral clustering, 400
+speech recognition, 240
+spelling correction, 147, 240, 242
+spider, 443
+spider traps, 433
+SPIMI, 73
+splits, 75
+sponsored search, 430
+standing query, 253
+static quality scores, 138
+static web pages, 424
+statistical signiﬁcance, 276
+statistical text classiﬁcation, 255
+steady-state, 467, 468
+stemming, 32, 46
+stochastic matrix, 465
+stop words, 117
+stop list, 27
+stop words, 117
+stop words, 23, 27, 45, 127
+structural SVM, 345
+structural SVMs, 330
+structural term, 207
+structured document retrieval
+principle, 201
+structured query, 197
+structured retrieval, 195, 197
+summarization, 400
+summary
+dynamic, 171
+static, 171
+supervised learning, 256
+support vector, 320
+support vector machine, 319, 346
+multiclass, 330
+SVD, 373, 400, 408
+SVM, see support vector machine
+symmetric diagonal decomposition,
+407, 408
+synonymy, 177
+teleport, 464
+term, 3, 19, 22
+term frequency, 16, 117
+term normalization, 28
+term partitioning, 454
+term-at-a-time, 125, 140
+term-document matrix, 123
+term-partitioned index, 74
+termID, 69
+test data, 256
+test set, 256, 283
+text categorization, 253
+text classiﬁcation, 253
+text summarization, 171
+text-centric XML, 214
+tf, see term frequency
+tf-idf, 119
+tiered indexes, 143
+token, 19, 22
+token normalization, 28
+top docs, 149
+Online edition (c)(cid:10)2009 Cambridge UP
+544
+Index
+XML element, 197
+XML fragment, 216
+XML Schema, 199
+XML tag, 197
+XPath, 199
+Zipf’s law, 89
+zone, 110, 337, 339, 340
+zone index, 110
+zone search, 197
+top-down clustering, 395
+topic, 153, 253
+in XML retrieval, 211
+topic classiﬁcation, 253
+topic spotting, 253
+topic-speciﬁc PageRank, 471
+topical relevance, 212
+training set, 256, 283
+transactional query, 433
+transductive SVMs, 336
+translation model, 251
+TREC, 153, 314
+trec_eval, 174
+truecasing, 30, 46
+truncated SVD, 409, 412, 415
+two-class classiﬁer, 279
+type, 22
+unary code, 99
+unigram language model, 240
+union-ﬁnd algorithm, 395, 440
+universal code, 100
+unsupervised learning, 349
+URL, 422
+URL normalization, 447
+utility measure, 286
+variable byte encoding, 96
+variance, 311
+vector space model, 120
+vertical search engine, 254
+vocabulary, 6
+Voronoi tessellation, 297
+Ward’s method, 399
+web crawler, 443
+weight vector, 322
+weighted zone scoring, 110
+Wikipedia, 211
+wildcard query, 3, 49, 52
+within-point scatter, 375
+word segmentation, 25
+XML, 20, 196
+XML attribute, 197
+XML DOM, 197
+XML DTD, 199

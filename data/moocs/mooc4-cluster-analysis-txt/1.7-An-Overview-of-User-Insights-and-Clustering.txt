@@ -1,0 +1,35 @@
+[SOUND]
+Hi, in this session, I'm going to give you a brief overview
+of user insights and clustering. Usually, users may have some
+interesting insights or views. User may like to interact
+with the clustering process, to influence the final
+results of clustering. One interesting one is visual insights, because a picture is
+worth a thousand words. Human eyes are actually powerful,
+high-speed processors. Because they are also linked
+with rich knowledge base. So, a human can provide
+a lot of intuitive insights whether this clustering result is good or something they desired is not achieved
+based on the current clustering result. Okay, there's usually user's
+good to one or two dimensional, at most 3D,
+they may be able to find clusters. Their algorithms, for
+example, High D eyes, how to visualize high
+dimensional clusters. The second one is
+semi-supervised insights, that means user may have certain insights
+or intention on the clustering process. They may like to pass their
+insights to the system to influence the results of the clustering. For example,
+user may provide some seeding. That means you can provide
+a number of labeled examples or some approximate representation
+of the categories of interest. Then you may like
+the clustering process to take your insight to do
+some desired clustering. The third one is multi-view and
+ensemble-based insights. So-called multi-view clustering
+is different clustering may generate different perspectives. The multiple clustering, you can ensemble them together
+to provide more robust solution. Finally, a very important one
+is validation-based insight. That means,
+you may want to evaluate the quality of the clusters generated based
+on certain validation methods. For example, you may use case studies or
+you may provide specific measures, or you may provide some
+preexisting labels. All of these, we're going to
+discuss in detail in some chapter. Finally, I provide a few reference books. And especially the chapter
+By Charu Aggarwal. An Introduction to
+Clustering Analysis is a very nice introduction on general
+ideas of clustering analysis. Thank you. [MUSIC]

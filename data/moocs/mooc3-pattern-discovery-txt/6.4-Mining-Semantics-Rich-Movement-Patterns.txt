@@ -1,0 +1,30 @@
+Now, we study another
+interesting movement pattern called Mining Semantics-Rich
+Movement Patterns. We'll first see what is
+Frequent Movement Pattern? Frequent Movement Pattern is
+a movement sequence, frequently appears in the input trajectory database, but
+we care more on the semantics here. For example,
+from home to Starbucks to office. So maybe people, the home maybe different
+or office maybe different location, but this pattern maybe interesting,
+even we can consider the home and office could be just the same semantic
+units in different locations. So comparing to
+Frequent Movement Pattern versus Frequent Sequential Pattern, we can say, they both are at finding frequent
+subsequences from input sequence database. However, for
+mining frequent movement patterns, we would like to think of similar
+places may need to be grouped together collectively to form frequent subsequences
+from the semantic point of view. Now, we look at
+Mining Semantics-Rich Movement Patterns. The semantics-rich patterns means in
+addition to know how people move from one region to another, we want to also
+understand the functions of the regions. That means we want them see people
+moving from office to restaurant or from home to gym. So, we promote a two-step
+top-down mining approach. The first step is try to find
+a set of a coarse patterns that reflects people semantic
+level transitions. That means as long as a reaching
+carry the similar semantic functions, we may one to consider they
+are the same function or same entity. Then in the step two,
+we split each coarse pattern into several fine-grained ones by grouping
+similar movement snippets together. This time, we'll consider spatial,
+temporal, besides the semantics. We're going to consider spatial and
+temporal features more seriously. A recent study published in
+VLDB 2014 called Splitter, Mining Fine-Grained Sequential Patterns in Semantic Trajectories is an interesting
+study in this direction. [MUSIC]

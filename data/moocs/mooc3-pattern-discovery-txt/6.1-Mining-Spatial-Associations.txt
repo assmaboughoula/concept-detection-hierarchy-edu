@@ -1,0 +1,46 @@
+When first studying
+Mining Spatial Associations. Spatial association or
+spatial frequent patterns share some commonalities as a general association and
+frequent patterns. For example, the association rules
+are also in the form of A in plus B, with certain support and a confidence. In this context, A and B could be sets
+of spatial or non--spatial predicates. The spatial predicates may indicate
+topological relations or spatial orientations or distance information
+like close to, within certain distance. And it measures support and confidence
+are very similar to the general ones. The rules with him find
+it could be like if x is a large town then x
+intersect with the highway, then x is likely to be adjacent to water. Like lakes and the rivers and ocean so that with certain support and
+a confidence. In spatial rail mining,
+quite often we would like to explore spatial autocorrelation. That means spatial data tends
+to be highly self-correlated, nearby things are more related
+than the remote things. For example when we study neighborhood,
+study temperature, likely would pay more attention to find interesting
+relationship in the nearby objects. In spatial association mining, there's a interesting heuristic
+called progressive refinement. The general philosophy of this for
+a spatial relationship, there are some rough ones like close to which is
+generalization of some more refined one like nearby, touch, intersect, contain,
+they are somewhat or close to. Just give you an example. Like here, if we can see,
+near a highway intersection, you may be able to find shopping
+centers and gas stations. But how close to,
+whether they are very nearby or they are almost touch
+the highway intersection. So in that sense,
+those are detail refine relationships. However, if we first find those close
+to there frequent together, okay. Then we,
+if we want to find the more refine, how close to are they
+really to the intersection. So we can say if the close
+to is a frequent pattern, then we are going to study
+the more refined watch. To that extent, this is the philosophy
+of progressive refinement. That means, we first search for
+rough relationships, and then refine for,
+to study more refined relationships. The general philosophy is,
+if the rough relationship is not frequent. So there's no need to study the very final
+because they are not frequent as well. So to that extent, we can do two
+step mining of spatial association. The first step, as we use and
+we shape or low cost algorithm. Like minimum bounding rectangle or
+R-trees for some rough pattern mining. That means we first compute
+the rough spatial frequent patterns. Then we know if the rough one is frequent, then we are going to get
+into refinement process. That means we may study
+a more detailed algorithm using more refined data structure. So this principle can save
+a lot of mining cost. Because we first using rough lines,
+we get a big filter. A lot of unnecessary pairs because
+they are not frequent already. We don't have to refine it. We don't have to use a refine measure
+to study more refined patterns. Close to, you can find

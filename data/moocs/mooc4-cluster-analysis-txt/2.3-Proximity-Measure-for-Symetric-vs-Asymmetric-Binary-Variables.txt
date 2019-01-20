@@ -1,0 +1,43 @@
+[MUSIC] In this session, we are going
+to discus proximity measure for symmetric vs asymmetric binary variables. For binary variables, we usually report their occurrences
+using contingency tables. Okay, suppose we have two objects,
+i and j. The number of times they both appear could
+be q, they both missing could be t cases. I appears and j does not,
+there are r cases. And i does not appear,
+and j appears s times, then for symmetric binary variables
+that means the chance they appear or they not appear actually
+have equivalent chances, or approximately same chances w call
+this as symmetric binary variables. In our case they are distance,
+like r and s. These two cases, they are different, so their distance measure is r+s
+divided by all the cases. For asymmetric binary variables,
+usually we assume they both appear, the case is much rarer than
+they both not appearing, okay. So for these asymmetric variables,
+they are different as r + s, but they both not appearing. In that case,
+actually is t is not so important. The reason For example has only
+the parts of y where attract attention. Then for that distance measure it we look at r + s divide by q + r + s. That means all the cases
+with t cases removed, okay. Then for their similarity measure, that
+means, how many times they are the same? Actually it's a q cases. For the q cases, we probably can't
+see that's a same denominator. Actually, Jaccard coefficient
+was somehow rediscovered in the Pattern Discovery here,
+they call this one coherence. And here, this coherence definition,
+if you really map them into this contingence table, they have the
+same definition as Jaccard coefficient. So then we look at the real cases,
+suppose we have some medical tests. Then we have Jack, Mary, and
+Jim, three cases, three people. Their tests actually is
+represented in this table. We can map them into table,
+since gender, the chance to be male or female are roughly equivalent,
+so this is a symmetric cases, so for us we are only interested
+in asymmetric cases, that is the remaining attributes
+becomes more important. Then we try to examine
+how they are different. Suppose we say Y and P,
+is positive case, and the value N, no, are not the case,
+will be 0, okay. In our case, we look at our distance
+special for asymmetric attributes, we can work out these [INAUDIBLE] for
+example, if a Jack and Mary, would proceed, Jack and Mary,
+they are the same parts of the case, like those have fever.both
+the test one actually is positive. There are two such cases. They are both negative, like a cough. Test two and test four, actually there
+are three cases they are both negative. But they do have one
+case they are different. Similarly, we can work the table for
+Jack and Jim, Jim and Mary. In this case we can
+calculate their difference. Probably we can easily see Jack and Mary actually are most similar,
+Jim and Mary are most different. We may conclude that Jack and Mary may have similar a disease in this case. [MUSIC]

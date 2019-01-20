@@ -1,0 +1,67 @@
+Hi, welcome to the course
+Pattern Discovery in Data Mining. Here I'm giving you a general
+overview of this course. This course is one of six courses being
+offered by the University of Illinois at Urbana-Champaign,
+as a data mining specialization series. Data mining specialization
+consists of six courses. Data Visualization,
+Text Retrieval and Search Engines, Text Mining and Analytics,
+Pattern Discovery in Data Mining, Cluster Analysis in Data Mining,
+and finally, Data Mining Capstone. This final Data Mining Capstone
+is a project oriented courses using the knowledge you learned
+in the first five, six courses. So first you may wonder,
+what is pattern discovery? So I'd better first give you example. Considering massive
+shopping transaction data, pattern discovery may help you
+answer the following questions. What groups of items
+are frequently bought together? If a person buys diapers at night, what is possibility of this
+person buying beer as well? If a customer buys an iPhone 5 or
+iPhone 7, what other electronic products will the customer be most
+likely to buy in the next three months? So you probably can see pattern
+discovery is quite interesting. What is the value of pattern discovery? Pattern discovery may help
+you find the hidden and inherent data patterns in massive data. Pattern mining will play a unique and
+critical role in mining massive data. What roles does pattern discovery play in this particular data
+mining specialization series? In this course, you will learn scalable methods to
+find patterns from massive data. The patterns maybe the set of data items
+strongly correlated to each other. You will learn how to mine
+a large variety of patterns. You will also learn how
+to evaluate the patterns. And finally, you will find the pattern
+discovery may help classification, clustering, and
+many other data mining tasks. Pattern mining has very
+broad applications. We already see it may predict
+shopping transaction data. For example, for
+a customer who buys products A and B, what is the likelihood the customer
+will buy product C as well? It may predict a web click streams for
+example, based on the current data you may want to see which webpage is
+most likely to be clicked the next. It may help mining software bugs. Where is the likely bug in this program? It may identify objects or sub-structures
+in images, videos, and social media. It may help finding quality phrases,
+entities, and attributes in massive text data. It may help repeating DNA and
+protein sequences in genomes. It may help find hidden communities
+in massive social network. There are several major reference
+readings for this course. We will have a textbook,
+the textbook is written by me, Micheline Kamber and Jian Pei,
+published in year 2011, called Data Mining Concepts and
+Techniques. This is the third edition
+published by Morgan Kaufmann. The following three chapters
+are most related to the course. Chapter 1, Introduction. Chapter 6, Mining Frequent Patterns,
+Associations, and Correlations, Basic Concepts and Methods. Chapter 7, Advanced Pattern Mining. Other references will be listed
+at the end of each lecture video. The course has the following structures. We have Lesson 1:
+Pattern Discovery: Basic Concepts. Lesson 2:
+Efficient Pattern Mining Methods. These two lessons were from Module 1,
+which usually you can finish in one week. Then we have lesson 3, Pattern Evaluation. Lesson 4,
+Mining Diverse Frequent Patterns. These two lessons were from Module 2. We have lesson 5,
+Sequential Pattern Mining. Lesson 6, Pattern Mining Applications, Mining Spatiotemporal and
+Trajectory Patterns. These two lessons form Module 3. We have lesson 7,
+Pattern Mining Applications, Mining Quality Phrases from Text Data. And lesson 8,
+Advanced Topics in Pattern Discovery. These two lessons from Module 4. For the general information about
+this course, I am the instructor. I'm a Professor in Department
+of Computer Science, University of Illinois
+at Urbana-Champaign. We will have some teaching assistants who
+will help me editing this courses and in the meantime, giving some quizzes and
+program assignments. The course prerequisite is as long
+as you are familiar with basic data structures and algorithms, you will
+have no problem to take this course. The course will be assessed by
+the following three measures. We have in-video questions. At the end of the lesson,
+we have lesson quizzes. We also will be giving two
+programming assignments. We have one required
+programming assignment. The second one is an optional one,
+it is not required for passing the course. Hope you will enjoy this
+interesting course. Welcome. [MUSIC] [SOUND]

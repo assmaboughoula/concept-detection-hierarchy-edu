@@ -1,0 +1,28 @@
+Starting this session, we are going to
+introduce grid-based clustering methods. What is grid-based clustering method? Essentially, it is you
+consider the whole space. Can be partitioned into
+multi-resolution grid structure. Then you work on the cells
+in this grid structure to perform multi-resolution clustering. That means we can partition the data space into a finite number of cells
+to form a grid structure. For example,
+on the plane you may be able to, to partition this plane into a 10 by 10 or
+100 by 100, these kind of grid structure. Then you may find a cluster, so dense regions from the cells
+in the grid structure. That means you have a higher or
+lower resolution, or refined resolution or
+cross resolution in your clustering. So, a typical clustering algorithm have
+the following features and challenges. The first thing is very obvious. It is efficient and scalable in the sense,
+once you partition the number of cells, usually number of cells, even you say
+10 by 10, you only have 100 cells. It is much smaller the number of
+data points, it could be minutes. The second one is its uniformity. It means it is uniform,
+because you get a ten by ten. It's a 3D uniform structure,
+but it, it's hard and are highly irregular data distribution. The third feature is locality. That means it's limited by
+the predefined cell size and borders and
+the predefined density threshold. The first one is a curse
+of dimensionality, means it's hard to cluster
+high dimensional data. We're going to introduce two
+methods in this lecture, one called STING, called
+a Statistic Information Grid Approach, developed by Wei Wang, Joe Yang,
+and Dick Muntz at UCLA, published in 1997, VLDB Conference. Another one, CLIQUE,
+which is both grid-based and a subspace clustering,
+an interesting methodology for subpace clustering developed by
+Rakesh Agrawal, Johannes Gehrke, Gunopulos, and Raghavan at IBM,
+published in 1998 SIGMOD Conference. [MUSIC]

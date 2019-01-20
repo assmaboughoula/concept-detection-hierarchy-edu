@@ -1,0 +1,114 @@
+[SOUND] Now we examine
+another interesting line of pattern discovery applications. There's pattern discovery for
+software bug mining. We use software all the time. But we also know software
+may contain bugs. But software usually could be quite big,
+quite long, and its running data could be even larger and
+more complex. So automatic debugging,
+finding software bugs, it's a very challenging
+issue because often, there's no clear specification or
+property we can rely on. We have to invest substantial human
+effort first to analyze data, analyze the source code, and analyze bugs. So, if we can have certain
+automated tool to do software reliability analysis to find bugs,
+it will save a lot of people's effort. So for bug detection, there is one
+category called static bug detection, that means you check the source code and
+try to find bugs. Another code dynamic bug detection or testing is you run the code,
+you try to detect where could be the bugs. The debugging usually is
+you give me symptoms or failures, I try to pinpoint
+the bug locations in the code. If we can do good pattern mining because the code are running sequences that
+may contain some hidden patterns. If we can do pattern mining, we will be able to find some common
+patterns and some anomalies. Usually the common patterns likely
+are specifications or properties, but the violations are anomalies comparing
+to the common patterns, likely bugs. So if we can do pattern mining, we mine the patterns, it may narrow
+down the scope of inspection. For example, usually the code locations or predicates that happen
+more in the failing runs. That means every time it fails, it likely
+sees somewhere you can see it happens more for certain predicates or happens more for
+code locations, this kind of patterns. But it happens less in the passing runs. And likely, those code locations or
+predicates are suspicious bug locations. That may narrow down the scope for
+the bug inspection. So the typical software bug detection
+methods contain their mining one, could be mining rules from source code,
+or may find deviant behavior. Those are bugs by a statistic analysis,
+you may find some source coded substantially deviate from the others,
+or you may mine some programming rules. For example,
+you first do a variable value assignment, then you do the condition testing. So if you use frequent itemset mining, you may be able to identify those
+typical program practice or rules. Or you also can mine function
+precedence protocols. Simply says, if you find some functions
+always precede some other functions, so you can use frequent subsequence
+mining to find such patterns. And also, you may reveal
+neglected conditions you base on the different condition whether
+it would be tested or never touched. You use frequent itemset or subgraph mining,
+you'll be able to find such patterns. Another interesting practice is
+mining rules from revision histories. You'll look at sequence of
+the program coded revisions. You'll use frequent itemset pack mining. You may find certain general practice or
+certain anomalies. Actually we are going to
+focus on one interesting bug. We study, try to find copy and paste bugs. So we try to mine copy-paste
+patterns from the source code, then we try to find the copy-paste bugs. This one actually was one interesting
+piece of work published in 2004, called CP-Miner by YY Zhou's group. And we are going to just show this,
+this interesting idea how to extend pattern mining
+to find copy and paste bugs. So copy and paste bugs is very common. For example,
+some statistics show they are 12% of the code in Linux file system
+are copy and paste code, and 19% of the code in X Window system,
+also copy and paste. But a copy and paste may introduce errors. For example, the typical one
+called forget-to-change bugs, that means something like this code, okay. If you see the first part,
+the upper part, the for loop, okay, this part and the down part,
+another for loop, these two actually, if you see many other things are just
+the same, but there are something changed. So you likely, this part, the second part, was copy and paste from
+the first part, and then do some changes. But the problem is when
+you do global change, sometimes the programmer may forget
+to change something like here, okay. It means all the total in the front has
+changed to taken, but the last total and the second occurrence in this
+statement forget to change to taken. So this is a very common practice because
+the carelessness of some programmer. But how can we find this kind of bug, actually this bug has really
+happened in Linux 2.6.6? Okay, then we will see how to
+automatically find such bugs. The general sequence, the general way to solve this
+problem we will be detail later. As we may build a sequence
+database from the source code, mining such sequential patterns. Then when we find some mismatched ID
+names, then the bugs as well, okay. This one was done by YY Zhou's
+group that time she was at USC, so it's very interesting
+study using pattern mining. So we first see how to build
+sequence database from source code. So the general philosophy is for each statement,
+we may match the statement into a number. But how we can match the number,
+for example, this two are 16, the other two are also 16,
+how we can find such similar sequences. So the methodology is we
+tokenize each component, like just give you an example,
+like old is assigned to 3. And the variable new
+is also assigned to 3. How we can? We based it for
+different operators, constants, or key words,
+remain mapping to different tokens. But for same type of IDs,
+we map to the same token. For example, old and new are both same
+type of ID, these are both old new. We do not care they are different IDs,
+we just map them into the same token 5. But it's assigned to, these two map to 61. Then the value like 3 we map
+into another token like 20. Then these two statements, if we take the
+same sequence, we give them a hash value. These two statements should have
+the same hash value, simply say, these are very similar statements. So if we do this,
+either you'll see this total[i].adr and the other one is total[i].bytes, they essentially map to the same thing,
+they got the same sequence. So, then a program is mapped to a long sequence, we can further
+cut the long sequence by blocks. For example, we can find at least,
+fragments of the program is matched to a sequence
+in the same block, you probably can see this is
+the map into sequence database. Then we can do sequential pattern
+mining to detect forget-to-change bugs. How to do sequential pattern mining? Remember the previous
+sequential pattern mining allow arbitrary number
+of gaps in the middle. This is derived from
+the customer shopping sequences. But, for programming, for
+finding a sequence in the copy and paste bugs, you want to have exactly
+one because you allow people to insert some programming
+statements right in the middle, you count these as same kind of sequences. But you don't want them to insert
+too many statements in the middle, because they likely they could
+be complete different things. So we can constrain the maximum gap, like the small number of
+statements in the middle. Then we will still say these two sequence of the code are the same
+sequential pattern, okay. Then we can compose larger copy and paste segments because they
+have many things in common. We can combine the neighbor copy and
+paste segments repeatedly. Then we may try to find conflicts. Essentially, we try to identify
+those names that cannot be mapped to the corresponding ones. For example, if you see here,
+you may see the concrete identifier, F mapped to F1, this F also mapped to F1. But the other F is mapped to F2,
+so there's a conflict. So we try to calculate the ratio. Suppose if we find a 1 out
+of 4 total is unchanged, so the unchanged ratio is only 0.25. If you set an unchanged ratio, if it's greater than 0,
+it means something did change. But unchanged ratio is less
+than specified threshold, then we can say this likely could
+be a copy and paste bug, okay. So this one actually was
+done by YY Zhou's group. They work at CP-Miner. They mined the common source code, like Linux, Apache, Postgres. So they actually got to find many copy and paste bugs out of millions
+of lines of code. And you probably can see this sequential
+pattern mining is very efficient. That means that within a short time, you can browse through millions lines of
+code, finding such copy and paste bugs. And based on their human identification,
+these are the real bugs. So it's very interesting
+to see this pattern mining can help finding software bugs. [MUSIC]

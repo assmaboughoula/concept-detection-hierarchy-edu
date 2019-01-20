@@ -1,0 +1,29 @@
+[SOUND] In this session, we examine more detail on divisive clustering algorithms. We already introduced a general
+concept of divisive clustering. Essentially is,
+we start from a big single macro-cluster, and we try to find how to split
+them into two smaller clusters. We continue doing this, finally, every
+single node become a singleton cluster. Okay. So, this method,
+actually described in Kaufmann and Rousseeuew's 1990 book,
+called DIANA or Divisive Analysis, is also implemented in some
+statistic packages, such as Splus. This is essentially inverse of AGNES. That means you start from bigger cluster,
+you start splitting them continuously, recursively, finally you'll find that
+each one is a single, singleton cluster. Divisive clustering is
+a top down approach, because you start from all
+the points as one cluster, then you'll recursively split the high level
+cluster to build the dendogram, okay? It can be considered as a global approach. It is more efficient,
+when compared to agglomerative clustering. Because you don't have much choice. You just decide every point. You just decide how to split,
+and you do it recursively. But we will see how
+which cluster to split. If you have multiple clusters now,
+you can check the sum of the squared errors of the clusters,
+and see which one is the largest one. That you, then simply say, this one is not
+a very good, you, you want to split them. You want to reduce the sum of
+the squared error, overall. Then, once you decide to split this
+cluster, then, how do you split it? Okay.
+Actually, you may try to split, in many ways. For that you can use Ward's criterion we
+just introduced, to see which one, which split, give you the greatest reduction
+in the difference of the SSE criterion. Then you choose that one to split. For categoric data we can use
+Gini-index in a similar way. Then, the third issue is
+how to handle the noise. Essentially, when you decide to split, you don't want to split into too
+small cluster, mainly contain noises. That means you need to use a threshold to
+determine the termination criterion, okay? So, these are the major issues,
+that design divisive clustering. [MUSIC]

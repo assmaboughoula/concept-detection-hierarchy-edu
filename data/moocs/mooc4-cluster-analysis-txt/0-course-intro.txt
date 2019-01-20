@@ -1,0 +1,64 @@
+[SOUND]
+Hi welcome to the course,
+Cluster Analysis in Data Mining. Before starting this course, I'm going
+to give you a general course overview. First, what is cluster analysis? Actually when you fly over a city,
+you can easily identify fields, forests, commercial area, and
+residential areas based on their features, without anybody's explicit training or
+labeling. This is the power of cluster analysis. In this course,
+I'm going to systematically introduce you the concepts and
+methods of cluster analysis. And help answering the following question. What are the different proximity
+measures for effective clustering? Can we cluster a massive number
+of data points efficiently? Can we find clusters of arbitrary shape
+and at multilevels of granularity? How can we judge the quality of
+the clusters discovered by our system? Cluster analysis bring a lot
+of value to data mining. What is the value of cluster analysis? Cluster analysis may help you partition massive data into groups
+based on its features. Cluster analysis also will help
+subsequent data mining processes, such a pattern discovery,
+classification and outlier analysis. What roles does cluster analysis play
+in the data mining specialization? You will learn various scalable methods
+to find clusters from massive data. You will learn how to mine different
+kinds of clusters effectively. You'll also learn how to evaluate
+the quality of the clusters you'll find. And you will see cluster analysis
+will help with classification, outlier analysis and
+other data mining tasks. Cluster analysis has
+its broad applications. For example, for data summarization,
+compression, and reduction, like image processing or vector quantization,
+you will need cluster analysis. For collaborative filtering,
+recommendation systems, or customer segmentation,
+you will find like-minded users or
+similar products by cluster analysis. For dynamic trend detection,
+you will find clustering stream data and detecting trends and
+patterns will be very effective. For multimedia analysis,
+biological data analysis, and social network analysis you'll
+find you may have effecting measures to group audio/video clips and finding clusters of
+gene protein sequences. Cluster analysis is a key intermediate
+step for many other data mining tasks. For example, you want to generate
+a compact summary of data for classification, pattern discovery,
+hypothesis generation and testing your neat cluster masses. You wana find outlier detection. Actually, outliers are those
+far away from any cluster. In this course,
+the major reference of the readings is my own textbook published in 2011,
+which is, Data Mining: Concepts and Techniques, the 3rd edition,
+published by Morgan Kaufmann. In this book,
+we will only used two chapters. The first is Chapter 2. [INAUDIBLE] just cover section 2.4: Measuring Data Similarity and
+dissimilarity. And then Chapter 4 is a major
+source related to this textbook. The textbook of Chapter 4 is a major
+source related to this seminar, this lecture, called Cluster
+Analysis: Basic Concepts and Methods. Other references will be listed
+at the end of each lecture video. For the course structure,
+we will have six lessons. Lesson 1 is,
+Cluster Analysis: An Introduction. Lesson 2 is, Similarity Measures for
+Cluster Analysis. These two lessons from the first module,
+Module 1. Then, Lesson 3:
+Partitioning-Based Clustering Methods. An, Lesson 4(Part
+I): Hierarchical Clustering Methods (I), from the contents of Module 2. Then the Part II of Lesson 2,
+Hierarchical Clustering Methods (II). And, Lesson 5: Density-Based and Grid-Based Clustering Methods,
+form the contents of Module 3. Finally, Lesson 6: Clustering Validation, forms the material for Module 4. For general information about this course,
+I'm Jiawei Han. I'm a professor in the Department
+of Computer Science, University of Illinois
+at Urbana-Champaign. I'm the instructor. We have some teaching assistants
+on the web to help you. The course prerequisites. Just as long as you are familiar
+with basic data structure and algorithms, you like to work hard,
+you're quite okay. For course assessments,
+we have in-video questions to help you understand the course materials. Then we need you to pass some
+minimum requirements for lesson quizzes and
+two programming assignments. Thank you. Hope you will enjoy this course. Thank you. [MUSIC]

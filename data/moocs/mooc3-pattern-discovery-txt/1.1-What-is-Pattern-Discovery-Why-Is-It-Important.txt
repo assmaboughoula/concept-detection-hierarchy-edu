@@ -1,0 +1,25 @@
+[SOUND] The first session we're going
+to discuss, what is Pattern Discovery. Why it is important? To know why pattern
+discovery is important, we need to know what are the patterns. Okay. Patterns, actually are a set of
+items subsequences or substructures that occur frequently together in a data
+set we call this strongly correlated. Patterns usually represent intrinsic and
+important properties of data. That's why Pattern Discovery is
+the process try to uncover, try to mind patterns from massive data sets,
+it has many interesting applications. For example, in transaction
+database you may want to find what kind of products
+are often purchased together? Now you can do some target marketing. And for customers, you may want to
+study if a person buying an iPad, what are likely other products he or
+she is going to buy in the future? And even for software engineering,
+you may want, based on a co second analysis,
+to try to find copy-and-paste bugs. For text analysis,
+you may want to see what are likely the keywords were from phrases, finding
+phrases may need pattern mining as well. We can see Pattern Discovery could
+be very important because it is uncover inherent
+regularities in the data sets. It forms the foundation for many things. For example, association, correlation, and causality analysis,
+mining sequential structure patterns, pattern analysis is spatiotemporal data,
+multimedia data and stream data. Even for classification,
+ff we use discriminative native pattern-based analysis,
+the classification could be more accurate. And for cluster analysis,
+pattern-based subspace clustering could be an important direction for
+cluster analysis. So there's no wonder why we want
+to study Pattern Discovery. [MUSIC]

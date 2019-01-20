@@ -1,0 +1,70 @@
+[SOUND] Hi, in the last session of this lecture, we're going to introduce Kernel K-Means Clustering method. What is Kernel K-Means? Essentially is we know K-Means
+can only detect clusters that are linearly separable, they will have
+difficulty to handle non-convex clusters. For example, if you look at this
+set up data points if we say, k equals 2 we want to find these
+two clusters of different color. For example, the red one is
+a core part right in the center, the blue one is a big ring
+surrounding this circle. However, for K-Means, you can only
+find something linearly separable. Likely, you will chop every cluster in two
+half and you find something quite ugly. Then our idea is if we can project
+data onto a high-dimensional kernel space and then perform
+K-Means clustering on this space. We may be able to solve this
+problem of the clustering problem. That means we'll remark data
+plans in the input space on to a high damage in our feature
+space using the corner function. Then we perform a K-means
+on the map feature space. Of course, by doing so their computation
+or complexity could be higher. Because we need to compute and store n by n kernel matrix generated from
+the kernel function on the original data. If the original data contain n objects,
+if this n is large, then n by n kernel matrix
+could be very large. Actually the widely studied the spectral
+clustering can be considered as a variant of Kernel K-Means clustering,
+that's this Kernel K-Means. It's a pretty interesting. Let's look at kernel functions and
+Kernel K-Means clustering. The typical Kernel functions, for example, we may have polynomial kernel of degree h,
+you use this formula. If we have Gaussian radial basis function, RBF, the RBF Kernel is
+a typical Gaussian function. Sigmoid kernel is defined in this way, and the formula for
+kernel matrix X that means for any two points, Xi sub i and X sub j. Within cluster C sub k then we can map
+into this kernel function in this way then if we want to compute
+sum of the square errors. Okay so a Kernel K-Means the formula
+is as follows whether you can see is we want to find the number
+of clusters from one to K. K is a number of clusters then from each
+cluster, each point in cluster C sub K, this part where we just need to use
+some of the squared distance phi Xi, and the cluster center C sub k. Then the formula for the cluster
+centroid is very similar to the K-means. As we use C sub k, the center essentially is defined by the sum of this function
+divided by the size of this cluster. The clustering can be performed even
+without actual individual projection of this one for the data points with what
+we needed just computing those formulas. Here I give you the Kernel function
+to see how we can do the mapping. Suppose we want to check how to map
+the real points into this RBF corner. Okay we are given five
+original points like this. X sub 1, X sub 2, X sub 3 to X sub 5. For these five points
+this is original space. If we set sigma equals to 4
+actually you can set sigma to other values as well, okay. Equals to 4, the calculation
+just a little nicer and simpler. So you probably can see then if we
+want to calculate this distance, okay, this formula, this formula
+that is on the top of this part. What we can see is x1 is zero zero, so there are two zeroes, and x two,
+x is four four, these two fours. So when you compute this distance you
+basically compute the sum of their square distance, equals 32,
+then based on these formulas or we get a e to the power
+minus 32 divide by 2. Times 4 square, then you get to
+without a e, to the power of minus 1. Then you can see for this mapping suppose
+sigma equals 4, what we can get is for k is when i equals one, you'll get x1, x1. You look at x1, x1 they're the same so this part is essentially you derive
+as zero okay because of this mapping. Then if you get x1, x2,
+what you can see here is you get this value e to the power of -1. Similarly you can derive other values. What you see is originally
+you have five points,once you map to this RPF kernel
+space we get a 5 by 5 matrix. That's why the computation could
+be more expensive because you map into n by n matrix. Now we want to calculation the Kernel
+K-Means clustering using this example. For this example what you can see is
+these are the original data points for this data set. If we want to use K-Means to
+generate the two clusters, you will be able to generate like this. This is pretty ugly,
+because you can see this very dense kernel will be split, and
+this ring will be split as well. You generate something really very ugly,
+not like a quality cluster. However, if we are to
+Gaussian RBF Kernel transformation mapped it into a Kernel Matrix K for
+any two points. Using this function and the Gaussian Kernel, we'll be able
+to generate pretty nice clusters. That means the K-Means clustering actually
+is conducted on a mapped data and then we can generate the quality clusters. That's why the Gaussian K-Means Clustering
+could be rather powerful. Here are a set of interesting references,
+you want to look at it. The first on is MacQueen's paper, Lloyd
+paper as you can see is published in 1982. Actually in 1957,
+there was a Bell Lab papers collections, essentially the material was first appear
+in 1957 in Bell Lab internal report, okay. Then the other interesting papers and books you may like to read,
+as well, thank you. [MUSIC]

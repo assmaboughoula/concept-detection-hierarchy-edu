@@ -1,0 +1,53 @@
+[SOUND] In this session,
+we're going to study another important issue
+called clustering tendency. What is clustering tendency? That means we want to study whether the
+data sets we have really contain clusters. Whether data contains some
+inherent grouping structures. Otherwise, even use random generated data,
+you may find a certain number of clusters. However, it does not really make sense. That means we want to assess whether
+the data is suitable for clustering. However, to determine
+the clustering tendency, or clusterability, is a hard task. Just because there are so
+many definitions of clusters. For example, we studied partitioning
+methods, hierarchical methods, density-based methods,
+graph-based methods. All these different methods may have
+different definitions of clusters. That's why to study whether the data
+is clusterable or not is pretty hard. However, even we just
+fix the cluster type. For example,
+we just study the partitioning methods, it is still hard to define an appropriate
+null model for a data set. However, there are still some studies
+on clusterability assessment. For example, there are methods
+like spatial histogram method, distant distribution method,
+a Hopkins statistic. The general philosophies, they try to
+compare their measure with the measure generate from random samples,
+to see whether they are rather different. For example, for spatial histogram
+method is try to contrast the histogram of data with the histogram generated from the random sample to
+see whether they are rather different. For distance distribution is try to
+compare the pairwise point distance from the data, and the pairwise distance
+from the randomly generated samples. Hopkins Statistic is to use a sparse
+sampling test for spatial randomness. And since they carry quite similar spirit we will only introduce one
+spatial histogram method. For spatial histogram approach,
+the general philosophy is we try to construct a d-dimensional
+histogram of the input. For example, this is the two d we
+may constructed two dimensional histogram for the input dataset D. With the histogram generated
+from random samples. That means we want compare the figure
+generated from the left and that generated from the right figure. Okay, the data is clusterable if these two histogram
+distributions are rather different. That means they really generate
+very different distributions, then likely this dataset is clusterable,
+okay? The concrete method is we try to divide
+each dimension into equal waste bins. Then we try to see each cell here,
+how many points are in the cell. Now we can generate an empirical joint
+probability mass function, okay? Then for the random generate data sets,
+we'll do the same. We'll generate empirical joint
+probability mass function. Then what we will do is we try
+to compare whether these two, they differ quite a lot. That means we're going to
+compare how much they differ. The typical method is
+we use KL divergence. That means we calculate
+the KL divergence value. The KL divergence is Kullback-Leibler divergence is defined
+based on some formulas. I'm now going to introduce
+the detail of KL divergence. If you want to learn more, you can check any textbook in statistics
+or mission learning or data mining. In general they introduce this measure. Then you'll find if they
+are very different. Then, from the random samples, then you
+will say this data set is clusterable. Finally, I'm going to introduce
+a few textbooks, chapters, or general papers, that discuss
+the clustering validation measures. Especially what he shows this way is
+a summary of many research papers. And Zaki's book gives a lot
+of details on other measures we did not cover in this lecture. Thank you. [MUSIC]

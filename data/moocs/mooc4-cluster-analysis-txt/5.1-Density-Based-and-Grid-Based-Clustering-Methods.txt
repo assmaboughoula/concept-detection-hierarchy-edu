@@ -1,0 +1,13 @@
+[MUSIC] We first discussed basic concepts
+of density-based clustering. What is density-based clustering? Essentially, we do
+clustering-based on density. Which is a local clustering criterion, that means just to look at surroundings
+to see how dense this reading could be. We may introduce density-connected points. Its major features are we
+can discover clusters of arbitrary shape rather than just
+compact or something like a sphere. It can handle noise nicely. You may just use one scan because it only examines the local
+region to justify its density. But it needs density parameters
+as a termination condition. There are several interesting studies. For example, DBSCAN,
+we are going to cover in this lecture. Optics, we are going to
+cover also in this lecture. Denclue, we may not have time to cover it,
+but it's in the textbook. CLIQUE, developed by
+Rakesh Agrawal's group, we will cover it in
+the grid-based lecture. [MUSIC]

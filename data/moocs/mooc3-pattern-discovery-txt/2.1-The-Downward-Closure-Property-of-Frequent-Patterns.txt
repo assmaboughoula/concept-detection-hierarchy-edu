@@ -1,0 +1,37 @@
+[SOUND] We are going to introduce a very important property of frequent patterns, which is called the Downward Closure
+Property of Frequent Patterns. Let's look at this simple
+transaction database TDB 1, it contains only two transactions,
+T sub 1 and T sub 2. Suppose we get frequent
+itemsets a1 to a50, then we actually can clearly see
+all its subsets like a1, a2, or a1, a2 as a item set,
+they're all frequent. Then you may wonder,
+there must be some interesting hidden relationships among
+different frequent itemsets. Actually there is a one called
+downward closure property of frequent patterns which is
+also called the Apriori property. Okay, now let's look at this. Suppose we know {beer, diaper,
+nuts}, this itemset is frequent. Obviously, beer and
+diapers should be frequent as well, because any transaction which
+contains beer, diaper, and nuts must also contain beer and
+diaper as a itemset. That's why the beer,
+diaper as an itemset should be at least as frequent as beer, diaper, and nuts. So we can easily derive this property so that any subset of a frequent
+itemset must be frequent, if we keep the minimum
+support ratio as the same. So in that context, we can derive
+a efficient mining methodology. The general philosophy is,
+if you find an itemset S, any of its subset is infrequent. Then, there's no chance for S to become
+frequent because based on this Apriori property, then we do not even
+have to consider to mine S. This actually turns out to be
+a sharp knife for pruning. So, this Apriori Pruning, based on this, it generates quite a lot of
+Scalable Pattern Mining Methods. So the first Apriori Pruning
+principle was discovered by Rakesh Agrawal and
+Srikant in VLDB 1994. [INAUDIBLE] Mannila in KDD'94 workshop
+also generates a similar methodology. The methodology generally
+says if there's any subset, any itemset which is infrequent, then its superset should not even being
+considered and not even being generated. Based on this, there are three major
+approaches develop in subsequent studies. One essentially is Apriori,
+the first representative work was published in VLDB 1994 called
+level-wise join-based approach. Another method was developed by Zaki and
+[INAUDIBLE] and what they got called Eclat is
+based on vertical data format. Then the cert approach is
+essentially pattern based. It's frequent pattern projection
+growth is pattern growth approach. Called api growth,
+developed by us in year 2000. [MUSIC]

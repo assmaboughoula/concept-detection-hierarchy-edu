@@ -1,0 +1,43 @@
+[SOUND] Hi, in this session we
+are going to introduce another expansion to hierarchical
+clustering method called CURE: clustering using well-scattered
+representative points. And it was done by a group of
+researchers at Bell Labs in 1998. CURE actually represents a cluster using a set of well scattered
+representative points. Let's look at the details of the CURE. Actually, for CURE, the first interesting
+thing is redefining the clustering distance to be the minimum distance
+between the representative points chosen. But how to choose representative points? Actually is you can consider each group, you may have some points which is closer
+to the center of this group of data. You can consider this as
+a representative point of this group. Okay? Then for this group of data,
+their distance between the clusters actually is their minimum distance
+between the represented points. This actually incorporate the ideas
+of both single link and average link. Single link in the s, in the sense that
+you still look at the minimum distance of, between clusters, but
+you do not look at every point. You look at the representative. This is the literal, like,
+average link, or centroid link. Because we choose those scatter points, it will help CURE capture
+the cluster of arbitrary shapes. Because you can see if
+you get different shapes, you look at the representative
+points some particular shape, actually the, the representative point,
+it will reduce the complexity. Okay. Another interesting point is,
+if you use a shrinking factor, alpha. That means that the points
+actually are shrink towards a centroid by a factor alpha. Okay.
+For, for example you can see the, left side, okay,
+this group you can find these red points, a set of representative points. Then, we look at the centroid
+of these points. You actually shrink this group of
+points toward the centroid, so you probably can see these red points
+actually shrank towards the center. Once it's shrank, it has a greater effect
+to outliers than to the normal points. Because of the outlier, even you have
+a chance to find outliers pretty far away from this and you take it
+as a rate, representative point. Because it is far away from
+the center with this factor alpha, it will shrink dramatically
+towards the center, okay? That's why the outlier,
+effect will be minimized, okay? So, you probably can see, with this,
+map, transformation, okay? It improves the efficiency and, and
+it moreover improved the effectiveness. Actually the paper also taking a set of the points you know form
+into different shapes. You'll probably see if you use
+a typical like a k-mean space approach you're going to find
+the cluster in the center. You'll find a very ugly shape. And, these kind of clusters we're, actually getting into you know,
+these ugly shaped cluster, we're painting those connected objects
+into different clusters, different colors. However, using, using CURE,
+we will be able to find very nice, you know, group the points you
+perceive all these shapes, those points, closer together
+even it is not a spherical shape. You'll still find very nice clusters. That's a power of CURE. [MUSIC]

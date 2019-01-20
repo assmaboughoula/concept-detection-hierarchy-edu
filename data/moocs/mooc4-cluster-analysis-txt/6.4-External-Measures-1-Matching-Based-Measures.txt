@@ -1,0 +1,89 @@
+[MUSIC] Hi! In this session we are going
+to discuss the first group of external measures called
+matching-based measures. For matching-based measures we will first
+introduce purity versus maximum matching. We still use a similar notation, suppose we have ground truth
+we get three categories. T1 actually marked as the brown points. T2 marked as a green points. T3 marked as black points. These are the ground truths. Then the clustering we finally got is,
+cluster C sub 1, actually it's marked as the ellipse
+of the orange color, okay. C2 marked as surrounded by the red color. And C3 is surrounded by the black color. So what is a purity? Actually quantifies the extent
+that cluster C sub i contains the points only from one
+ground truth's partition. Suppose we have R clusters
+the finer we get. So for purity sub i actually
+is you first count how many points in this cluster then
+you try to see the maximum number of the ground truths here. The maximum number of ground truths
+actually is the black points. You will see the max number is one,
+two, three, four, five, six, seven. So you get this one seven,
+but the total number is nine, so you get a purity of seven over nine,
+okay. Then what is the total purity
+of the whole clustering, C? Essentially this total purity is,
+each one's purity. Suppose you have R clusters. Each one's purity get their
+corresponding proportion. So you add them together,
+so that's the total purity. Or you can transform this formula
+easily into this one, okay. Of course, the perfect clustering is
+in the case when the purity is one, that means everything is very pure,
+you add them together, it's one. And the number of clusters
+you obtained is the same as the number of groups
+in the ground truths. Then we look at these two tables. Let's first look at the green table. The green table, the purity 1. That means the first cluster,
+you get a maximum of 30. So the purity is 30 over
+the total number of points. It's 50 so you get 30 / 50. Purity 2, obviously you get 20 / 25. Then purity 3 is 25 / 25, it's really 1. Then the total purity for the whole clustering is, according to
+this formula, we'll get a maximum y is (30 + 20 + 25) over the total
+number of points, you get 0.75. Interestingly, if you look at
+the orange table, orange colored table, you will get the exact number of the same
+thing is 30 over 50, 20 over 25, 25 over 25 and finally to get
+the purity is exactly the same formula. But you may find one undesirable thing for this orange colored table
+because if you can see, the ground truth T2 total we get 50,
+the actual was partitioned into two clusters,
+C1 and C2. That means both C1 and C2 would say,
+we belong to ground truth T2. But on the green table you
+probably can see, it's different, because C1 more pair with T3 and
+C2 more pair with T2. So that motivates people
+proposed maximum matching. That means one cluster can
+only match to one partition. If we have this rule then we have
+to find a pairwise matching. That means when we look at this we look
+at the weight, we will allow these element only belong to one cluster. The ij and ij. The ij must be exactly the same then if this element belonged to M
+then it only belonged to one. So then we need to look at the what
+is maximum weight matching. The maximum weight matching simply
+says you look at the whole group and then you look at all over n points you try to find the final matching
+together should be maximized. For example if you look at a green one the
+max matching is 30 parting into T3, T2, pairwise with C2, and
+T1 pairwise with C3, okay. That's why green's maximum matching
+is equal to purity is 0.75. However, for this orange color table, you probably can see is
+if you assign T2 to C1. Then you can assign T2 to C2
+then you have to assign T3 to C2 then finally you get this matching 0.6. However if you assign, T3 to C1, T2 to C2, T1 to C3 you will get matching as 0.65 to that extent this assignment
+is better because the maximum matching, the value is bigger. So that's the reason for the maximum
+matching, you do have restriction, you have the pairwise assignment. Then, another popular use matching-based
+measure called F-measure. F-measure has been very popularly
+used in information retrieval. F-measure is essentially
+computed by precision and recall, let's look at how
+the precisioning is defined, okay. The precision define is for this
+particular matching what you want to see is for
+precision T sub i what you want to find is what's a maximum y matching this
+particular cluster then divide by the number of total number
+of points in this cluster so in that sense your precision
+actually is the same as purity. That means if you get a fraction of C sub
+i from the majority partition of C sub j. Then the j's partition
+contains a max number of points from C sub i then
+you get this formula. For this formula,
+you get this the precision and the purity, actually this one is the same. You will get 30/50, 20/25 and 25/25. Okay, that's the precision,
+what about recall? Recall actually is the fraction
+of the points in the partition shared in common with cluster C sub i. Simply says, if you assign T3 to C1, what you want to see
+is you've got a 30 but T3 actually got 35 granted
+you only capture 30. That means you're recall is 30 over 35. That's exactly,
+you probably can see the formula. Similarly, for
+the second partition if you assign ground truths T2 to C2,
+what you can see is, you only get 20/40 so
+your recall is 20/40. Similarly for
+the third one when you assign the ground truth of T1
+to C3 you get 25/25. That means the fraction of the point
+in this partition share in common with the cluster C sub i,
+then you get this recall. Now what about an F measure? F measure actually is a harmonic
+means of precision and recall. So F measure for
+a cluster C sub i is the harmonic means of precision sub i and recall sub i. If you transform the formula
+will become like this one. Then for F measure for
+the whole clustering. What you need is you just need to
+average all the clusters the F measures, that means supposed you get r clusters
+then you will get F measure from 1 to r. You add them together divided by r, okay. So for
+this green table what you can see is, where you get F1 is because
+you got 2 times 30 divided by total is these two
+add together you get 85. Then for F2 you get 2 times 20 divided
+by these two adding together, okay. F3 of course is 1,
+no matter what you calculate it. Then you average all these three. You get F-measure this number. [MUSIC]

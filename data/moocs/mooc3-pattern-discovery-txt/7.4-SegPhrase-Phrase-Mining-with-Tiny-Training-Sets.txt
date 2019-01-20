@@ -1,0 +1,116 @@
+Now we introduce another interesting
+phrase mining algorithm called segPhrase. This is phrase mining
+with tiny training sets. We have introduced ToPMine. ToPMining is mining phrases
+without any training data. However if we have a small
+set of training data, it may substantially enhance
+the quality of phrase mining. This was done by Jalo Liu. He and his collaborators working
+on Mining Quality Phrases from Massive Text Corporate Data, and they published their work in SIGMOD 2015,
+is as follows. If we have a raw corpus, if we use
+a small set of training labels by human. Of course, later they extended to get
+a general knowledge base like Freebase or Wikipedia. But in this algorithm we first just study, suppose we got a small set of
+labels by human, like 300 labels. Then we feed them into a mining process. We may be able to get a quality phrases
+and also get a segmented corpus. And a quality Phrases and segmented Corpus can mutually enhance each
+other by phrase or segmentation process. So finally, we'll be able to get
+a high quality phrases generated. So we look at the overall framework. And the overall framework, the first thing they introduced comparing
+with ToPMine is first to frequent pattern mining,
+feature extraction. But in the meantime,
+they introduce a classification process. The reason they introduced
+the classification process is because they have the labels. The label can,
+based on the feature extracted, the classifier will be able to say we can
+put more weights on the positive labels. And then put some negative
+labels as a back phrases. We will be able to work out a classifier. Okay, that means SegPhrase
+itself use a classifier, okay, and small labeled datasets. This datasets could be provided by experts
+or by a distant supervised knowledge base, like Wikipedia or DBPedia, okay. Then If we look at the SegPhrase
+is doing phrasal segmentation and phrase quality estimation. After that, they will go back and
+feed into this classifier again. To get one more round to
+enhance mined quality phrases. Okay, so that's why they call
+this one more round after phrasal segmentation and phrase quality
+estimation, to feed back to the classifier again as SegPhrase+ process. Let's look at how they do it. The first thing they did is doing
+pattern mining for candidate sets, that means using frequent pattern mining
+algorithm to get a candidate phrase sets. That means you mine frequent k-grams. This essentially is frequent phrases, but k is typically small,
+for example 6 grams. Of course, for
+some other applications that I have, some medical applications,
+k could be even bigger. The popularity measure is
+by raw frequent words and a phrase mined from the corpus,
+this popularity. Then doing feature extraction
+based on the concordance. That means whether you partition
+the phrase into two parts and check whether the co-occurrence is
+significantly higher than the pure random. Then another feature extraction
+process Is informativeness. That, essentially, is you assume the quality phrase
+typical start end with a non-stopword. For example, you say,
+machine learning is, machine learning. Likely machine learning is a good phrase. Machine learning is, this is stop. Where it starting,
+I'm ending with a stop words. Like this actually is a non-stopword but
+is a stopword, so you basically say, this is,
+is not part of the phrase. Another method or
+heuristic is using average IDF. IDF is inverted document frequency over the words in the phrase
+to measure the semantics. Simply says if this phrase is
+frequent almost in all the documents, across all the documents in the corpus, then this IDF is too high. And it may not be very good at quality. And if this phrase is, actually, occur
+more frequent in some documents but less frequent in other documents, it becomes
+more interesting, more distinctive. Then another heuristic,
+the algorithm users is considered the probability
+of quality phrase in quotes, brackets, or connected by dash or
+hyphen should be higher. For example,
+like state-of-the-art actually is, it should be a phrase rather than
+syncing these several different things. Then SegPhrase uses
+a classification process. It explores a tiny set of training data. Usually four gigabytes corpus. You just need it to have your labels. But what kind of label it is? For example, you may say, support
+vector machine is high quality phrase. The experiment shows is not a good phrase. You just based on the quality of one or
+zero. Then we can construct
+a models to distinguish quality phrases from the poor ones. And this classifier [COUGH] actually in it use Random Forest algorithm to boost
+different datasets with limited labels. So you do not using very
+small number of labels. Then you'll miss coverage of the others. So the Random Forest usually
+gives you less bias. Then phrasal segmentation can tell
+which phrase is more appropriate. For example, you look at this one,
+you say a standard feature vector machine learning setup
+is used to describe something. Actually, instead of thinking this, like if you say feature vector here,
+it's a good phrase. In this particular one, the vector
+machine should be not be combined, but machine learning should be combined. So that simply says when you rectify it, you will not say vector machine
+actually got as the real count. But the feature vector is a good count,
+and machine learning is a good count. Then we can partition a sequence of
+the words by maximizing the likelihood. And consider length penalty. That means you get too long,
+maybe it's not a very good phrase. Filter out phrases with
+low rectified frequency. Then if the process is a classification,
+then do phrasal segmentation. This part is the SegPhrase the first one. And for putting plus, actually it's
+you feed this phrasal segmentation process into classification again,
+then you do phrasal segmentation again. This actually derive even better results. We call this one SegPhrase +. Now we probably can see
+the experimental results. The data actually used was DBLP and
+Yelp was in millions of documents and tens of millions or
+hundreds of millions of words. But every time, we just used this 300
+human label phrases for training. And then fo r the phrase evaluation,
+we use Wiki Phrase and sampled 500 times 7 Wiki-uncovered phrases with evaluated by reviewers. Then you probably can see the readers
+comparing with other algorithms. And you can see comparing to
+a few comparative algorithms. Of course,
+it may not be a very fair comparison if you think TopMine does
+not use any training at all. Well, anyway we put it down
+there to give you a relatively where TopMine is if we do
+not use any training data. So this is a precision recall curve for DBLP data using Wiki Phrase
+as a label to check it. And the second one is based on DBpedia, not using Wiki Phrase but
+using now Wiki Phrases. For the Wiki phrases, you probably can
+see the difference is pretty high. Now, Wiki phrases, the phrase read out. Actually, it's,
+you probably can see it's overall, this method generate a very high
+quality comparing to the others. And also Segphrase algorithm is efficient,
+is linearly scalable. So we look at some real
+results people can see. To my, from the titles and
+abstract of ACMCKDD, the KDD proceedings, you probably can see, we just need a title and
+abstract by using SegPhrase and comparing with chunking method
+using TF-IDF and C value. And these red ones are phrases
+only generated in SegPhrase+ but not in chunking, these red ones. And these blue ones, those generated
+only in chunking but not in SegPhrase. But you probably can see in that case,
+you'll see like for KDD, time series, gene expression data, frequent subgraph,
+categorical attribute. These are meaningful good phrases for KDD. But if you look at a important problem,
+effective ways, small sets, these are the phrases almost
+appear anywhere, not just in KDD. So that means chunking
+methods may not generate as high quality phrases
+as like SegPhrase+. And the interesting thing
+is both ToPMine and SegPhrase+ are extensible to mining
+quality phrases in multiple languages. For example, this is a Chinese
+language from the Chinese Wikipedia. And we probably can see,
+these Chinese phrases are pretty high quality is
+generated using SegPhrase. And it can, my Arabic language,
+even without the pre-processing, you probably can see the results
+TopMine can generate those phrases without any training and pre-processing,
+and generate some quality phrases as well. So in summary, we have studied
+pattern mining applications, mining quality phrases from text data. We studied why frequent pattern mining
+could be useful for phrase mining. We discussed previous phrase
+pattern mining methods. We introduced two new algorithms. One is ToPMine, one is SegPhrase. And this is a set of references,
+those published papers, we have been cited and
+compared in our studies. Thank you.
