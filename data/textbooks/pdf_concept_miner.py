@@ -40,6 +40,7 @@ from pdfminer.converter import PDFPageAggregator
 from sklearn.cluster import KMeans	
 from statistics import mean
 import re
+import argparse
 
 concept_re = re.compile(r"([^.,(]*)(?:\.|,|\b|\()") # Make sure excluding periods is okay
 NUM_COLS = 2
@@ -181,38 +182,42 @@ def concept_generalness(concepts, blacklist=[]):
 	cur_specific_concept = ''
 	gconcepts = []
 
-	last_gconcept = ('', '')
+	last_subcol = 0
 	for tbw, subcol in text_wrappers_and_subcols:
 		if tbw.text in blacklist:
 			continue
 		#print(tbw.text, subcol, tbw.x)
 		if subcol == 0:
+			last_subcol = 0
+			gconcepts.append(cur_general_concept)
 			cur_general_concept = tbw.text
-			cur_specific_concept = ''
-			gconcepts.append(last_gconcept)
-		#elif subcol == 1: 
+		elif subcol == 1:
+			last_subcol = 1
 			# We are ignoring specific topics
-			#cur_specific_concept = tbw.text
 			#gconcepts.append(last_gconcept)
+			#cur_specific_concept = tbw.text
 		elif subcol == 2:
-			if has_letters(tbw.text):
-				cur_specific_concept += (' ' + tbw.text)
-		last_gconcept = (cur_general_concept, cur_specific_concept)
-	gconcepts.append(last_gconcept)
+			if has_letters(tbw.text) and last_subcol == 0:
+				cur_general_concept += (' ' + tbw.text)
+	gconcepts.append(cur_general_concept)
 	return gconcepts[1:]
 
 def main():
 	base_path = "."
-	index_filename = os.path.join(base_path + "/" + "Zhai-Index.pdf")
+	parser = argparse.ArgumentParser(description='Extracts concepts from PDF of index.')
+	parser.add_argument('--index_filename', '-i')
+	parser.add_argument('--concepts_filename', '-o')
+	args = parser.parse_args()
+
+	index_filename = os.path.join(base_path + "/" + args.index_filename)
 	pages = get_pages_textblocks(index_filename)
 	pages = remove_bad_blocks(pages)
 	text_blocks = flatten_pages(pages)
 	concepts = get_base_concepts(text_blocks)
-	gconcepts = concept_generalness(concepts, blacklist=['Numbers and Symbols'])
-	out_filename = "zhai_concepts.txt"
-	with open(out_filename, 'w') as f:
+	gconcepts = concept_generalness(concepts, blacklist=['Numbers and Symbols', 'Zhai'])
+	with open(args.concepts_filename, 'w') as f:
 		for concept in gconcepts:
-			f.write(','.join(concept) + '\n')
+			f.write(concept + '\n')
 
 if __name__ == '__main__':
 	main()	
