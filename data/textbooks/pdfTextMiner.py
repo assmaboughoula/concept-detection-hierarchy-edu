@@ -38,10 +38,10 @@ from pdfminer.converter import PDFPageAggregator
  6) Finally process the file page by page 
 '''
 
-base_path = "../Textbooks-Concept-Detection"
+base_path = "."
 
-my_file = os.path.join(base_path + "/" + "IRbookonlinereading-Manning.pdf")
-log_file = os.path.join(base_path + "/" + "manning.txt")
+my_file = os.path.join(base_path + "/" + "Zhai-Main.pdf")
+log_file = os.path.join(base_path + "/" + "zhai_main.txt")
 
 password = ""
 extracted_text = ""
@@ -84,7 +84,8 @@ for page in PDFPage.create_pages(document):
 	# Out of the many LT objects within layout, we are interested in LTTextBox and LTTextLine
 	for lt_obj in layout:
 		if isinstance(lt_obj, LTTextBox) or isinstance(lt_obj, LTTextLine):
-			extracted_text += lt_obj.get_text()
+			text = lt_obj.get_text()
+			extracted_text += text
 			
 #close the pdf file
 fp.close()
@@ -92,5 +93,5 @@ fp.close()
 # print (extracted_text.encode("utf-8"))
 			
 with open(log_file, "w") as my_log:
-	my_log.write(extracted_text.encode("utf-8"))
+	my_log.write(extracted_text)
 print("Done !!")
