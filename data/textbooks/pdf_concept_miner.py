@@ -180,7 +180,7 @@ def concept_generalness(concepts, blacklist=[]):
 	text_wrappers_and_subcols = determine_cols(NUM_SUBCOLS, concepts)
 	cur_general_concept = ''
 	cur_specific_concept = ''
-	gconcepts = []
+	gconcepts = set()
 
 	last_subcol = 0
 	for tbw, subcol in text_wrappers_and_subcols:
@@ -189,7 +189,7 @@ def concept_generalness(concepts, blacklist=[]):
 		#print(tbw.text, subcol, tbw.x)
 		if subcol == 0:
 			last_subcol = 0
-			gconcepts.append(cur_general_concept)
+			gconcepts.add(cur_general_concept)
 			cur_general_concept = tbw.text
 		elif subcol == 1:
 			last_subcol = 1
@@ -199,9 +199,10 @@ def concept_generalness(concepts, blacklist=[]):
 		elif subcol == 2:
 			if has_letters(tbw.text) and last_subcol == 0:
 				cur_general_concept += (' ' + tbw.text)
-	gconcepts.append(cur_general_concept)
-	return gconcepts[1:]
-
+	gconcepts.add(cur_general_concept)
+	gconcepts.remove('')
+	return sorted(list(gconcepts))
+	
 def main():
 	base_path = "."
 	parser = argparse.ArgumentParser(description='Extracts concepts from PDF of index.')
