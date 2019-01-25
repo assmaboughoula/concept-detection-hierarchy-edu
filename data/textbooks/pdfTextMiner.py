@@ -40,8 +40,8 @@ from pdfminer.converter import PDFPageAggregator
 
 base_path = "."
 
-my_file = os.path.join(base_path + "/" + "Zhai-Main.pdf")
-log_file = os.path.join(base_path + "/" + "zhai_main.txt")
+my_file = os.path.join(base_path + "/" + "Han-Main.pdf")
+log_file = os.path.join(base_path + "/" + "han_main.txt")
 
 password = ""
 extracted_text = ""
