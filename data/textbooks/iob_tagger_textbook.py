@@ -22,7 +22,7 @@ def preprocess(words):
   #Collapse sequences of whitespace
   words = re.sub(r'''\s+''',r''' ''',words)
   #Normalize to lowercase
-  return [token.lemma_ for token in nlp(words)]
+  return [token.lemma_ for token in nlp(words.strip())]
 
 def buildConceptChain(conceptlist,cdict=None):
   if cdict is None:
