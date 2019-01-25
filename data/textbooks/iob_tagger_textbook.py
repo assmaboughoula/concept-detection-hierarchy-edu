@@ -8,7 +8,7 @@ import spacy
 
 INPUTFILE = "./zhai_main.txt"
 CONCEPTFILE     = "./zhai_concepts.txt"
-IOBFILE     = "./zhai_tb_iob_tags.txt"
+IOBFILE     = "./zhai_tb_iob_tags.txt" # Output file
 
 nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner', 'textcat'])
 
