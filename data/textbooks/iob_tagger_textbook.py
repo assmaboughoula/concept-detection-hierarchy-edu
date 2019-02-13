@@ -5,16 +5,16 @@ import csv, sys, os, re
 from os import listdir
 from os.path import isfile, join
 import spacy
-
-INPUTFILE = "./zhai_main.txt"
-CONCEPTFILE     = "./zhai_concepts.txt"
-IOBFILE     = "./zhai_tb_iob_tags.txt"
+import argparse
 
 nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner', 'textcat'])
+nlp.max_length = 1500000
 
 def preprocess(words):
   #Remove Line breaks
   words = re.sub(r'''-\n''',r"",words)
+  #Remove weird fi character
+  words = re.sub(r'ﬁ',r'fi', words)
   #Normalize aprostrophes
   words = re.sub(r'''’''',r"'",words)
   #Remove non alphabetic characters
@@ -22,7 +22,7 @@ def preprocess(words):
   #Collapse sequences of whitespace
   words = re.sub(r'''\s+''',r''' ''',words)
   #Normalize to lowercase
-  return [token.lemma_ for token in nlp(words)]
+  return [token.lemma_ for token in nlp(words.strip())]
 
 def buildConceptChain(conceptlist,cdict=None):
   if cdict is None:
@@ -44,6 +44,16 @@ def loadAndPreprocessWords(path):
   return newwords
 
 def main():
+  parser = argparse.ArgumentParser(description='Takes in a texfile and outputs the IOB-tagged file')
+  parser.add_argument('--input_filename', '-i')
+  parser.add_argument('--concept_filename', '-c')
+  parser.add_argument('--iob_filename', '-o') # Output file
+  args = parser.parse_args()
+
+  INPUTFILE = args.input_filename
+  CONCEPTFILE  = args.concept_filename
+  IOBFILE = args.iob_filename
+
   conceptlist = []
   with open(CONCEPTFILE,"r") as conceptfile:
     for line in conceptfile:
