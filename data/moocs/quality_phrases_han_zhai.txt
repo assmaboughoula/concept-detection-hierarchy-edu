@@ -1,0 +1,1751 @@
+Absolute discounting
+Abstractive text summarization
+Access modes
+Accuracy in search engine evaluation
+Ad hoc information needs
+Ad hoc retrieval
+Add-1 smoothing
+Adjacency matrices
+Advertising
+Agglomerative clustering
+Aggregating
+All-vs-all
+Ambiguity
+Analyzers in META toolkit
+analyzers::filters namespace
+analyzers::tokenizers namespace
+Anaphora resolution in natural language processing
+Anchor text in web searches
+Architecture
+Art retrieval models
+Aspect opinion analysis
+Associations mining
+Authority pages in web searches
+Automatic evaluation in text clustering
+AVA
+Average-link document clustering
+Average precision
+Axiomatic thinking
+Background models
+Background words
+Bag-of-words
+Bar-Hillel report
+Baseline accuracy in text categorization
+Bayes
+Bayes’ rule
+Bayesian inference
+Bayesian parameter estimation
+Bayesian smoothing
+Bayesian statistics
+Berkeley study
+Bernoulli distribution
+Beta distribution
+Beta-gamma threshold learning
+Bias
+Big text data
+Bigram language model
+Bigrams
+Binary classification
+Binary hidden variables in EM algorithm
+Binary logistic regression
+Binomial distribution
+Binomial estimation
+Bit vector representation
+Bitwise compression
+Blind feedback
+Block compression
+Block world project
+BM25 model
+BM25-F model
+BM25 score
+BM25 TF transformation
+BM25+ model
+Breadth-first crawler searches
+Breakeven point precision
+Brown clustering
+Browsing
+Business intelligence
+C++ language
+Caching
+Categories
+Causal topic mining
+Centroid vectors
+Centroids in document clustering
+CG
+character_tokenizer tokenizer
+Citations
+Classes
+Classification
+Classifiers in text categorization
+classify command
+Cleaning HTML files
+Clickthroughs
+Clustering bias
+Clusters and clustering
+Coherence in text clustering
+Coin flips
+Cold start problem
+Collaborative filtering
+Collapsed Gibbs sampling
+Collect function
+Collection language model
+Common form of retrieval models
+Common sense knowledge in NLP
+Common words
+Compact clusters
+Compare operator
+Complete data for EM algorithm
+Complete-link document clustering
+Component models
+Compression
+Compression ratio
+Concepts in vector space model
+Conceptual framework in text information systems
+Conditional entropy
+Conditional probabilities
+Configuration files
+Confusion matrices
+Constraints in PLSA
+Content analysis modules
+Content-based filtering
+Content in opinion mining
+Context
+Context variables in topic analysis
+Contextual Probabilistic Latent Semantic Analysis
+Continuous distributions
+Co-occurrences in mutual information
+Corpus input formats in META toolkit
+Correlations
+Cosine similarity
+Coverage
+CPLSA Semantic Analysis)
+Cranfield evaluation methodology
+Crawlers
+Cross validation in text categorization
+Cumulative gain
+Current technology
+Data-driven social science research mining for
+Data mining
+Data types in text analysis
+Data-User-Service Triangle
+Database retrieval
+DBLRU caches
+DCG
+Decision boundaries for linear classifiers
+Decision modules in content-based filtering
+Decision support
+Deep analysis in natural language processing
+Delta bitwise compression
+Dendrograms
+Denial of service from crawlers
+Dependency parsers
+Dependent random variables
+Design philosophy
+Development sets for text categorization
+Dirichlet distribution
+Dirichlet prior smoothing
+Disaster response
+Discounted cumulative gain
+Discourse analysis in NLP
+Discrete distributions
+Discriminative classifiers
+Distances in clusters
+Distinguishing categories
+Divergence-from-randomness models
+Divisive clustering
+Document-at-a-time ranking
+Document clustering
+Document frequency
+Document IDs
+Document language model
+Document length
+Documents
+Domains
+Dot products
+Double Barrel Least-Recently Used caches
+Dynamic coefficient interpolation in smoothing methods
+Dynamically generated content and crawlers
+E step in EM algorithm
+E-discovery
+Edit features in text categorization
+Effectiveness in search engine evaluation
+Efficiency
+Electronic discovery
+Eliza project
+EM algorithm maximization
+Email counts
+Emotion analysis
+Empirically defined problems
+Enron email dataset
+Entity-relation re-creation
+Entropy
+Evaluation engine evaluation
+Events
+Exhaustivity in sentiment classification
+Expectation-maximization
+Expected overlap of words in paradigmatic relations
+Expected value in Beta distribution
+Exploration-exploitation tradeoff in content-based filtering
+Extractive summarization
+F measure
+F -test for time series context
+F1 score
+Fault tolerance in Google File System
+Feature generation for tokenizers
+Features for text categorization
+Feedback
+Feedback documents in unigram language model
+Feelings
+fetch_docs function
+file_corpus input format
+Files in Google File System
+Filter chains for tokenization
+Filters
+Focused crawling
+forward_index indexes
+Forward indexes
+Frame of reference encoding
+Frequency and frequency counts
+Frequency transformation in paradigmatic relations
+Full structure parsing
+G-means algorithm
+Gain in search engine evaluation
+Gamma bitwise compression
+Gamma function
+Gaussian distribution
+General EM algorithm
+Generation-based text summarization
+Generative classifiers
+Generative models
+Geographical networks
+Geometric mean average precision
+GFS
+Gibbs sampling
+Google File System
+Google PageRank
+Grammar learning
+Grammatical parse trees
+Granger test
+Graph mining
+gz_corpus input format
+Hidden variables
+Hierarchical clustering
+High-level syntactic features
+Hill-climbing algorithm
+HITS algorithm
+HTML files
+Hub pages in web searches
+Humans
+Hyperparameters
+ICU Unicode)
+Icu_filter filter
+Icu_tokenizer tokenizer
+IDF
+Illinois NLP Curator toolkit
+Impact
+Implicit feedback
+Incomplete data in EM algorithm
+Incremental crawling
+Independent random variables
+Index sharding
+Indexes
+Indirect citations in web searches
+Indirect opinions
+Indri/Lemur search engine toolkit
+Inferences
+Inferred opinions
+Information access in text information systems
+Information extraction
+Information retrieval
+Information theory
+Initial values in EM algorithm
+Initialization modules in content-based filtering
+Inlink counts in PageRank
+Instance-based classifiers
+Instructor reader category
+Integer compression
+Integration of information access in web searches
+Integrity in text data access
+Interactive access
+Interactive task support in web searches
+International Components for Unicode
+Interpolation for smoothing methods
+Interpret operator
+Intersection operator
+Intrusion detection
+Inverse document frequency
+Inverse document frequency
+Inverse user frequency
+inverted_index indexes
+Inverted index chunks
+Inverted indexes
+IR
+Iterative algorithms for PageRank
+Iterative Causal Topic Modeling
+IUF
+Jaccard similarity
+Jelinek-Mercer smoothing
+Joint analysis of text and structured data
+Joint distributions for mutual information
+Joint probabilities
+K-means document clustering
+K-nearest neighbors
+Kernel trick for linear classifiers
+Key-value pairs in MapReduce
+KL-divergence
+Knowledge acquisition in text information systems
+Knowledge discovery in text summarization
+Knowledge Graph
+Knowledge provenance in unified systems
+Known item searches in ranked lists evaluation
+Kolmogorov axioms
+Kullback-Leibler divergence retrieval model
+Lagrange Multiplier approach
+Language models
+Latent Aspect Rating Analysis
+Latent Dirichlet Allocation
+Latent Rating Regression
+Lazy learners in text categorization
+Learners
+Learning modules in content-based filtering
+Least-Recently Used
+length_filter filter
+Length normalization
+Lexical analysis in NLP
+Lexicons for inverted indexes
+LIBLINEAR algorithm
+libsvm_analyzer analyzer
+libsvm_corpus file
+LIBSVM package
+Lifelong learning in web searches
+Likelihood and likelihood function
+line_corpus input format
+Linear classifiers in text categorization
+Linear interpolation in Jelinek-Mercer smoothing
+Linearly separable data points in linear classifiers
+Link analysis
+list_filter filter
+Local maxima
+Log-likelihood function
+Logarithm transformation
+Logarithms in probabilistic retrieval model
+Logic-based approach in NLP
+Logical predicates in NLP
+Logistic regression in sentiment classification
+Long-range jumps in multimode interactive access
+Long-term needs in push access mode
+Low-level lexical features in text categorization
+Lower bound of likelihood in EM algorithm
+LRU
+Lucene search engine toolkit
+M step
+Machine-generated data
+Machine learning
+Machine translation
+Magazine output
+Manual evaluation for text clustering
+map function
+MAP
+MAP
+Map Reduce paradigm
+MapReduce framework
+Maps in multimode interactive access
+Marginal probabilities
+Market research
+Massung
+Matrices
+Matrix multiplication in PageRank
+Maximal marginal relevance reranking
+Maximal marginal relevance reranking
+Maximization algorithm for document clustering
+Maximum a Posteriori
+Maximum likelihood estimation
+Mean average precision
+Mean reciprocal rank
+Measurements in search engine evaluation
+Memory-based approach in collaborative filtering
+META toolkit
+Metadata
+Mining
+Mining topics from text
+Mixture models
+MLE
+MMR reranking
+Model-based clustering algorithms
+Model files for META toolkit
+Modification in NLP
+Modules in content-based filtering
+MRR
+Multiclass classification
+Multi-level judgments in search engine evaluation
+Multimode interactive access
+Multinomial distributions
+Multinomial parameters in Bayesian estimate
+Multiple-level sentiment analysis
+Multiple occurrences in vector space model
+Multiple queries in ranked lists evaluation
+Multivariate Gaussian distribution
+Mutual information
+n-fold cross validation
+n-gram language models
+Naive Bayes algorithm
+Named entity recognition
+Natural language
+Natural language generation in text summarization
+Natural language processing
+Navigating maps in multimode interactive access
+Navigational queries
+NDCG gain)
+NDCG@k score
+Nearest-centroid classifiers
+Negative feedback documents
+Negative feelings
+NetPLSA model
+Network supervised topic models
+Neural language model
+News summaries
+Newspaper output
+ngram_pos_analyzer analyzer
+ngram_word_analyzer analyzer
+NLP
+NLTK toolkit
+no_evict_cache caches
+Nodes in word associations
+Non-text data
+Normalization
+Normalized discounted cumulative gain
+Normalized ratings in collaborative filtering
+Normalized similarity algorithm
+Objective statements vs
+Observed world
+Observers
+Office documents
+Okapi BM25 model
+One-vs-all
+Operators in text analysis systems
+Opinion analysis in text summarization
+Opinion holders
+Opinion mining
+Opinion summarization
+Optimization in web searches
+Ordinal regression
+Organization in text information systems
+OVA
+Over-constrained queries
+Overfitting problem
+Overlap of words in paradigmatic relations
+p-values in search engine evaluation
+PageRank technique
+Paradigmatic relations
+Parallel crawling
+Parallel indexing and searching
+Parameters
+Parsing
+Part-of-speech
+Partitioning
+Patterns
+Pdf
+Pearson correlation
+Perceptron classifiers
+Personalization in web searches
+Personalized PageRank
+Perspective in text data analysis
+Pivoted length normalization
+PL2 model
+PLSA analysis
+Pointwise Mutual Information
+Polarity analysis in sentiment classification
+Policy design
+Pooling in search engine evaluation
+Porter2 English Stemmer
+porter2_stemmer filter
+POS
+Positive feelings
+Posterior distribution
+Posterior probability in Bayesian parameter estimation
+Postings files for inverted indexes
+Power iteration for PageRank
+Practitioners reader category
+Pragmatic analysis in NLP
+Precision
+Precision-recall curves in ranked lists evaluation
+Predictive analysis for non-text data
+Predictors features in joint analysis
+Presupposition in NLP
+Prior probability in Bayesian parameter estimation
+Probabilistic inference
+Probabilistic latent semantic analysis
+Probabilistic retrieval models
+Probability and statistics
+Probability density function
+Probability distributions
+Probability ranking principle
+Probability space
+Producer-initiated recommendations
+Product reviews in opinion mining
+profile command
+Properties
+Proximity heuristics for inverted indexes
+Pseudo counts
+Pseudo data in LDA
+Pseudo feedback
+Pseudo-segments for mutual information
+Pull access mode
+Push access mode
+Python language
+Q-function
+Queries
+Query expansion
+Query likelihood retrieval model
+Query vectors
+Random access decoding in compression
+Random numbers in abstractive summa rization
+Random observations in search engine evaluation
+Random surfers in PageRank
+Random variables
+Ranked lists evaluation
+Rankers for search engines
+Ranking
+Ratings
+Real world properties about
+Realization in abstractive summarization
+Recall in set retrieval evaluation
+Reciprocal ranks
+Recommendations in text information systems
+Recommender systems
+reduce function
+Redundancy
+Regression
+Regularizers in network supervised topic models
+Relevance and relevance judgments
+Relevant text data
+Relevant word counts in EM algorithm
+Repeated crawling
+Representative documents in search engine evaluation
+reset command
+Retrieval models
+Reviews
+RMSE
+robots
+Rocchio feedback
+Root-mean squared error
+Ruby language
+Rule-based text categorization
+Scalability in web searches
+Scanning inverted indexes
+Scientific research
+Scikit Learn toolkit
+score_term function
+Scorers
+Scoring functions
+SDI tion)
+Search engine evaluation
+Search engine implementation
+Search engine queries
+Search engine toolkits
+Searches
+Segmentation in LARA
+Select operator
+Selection
+Selection-based text summarization
+Selective dissemination of information
+Semantic analysis in NLP
+Semantically related terms in clustering
+Sensors
+Sentence vectors in extractive summarization
+Sentiment analysis
+Separation in text clustering
+Sequences of words in NLP
+Set retrieval evaluation
+Shadow analysis in NLP
+Shallow analysis in NLP
+Short-range walks in multimode interactive access
+Short-term needs in pull access mode
+Sign tests in search engine evaluation
+Signed-rank tests in search engine evaluation
+Significance tests in search engine evaluation
+Similarity algorithm for clustering
+Similarity in clustering
+Similarity functions and measures
+Single-link document clustering
+Skip-gram neural language model
+sLDA
+Smoothing techniques
+Social media in text data analysis
+Social networks as context
+Social science research
+Soft rules in text categorization
+Spam in web searches
+Sparse Beta
+Sparse data in Naive Bayes algorithm
+Sparse priors in Dirichlet distribution
+Spatiotemporal patterns in CPLSA
+Specificity in sentiment classification
+Speech acts in NLP
+Speech recognition
+Spiders for web searches
+Split counts in EM algorithm
+Split operator for text analysis
+Stanford NLP toolkit
+State-of-the-art support vector machines
+Statistical language models
+Statistical machine learning
+Statistical significance tests in search engine evaluation
+Statistics
+Stemmed words in vector space model
+Stemming process in META toolkit
+Sticky phrases in Brown clustering
+Stop word removal
+Story understanding
+Structured data
+Student reader category
+Stylistic analysis in NLP
+Subjective sensors
+Subjective statements vs
+Sublinear transformation
+Summarization
+Supervised LDA
+Supervised machine learning
+SVM machines) classifiers
+Symbolic approach in NLP
+Symmetric Beta
+Symmetric probabilities in information theory
+Symmetry in document clustering
+Synonyms
+Syntactic ambiguity in NLP
+Syntactic analysis in NLP
+Syntactic structures in NLP
+SyntacticDiff method
+Syntagmatic relations
+System architecture in unified systems
+Tags
+Targets in opinion mining
+Temporal trends in CPLSA
+Term-at-a-time ranking
+Term clustering
+Term frequency
+Term IDs
+Term vectors
+Terms
+Terrier search engine toolkit
+Test collections in Cranfield evaluation methodology
+Testing data
+Text annotation
+Text-based prediction
+Text categorization
+Text clustering
+Text clustering
+Text data access
+Text data analysis overview
+Text data understanding language processing
+Text information systems
+Text management and analysis in unified systems
+Text organization in text information systems
+Text representation in NLP
+Text retrieval
+Text summarization
+TextObject data type operators
+TextObjectSequence data type operators
+TF
+TF-IDF weighting
+TF transformation
+TF weighting
+Themes in CPLSA
+Therapist application
+Thesaurus discovery in NLP
+Threshold settings in content-based filtering
+Tight clusters
+Time series context in topic analysis
+TISs
+Tokenization
+Topic analysis
+Topic coherence in time series context
+Topic coverage
+Topic maps in multimode interactive access
+TopicExtraction operator
+TR
+Training and training data
+Transformations
+Transition matrices in PageRank
+Translation
+TREC filtering tasks
+tree_analyzer analyzer
+Trends in web searches
+Trigrams in frequency analysis
+Twitter searches
+Two-component mixture model
+Unary bitwise compression
+Under-constrained queries
+Unified systems
+Uniform priors in Dirichlet distribution
+Unigram language models
+Unigrams
+Unimodel Beta
+Union operator
+University of California Berkeley study
+Unseen words
+Unstructured text access
+Unsupervised clustering algorithms
+Unsupervised machine learning
+URLs and crawlers
+Usability in search engine evaluation
+Utility
+Valence scoring
+Variable byte encoding
+Variables
+vByte encoding
+Vector space
+Vectors
+Vectors
+Versions
+Vertical search engines
+Video data mining
+Views
+Visualization in text information systems
+VS retrieval models retrieval models
+Web searches
+Weighted k-nearest neighbors algorithm
+WeightedTextObjectSequence data type
+WeightedTextObjectSet data type
+Weights
+Weka toolkit
+whitespace_tokenizer command
+Whitespace tokenizers
+Wilcoxon signed-rank test
+Word association mining
+Word counts
+Word distributions
+Word embedding in term clustering
+Word-level ambiguity in NLP
+Word relations
+Word segmentation in NLP
+Word sense disambiguation in NLP
+Word valence scoring
+Word vectors in text clustering
+word2vec skip-gram
+WordNet ontology
+Zipf’s law
+δ-bicluster algorithm
+δ-pCluster
+absolute-error criterion
+absolute support
+abstraction levels
+accuracy
+activation function
+active learning
+ad hoc data mining
+AdaBoost
+adaptive probabilistic networks
+advanced data analysis
+advanced database systems
+afﬁnity matrix
+agglomerative hierarchical method
+Agglomerative Nesting
+aggregate cells
+aggregation
+AGNES
+algebraic measures
+algorithms
+all conﬁdence measure
+all-versus-all
+analysis of variance
+analytical processing
+ancestor cells
+angle-based outlier detection
+angle-based outlier factor
+anomalies
+anomaly mining
+anomaly-based detection
+antimonotonic constraints
+antimonotonic measures
+antimonotonicity
+apex cuboids
+application domain-speciﬁc semantics
+applications
+applications
+application-speciﬁc outlier detection
+approximate patterns
+Apriori algorithm
+Apriori property
+Apriori pruning method
+arrays
+association analysis
+association rules
+associative classiﬁcation
+asymmetric binary dissimilarity
+asymmetric binary similarity
+attribute construction
+attribute selection measures
+attribute subset selection
+attribute vectors
+attribute-oriented induction
+attributes
+audio data mining
+automatic classiﬁcation
+AVA
+AVC-group
+AVC-set
+average
+background knowledge
+backpropagation
+bagging
+bar charts
+base cells
+base cuboids
+Basic Local Alignment Search Tool
+Baum-Welch algorithm
+Bayes’ theorem
+Bayesian belief networks
+Bayesian classiﬁcation
+BCubed precision metric
+BCubed recall metric
+behavioral attributes
+believability
+BI
+biases
+biclustering
+biclusters
+bimodal
+bin boundaries
+binary attributes
+binning
+biological sequences
+bipartite graphs
+BIRCH
+bitmap indexing
+bitmapped join indexing
+bivariate distribution
+BLAST
+BOAT Tree construction
+Boolean association rules
+Boolean attributes
+boosting
+bootstrap method
+bottom-up design approach
+bottom-up subspace search
+boxplots
+BUC
+business intelligence
+business metadata
+business query view
+C4
+cannot-link constraints
+CART
+case updating
+case-based reasoning
+categorical attributes
+CBA
+CBLOF
+CELL method
+cells
+central tendency measures
+centroid distance
+CF-trees
+CHAID
+Chameleon
+Chernoff faces
+ChiMerge
+chi-square test
+chunking
+chunks
+CLARA
+CLARANS based upon Randomized Search
+class comparisons
+class conditional independence
+class imbalance problem
+class label attributes
+class-based ordering
+class/concept descriptions
+classes
+classiﬁcation
+classiﬁcation
+Classiﬁcation Based on Associations
+Classiﬁcation based on Multiple Association Rules
+Classiﬁcation based on Predictive Association Rules
+classiﬁcation-based outlier detection
+classiﬁers
+Clementine
+CLIQUE
+closed data cubes
+closed frequent itemsets
+closed graphs
+closed patterns
+closure checking
+cloud computing
+cluster analysis
+cluster computing
+cluster samples
+cluster-based local outlier factor
+clustering
+clustering features
+Clustering Large Applications based upon Randomized Search
+Clustering Large Applications
+clustering quality measurement
+clustering space
+clustering tendency assessment
+clustering with obstacles problem
+clustering-based methods
+clustering-based outlier detection
+clustering-based quantitative associations
+clusters
+CMAR Association Rules
+CN2
+collaborative recommender systems
+collective outlier detection
+collective outliers
+co-location patterns
+colossal patterns
+combined signiﬁcance
+complete-linkage algorithm
+completeness
+complex data types
+complex data types
+composite join indices
+compressed patterns
+compression
+computer science applications
+concept characterization
+concept comparison
+concept description
+concept hierarchies
+concept hierarchy generation
+conditional probability table
+conﬁdence
+conﬂict resolution strategy
+confusion matrix
+connectionist learning
+consecutive rules
+Constrained Vector Quantization Error algorithm
+constraint-based clustering
+constraint-based mining
+constraint-based patterns/rules
+constraint-based sequential pattern mining
+constraint-guided mining
+constraints
+content-based retrieval
+context indicators
+context modeling
+context units
+contextual attributes
+contextual outlier detection
+contextual outliers
+contingency tables
+continuous attributes
+contrasting classes
+convertible constraints
+COP k-means algorithm
+core descendants
+core patterns
+core ratio
+correlation analysis
+correlation coefﬁcient
+correlation rules
+correlation-based clustering methods
+correlations
+cosine measure
+cosine similarity
+cost complexity pruning algorithm
+cotraining
+covariance
+CPAR Association Rules
+credit policy analysis
+CRM
+crossover operation
+cross-validation
+cube gradient analysis
+cube shells
+cube space
+cuboid trees
+cuboids
+curse of dimensionality
+customer relationship management
+customer retention analysis
+CVQE algorithm
+cyber-physical systems
+data
+data auditing tools
+data characterization
+data classiﬁcation
+data cleaning
+data constraints
+data cube aggregation
+data cube computation
+data cubes
+data discretization
+data dispersion
+data extraction
+data focusing
+data generalization
+data integration
+data marts
+data matrix
+data migration tools
+data mining
+data mining systems
+data models
+data objects
+data preprocessing
+data quality
+data reduction
+data rich but information poor
+data scrubbing tools
+data security-enhancing techniques
+data segmentation
+data selection
+data source view
+data streams
+data transformation
+data transformation
+data types
+data validation
+data visualization
+data warehouses
+database management systems
+database queries
+databases
+data/pattern analysis
+DBSCAN
+DDPMine
+decimal scaling
+decision tree analysis
+decision tree induction
+decision trees
+deep web
+default rules
+DENCLUE
+dendrograms
+densiﬁcation power law
+density estimation
+density-based methods
+density-based outlier detection
+descendant cells
+descriptive mining tasks
+DIANA
+dice operation
+differential privacy
+dimension tables
+dimensional cells
+dimensionality reduction
+dimensionality reduction methods
+dimension/level
+dimensions
+direct discriminative pattern mining
+directed acyclic graphs
+discernibility matrix
+discovery-driven exploration
+discrepancy detection
+discrete attributes
+discrete Fourier transform
+discrete wavelet transform
+discretization
+discriminant analysis
+discriminant rules
+discriminative frequent pattern-based classiﬁcation
+dispersion of data
+dissimilarity
+dissimilarity matrix
+distance measures
+distance-based cluster analysis
+distance-based outlier detection
+distributed data mining
+distributed privacy preservation
+distributions
+distributive measures
+Divisive Analysis
+divisive hierarchical method
+DNA chips
+document classiﬁcation
+documents
+drill-across operation
+drill-down operation
+drill-through operation
+dynamic itemset counting
+eager learners
+Eclat
+e-commerce
+editing method
+efﬁciency
+elbow method
+email spam ﬁltering
+engineering applications
+ensemble methods
+enterprise warehouses
+entity identiﬁcation problem
+entity-relationship
+epoch updating
+equal-frequency histograms
+equal-width histograms
+equivalence classes
+error rates
+error-correcting codes
+Euclidean distance
+evaluation metrics
+evolution
+evolutionary searches
+exception-based
+exceptions
+exhaustive rules
+expectation-maximization
+expected values
+exploratory data mining mining
+extraction
+extraction/transformation/loading
+extractors
+fact constellation
+fact tables
+factor analysis
+facts
+false negatives
+false positives
+farthest-neighbor clustering algorithm
+ﬁeld overloading
+ﬁnancial data analysis
+FindCBLOF algorithm
+ﬁve-number summary
+ﬁxed-width clustering
+FOIL
+Forest-RC
+forward algorithm
+FP-growth
+FP-trees
+Frag-Shells
+fraudulent analysis
+frequency patterns
+frequent itemset mining
+frequent itemsets
+frequent pattern mining
+frequent pattern-based classiﬁcation
+frequent patterns
+frequent patterns
+frequent subgraphs
+front-end client layer
+full materialization
+fuzzy clustering
+fuzzy logic
+fuzzy sets
+gain ratio
+gateways
+gene expression
+generalization
+generalized linear models
+generalized relations
+generative model
+genetic algorithms
+genomes
+geodesic distance
+geographic data warehouses
+geometric projection visualization
+Gini index
+global constants
+global outliers
+Google
+gradient descent strategy
+graph and network data clustering
+graph cuts
+graph data
+graph index structures
+graph pattern mining
+graphic displays
+greedy hill-climbing
+greedy methods
+grid-based methods
+grid-based outlier detection
+group-based support
+group-by clause
+grouping attributes
+grouping variables
+Grubb’s test
+hamming distance
+hard constraints
+harmonic mean
+hash-based technique
+heterogeneous networks
+heterogeneous transfer learning
+hidden Markov model
+hierarchical methods
+hierarchical visualization
+high-dimensional data
+high-dimensional data clustering
+HilOut algorithm
+histograms
+holdout method
+holistic measures
+Hopkins statistic
+horizontal data format
+hybrid OLAP
+hybrid-dimensional association rules
+IBM Intelligent Miner
+iceberg condition
+iceberg cubes
+icon-based visualization
+icon-based visualization
+ID3
+IF-THEN rules
+illustrated
+image data analysis
+imbalance problem
+imbalance ratio
+inconvertible constraints
+incremental data mining
+indexes
+indexing
+inductive databases
+inferential statistics
+information age
+information extraction systems
+information gain
+information networks
+information processing
+information retrieval
+informativeness model
+initial working relations
+instance-based learners
+instances
+integrated data warehouses
+integrators
+intelligent query answering
+interactive data mining
+interactive mining
+intercuboid query expansion
+interdimensional association rules
+interestingness
+interestingness constraints
+interpretability
+interquartile range
+interval-scaled attributes
+intracuboid query expansion
+intradimensional association rules
+intrusion detection
+inverted indexes
+invisible data mining
+IQR
+IR
+item merging
+item skipping
+items
+itemsets
+iterative Pattern-Fusion
+iterative relocation techniques
+Jaccard coefﬁcient
+join indexing
+k-anonymity method
+Karush-Kuhn-Tucker
+k-distance neighborhoods
+kernel density estimation
+kernel function
+k-fold cross-validation
+k-means
+k-means clustering
+k-medoids
+k-nearest-neighbor classiﬁcation
+knowledge
+knowledge bases
+knowledge discovery
+knowledge discovery from data
+knowledge extraction
+knowledge mining
+knowledge type constraints
+k-predicate sets
+Kulczynski measure
+language model
+Laplacian correction
+lattice of cuboids
+lazy learners
+l-diversity method
+learning
+learning rates
+leave-one-out
+lift
+likelihood ratio statistic
+linear regression
+linearly
+linearly inseparable data
+link mining
+link prediction
+load
+loan payment prediction
+local outlier factor
+local proximity-based outliers
+logistic function
+log-linear models
+lossless compression
+lossy compression
+lower approximation
+machine learning
+Mahalanobis distance
+majority voting
+Manhattan distance
+MaPle
+margin
+market basket analysis
+Markov chains
+materialization
+max patterns
+max conﬁdence measure
+maximal frequent itemsets
+maximum marginal hyperplane
+maximum normed residual test
+mean
+measures
+median
+metadata
+metarule-guided mining
+metrics
+microeconomic view
+midrange
+MineSet
+minimal interval size
+minimal spanning tree algorithm
+minimum conﬁdence threshold
+Minimum Description Length
+minimum support threshold
+Minkowski distance
+min-max normalization
+missing values
+mixed-effect models
+mixture models
+mode
+model selection
+models
+modularity
+MOLAP
+monotonic constraints
+motifs
+moving-object data mining
+multiclass classiﬁcation
+multidimensional association rules
+multidimensional data analysis
+multidimensional data mining
+multidimensional data model
+multidimensional databases
+multidimensional histograms
+multidimensional OLAP
+multifeature cubes
+multilayer feed-forward neural networks
+multilevel association rules
+multimedia data
+multimedia data analysis
+multimedia data mining
+multimodal
+multiple linear regression
+multiple sequence alignment
+multiple-phase clustering
+multitier data warehouses
+multivariate outlier detection
+multiway array aggregation
+must-link constraints
+mutation operator
+mutual information
+mutually exclusive rules
+naive Bayesian classiﬁcation
+nearest-neighbor clustering algorithm
+near-match patterns/rules
+negative correlation
+negative patterns
+negative transfer
+negative tuples
+negatively skewed data
+neighborhoods
+nested loop algorithm
+networked data
+networks
+neural networks
+neurodes
+Ng-Jordan-Weiss algorithm
+no materialization
+noise ﬁltering
+noisy data
+nominal attributes
+nonlinear SVMs
+nonparametric statistical methods
+nonvolatile data warehouses
+normalization
+null rules
+null-invariant measures
+null-transactions
+numeric attributes
+numeric data
+numeric prediction
+numerosity reduction
+object matching
+objective interestingness measures
+one-class model
+one-pass cube computation
+one-versus-all
+online analytical mining
+online analytical processing
+online transaction processing
+operational metadata
+OPTICS
+ordered attributes
+ordering
+ordinal attributes
+outlier analysis
+outlier detection
+outlier subgraphs
+outliers
+oversampling
+pairwise alignment
+pairwise comparison
+PAM
+parallel and distributed data-intensive mining algorithms
+parallel coordinates
+parametric data reduction
+parametric statistical methods
+Pareto distribution
+partial distance method
+partial materialization
+partition matrix
+partitioning
+partitioning
+Partitioning Around Medoids
+partitioning methods
+path-based similarity
+pattern analysis
+pattern clustering
+pattern constraints
+pattern discovery
+pattern evaluation
+pattern evaluation measures
+pattern space pruning
+pattern-based classiﬁcation
+pattern-based clustering
+Pattern-Fusion
+pattern-guided mining
+patterns
+pattern-trees
+Pearson’s correlation coefﬁcient
+percentiles
+perception-based classiﬁcation
+phylogenetic trees
+pivot
+pixel-oriented visualization
+planning and analysis tools
+point queries
+pool-based approach
+positive correlation
+positive tuples
+positively skewed data
+possibility theory
+posterior probability
+postpruning
+power law distribution
+precision measure
+predicate sets
+predicates
+prediction
+prediction cubes
+predictive analysis
+predictive mining tasks
+predictive statistics
+predictors
+prepruning
+prime relations
+principle components analysis
+prior probability
+privacy-preserving data mining
+probabilistic clusters
+probabilistic hierarchical clustering
+probabilistic model-based clustering
+probability
+probability and statistical theory
+Probability-Based Ensemble
+PROCLUS
+proﬁles
+proximity measures
+proximity-based methods
+pruning
+pyramid algorithm
+quality control
+quantile plots
+quantile-quantile plots
+quantitative association rules
+quartiles
+queries
+queries
+query languages
+query models
+query-driven approach
+querying function
+rag bag criterion
+RainForest
+random forests
+random sampling
+random subsampling
+random walk
+randomization methods
+range
+range queries
+ranking
+rare patterns
+ratio-scaled attributes
+reachability density
+reachability distance
+recall measure
+recognition rate
+recommender systems
+recursive partitioning
+reduced support
+redundancy
+redundancy-aware top-k patterns
+refresh
+regression
+regression analysis
+relational databases
+relational OLAP
+relative signiﬁcance
+relevance analysis
+repetition
+replication
+representative patterns
+retail industry
+RIPPER
+robustness
+ROC curves
+roll-up operation
+rough set approach
+row enumeration
+rule ordering
+rule pruning
+rule quality measures
+rule-based classiﬁcation
+rules for constraints
+sales campaign analysis
+samples
+sampling
+sampling cubes
+SAS Enterprise Miner
+scalability
+scalable computation
+SCAN Networks
+scatter plots
+schemas
+science applications
+search engines
+search space pruning
+second guess heuristic
+selection dimensions
+self-training
+semantic annotations
+Semantic Web
+semi-ofﬂine materialization
+semi-supervised classiﬁcation
+semi-supervised learning
+semi-supervised outlier detection
+sensitivity analysis
+sensitivity measure
+sentiment classiﬁcation
+sequence data analysis
+sequences
+sequential covering algorithm
+sequential pattern mining
+shapelets method
+shared dimensions
+shared-sorts
+shared-partitions
+shell cubes
+shell fragments
+shrinking diameter
+sigmoid function
+signature-based detection
+signiﬁcance levels
+signiﬁcance measure
+signiﬁcance tests
+silhouette coefﬁcient
+similarity
+similarity
+similarity measures
+similarity searches
+simple random sample with replacement
+simple random sample without replacement
+SimRank
+simultaneous aggregation
+single-dimensional association rules
+single-linkage algorithm
+singular value decomposition
+skewed data
+slice operation
+small-world phenomenon
+smoothing
+snowﬂake schema
+social networks
+social science/social studies data mining
+soft clustering
+soft constraints
+space-ﬁlling curve
+sparse data
+sparse data cubes
+sparsest cuts
+sparsity coefﬁcient
+spatial data
+spatial data mining
+spatiotemporal data analysis
+spatiotemporal data mining
+specialized SQL servers
+speciﬁcity measure
+spectral clustering
+speech recognition
+speed
+spiral method
+split-point
+splitting attributes
+splitting criterion
+splitting rules
+splitting subset
+SQL
+square-error function
+squashing function
+standard deviation
+star schema
+Star-Cubing
+starnet query model
+star-nodes
+star-trees
+statistical data mining
+statistical databases
+statistical descriptions
+statistical hypothesis test
+statistical models
+statistical outlier detection methods
+statistical theory
+statistics
+StatSoft
+stepwise backward elimination
+stepwise forward selection
+stick ﬁgure visualization
+STING
+stratiﬁed cross-validation
+stratiﬁed samples
+stream data
+strong association rules
+Structural Clustering Algorithm for Networks
+structural context-based similarity
+structural data analysis
+structural patterns
+structure similarity search
+structures
+Student’s t-test
+subcube queries
+sub-itemset pruning
+subjective interestingness measures
+subject-oriented data warehouses
+subsequence
+subset checking
+subset testing
+subspace clustering
+subspace clustering methods
+subspace search methods
+subspaces
+substitution matrices
+substructures
+sum of the squared error
+summary fact tables
+superset checking
+supervised learning
+supervised outlier detection
+support
+support
+support vector machines
+support vectors
+supremum distance
+surface web
+survival analysis
+SVMs
+symbolic sequences
+symmetric binary dissimilarity
+synchronous generalization
+tables
+tag clouds
+Tanimoto coefﬁcient
+target classes
+targeted marketing
+taxonomy formation
+technologies
+telecommunications industry
+temporal data
+term-frequency vectors
+terminating conditions
+test sets
+test tuples
+text data
+text mining
+theoretical foundations
+three-layer neural networks
+threshold-moving approach
+tilted time windows
+timeliness
+time-series data
+time-series data analysis
+time-series forecasting
+time-variant data warehouses
+top-down design approach
+top-down subspace search
+top-down view
+topic model
+top-k patterns/rules
+top-k queries
+top-k strategies
+TrAdaBoost
+training
+transaction reduction
+transactional databases
+transactions
+transfer learning
+treemaps
+trend analysis
+trends
+triangle inequality
+trimmed mean
+trimodal
+true negatives
+true positives
+t-test
+tuples
+two sample t-test
+two-layer neural networks
+two-level hash index structure
+ubiquitous data mining
+uncertainty sampling
+undersampling
+uniform support
+unimodal
+unique rules
+univariate distribution
+univariate Gaussian mixture model
+univariate outlier detection
+unordered attributes
+unordered rules
+unsupervised learning
+unsupervised outlier detection
+upper approximation
+user interaction
+values
+variables
+variance
+variant graph patterns
+version space
+vertical data format
+video data analysis
+virtual warehouses
+visibility graphs
+visible points
+visual data mining
+Viterbi algorithm
+warehouse database servers
+warehouse refresh software
+waterfall method
+wavelet coefﬁcients
+wavelet transforms
+web directories
+web mining
+web search engines
+web-document classiﬁcation
+weight arithmetic mean
+weighted Euclidean distance
+Wikipedia
+WordNet
+working relations
+World Wide Web
+Worlds-with-Worlds
+wrappers
+z-score normalization
