@@ -29,7 +29,7 @@ m = 2							# 1.1 < m < 5 usually good - this approximates cluster quality
 
 def load_embeddings(embeddings_csv_file):
 	"""
-	
+	Loads csv file of concept embedding vectors into a numpy matrix.
 	"""
 	data = pd.read_csv(embeddings_csv_file)
 	headers = data.columns.values 
@@ -324,7 +324,6 @@ def plot_clusters(X, centers, final_layers, final_qualities, header, EC_degree):
 	""" Plot EC_degree """
 	# header, EC_degree
 	EC_degree = EC_degree.sort_values(by=0, ascending=False, axis=1)
-	print(EC_degree)
 	EC_degree.T.to_csv(path_or_buf="sorted_EC_degrees.csv")
 	
 	concept_phrases = list(EC_degree)
@@ -356,16 +355,17 @@ def plot_clusters(X, centers, final_layers, final_qualities, header, EC_degree):
 def main():
     
     """ Define data point matrix X """
-    # N = 70							# total number of concept phrases
-    # D = 2 							# concept phrase embedding dimension
-    # X = np.random.randint(1000, size=(D,N))
-    # X, y_true = make_blobs(n_samples=300, centers=4, cluster_std=0.60, random_state=0)
-    # X = np.transpose(X)
-    # print(np.shape(X))
-
-    # X = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/han_concept_embeddings_forward_embeddings.csv")
-    X, header = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/han_concept_embeddings_backward_embeddings.csv")
-    #print(X)
+    # X_han, header_han = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/han_concept_embeddings_forward_embeddings.csv")
+    X_han, header_han = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/han_concept_embeddings_bidi_embeddings.csv")
+    X_zhai, header_zhai = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/zhai_concept_embeddings_bidi_embeddings.csv")
+    
+    X_mooc1, header_mooc1 = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/mooc1_concept_embeddings_bidi_embeddings.csv")
+    X_mooc2, header_mooc2 = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/mooc2_concept_embeddings_bidi_embeddings.csv")
+    X_mooc3, header_mooc3 = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/mooc3_concept_embeddings_bidi_embeddings.csv")
+    X_mooc4, header_mooc4 = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/mooc4_concept_embeddings_bidi_embeddings.csv")
+    
+    X = X_han
+    header = header_han
     print("X shape: ", np.shape(X))
 
     """ Default parameter values """
@@ -386,7 +386,6 @@ def main():
     final_layers, final_qualities = retain_clusters(X, centers, memberships, p_toler, q_toler)
 
     """ Get EC_score for concepts """
-    print("header: ", header)
     EC = EC_score(header, final_layers)
     print(EC)
     # EC.to_csv(path_or_buf="han_concepts_EC_degrees.csv")

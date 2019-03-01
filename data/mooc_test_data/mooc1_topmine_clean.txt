@@ -1,0 +1,934 @@
+vector space model
+search engine
+relevant documents
+inverted index
+ranking function
+search engines
+language model
+web search
+text retrieval
+query likelihood
+text data
+precision recall
+relevant document
+ranked list
+natural language processing
+solve problem
+query document
+collaborative filtering
+data set
+information retrieval
+retrieval function
+scoring function
+document id
+page rank
+query words
+random documents
+long document
+document ids
+tf idf weighting
+query term
+probability relevance
+map function
+text mining
+sound lecture
+machine learning
+training data
+query vector
+average precision
+sum query words
+document relevant
+search results
+term frequency
+length normalization
+makes sense
+common words
+word document
+state art
+additional readings
+document query
+document frequency
+basic idea
+dot product
+reduce function
+bag words representation
+ll talk
+web pages
+recommender systems
+information user
+score document
+word query
+term document
+unary code
+random surfer
+documents match term
+sequence words
+original query
+pull mode
+user query
+documents relevant
+previous lecture
+documents query
+retrieval model
+probabilistic model
+inside sum
+idf weighting
+average position
+conditional probability
+background model
+utility function
+data mining
+relevant data
+picture shows
+words query
+method works
+make sense
+retrieval models
+document vector
+similarity function
+term occurred
+upper bound
+anchor text
+pause video
+query word
+flow log
+compute probability
+query model
+relevance feedback
+unseen words
+collection language model
+recommend information
+recommender system
+natural languages
+program language
+small probability
+doesn work
+user doesn
+general idea
+ranking functions
+imagine user
+score documents
+matched document
+scores documents
+fix problem
+form function
+answer query
+implicit feedback
+improve ranking
+gamma code
+make difference
+basic measures
+ten documents
+reciprocal rank
+kl divergence
+mixture model
+language models
+link information
+similar users
+main topic lecture
+simplest vector space
+matched query terms
+document length normalization
+probabilistic retrieval model
+query likelihood retrieval
+document language model
+content based filtering
+information system
+natural language
+achieve goal
+search tasks
+information access
+documents user
+documents collection
+system make
+user stops
+utility document
+document user
+additional information
+probability random
+presidential campaign
+occur document
+occur frequently
+model works
+research papers
+frequency words
+special case
+simply assume
+main idea
+define dimension
+ranked top
+assumptions made
+0 1
+retrieval functions
+frequency count
+transformation function
+large number
+words document
+improve scoring
+retrieval method
+word distribution
+score accumulator
+score accumulators
+document collection
+relevance judgments
+assume user
+make assumption
+cumulative gain
+random fluctuation
+feedback information
+probability word
+sum words
+centroid vector
+pseudo feedback
+filtering system
+content based
+user similarity
+learning rank
+file system
+linear combination
+big text data
+modern search engines
+query vector document
+vector document vector
+count word document
+background language model
+computer science
+text information
+information users
+test collection
+text access
+semantic analysis
+bag words
+improve search
+querying browsing
+find relevant
+push mode
+knowledge user
+documents users
+research question
+summarize lecture
+information filtering
+document selection
+pages web
+absolute relevance
+left side
+case document
+user stop
+function defined
+queries documents
+equal 1
+document length
+solve problems
+bit vector
+vector representation
+d2 d3
+total number
+linear transformation
+called bm25
+long documents
+match query
+document long
+invert index
+lot documents
+long time
+frequency word
+user interested
+process data
+small numbers
+unary coding
+minus 1
+ranking algorithms
+high recall
+user make
+user user
+documents queries
+probability document
+assume query
+formula query
+likelihood function
+linear interpolation
+high probabilities
+estimate parameters
+probabilities words
+probability words
+rocchio feedback
+today wednesday
+sum 1
+probability mass
+d3 d4
+proportional probability
+smoothing method
+smoothing parameter
+interesting user
+negative documents
+link analysis
+make decision
+pages pointing
+random server
+scores pages
+good hubs
+combine features
+beta values
+feature values
+lot text data
+text data small
+search engine system
+text retrieval problem
+text retrieval methods
+high level strategies
+place query vector
+unique query terms
+query words matched
+words matched document
+lecture continue discussion
+average document length
+text retrieval system
+words common words
+match query term
+statistical significance test
+user likes document
+assign high probabilities
+total number words
+probability word collection
+lot knowledge
+push information
+lot data
+don necessarily
+basic concepts
+data structures
+users search
+order understand
+understanding sentence
+knowledge base
+retrieval techniques
+lecture talk
+push pull
+relevant information
+good knowledge
+information space
+good support
+document ranking
+user typed
+documents retrieved
+ll find
+query user
+document set
+write program
+set documents
+function document
+call document
+rank documents
+examine documents
+documents similar
+end lecture
+list documents
+compute score
+ve put
+judged users
+assume document
+word occurs
+occurs frequently
+term occurs
+term collection
+rare term
+natural question
+model give
+assumed relevant
+dimensional space
+make assumptions
+represent document
+weight term
+document vectors
+term weight
+define similarity
+general framework
+terms query
+place vectors
+function shown
+query terms
+function basically
+multiple times
+counts word
+information document
+number documents
+documents word
+give higher
+standard idf
+model based
+tf transformation
+count word
+logarithm function
+high weight
+match term
+sublinear transformation
+retrieval systems
+data structure
+user results
+occurred document
+faster search
+boolean query
+words common
+word frequency
+solving problem
+term ids
+binary code
+uniform code
+compute query
+documents returned
+parallel processing
+web scale
+define measures
+judged relevant
+relevance judgements
+results relevant
+large values
+doesn matter
+users perspective
+1 2
+documents judged
+assume random
+clicked documents
+language modeling
+probability query
+probability probability
+feedback documents
+model feedback
+maximum likelihood
+higher probability
+product probabilities
+pick word
+continue talking
+words observed
+probability unseen
+unseen word
+means don
+form formula
+actual count
+user interest
+lower threshold
+optimal threshold
+user information
+user object
+ratings similar
+rating user
+actual ratings
+context information
+provide additional
+key pairs
+occurrences word
+follow link
+transition matrix
+probability server
+pagerank score
+hub scores
+hub score
+adjacency matrix
+web search engines
+web search engine
+evaluate search engine
+natural language content
+language content analysis
+language processing techniques
+matching query words
+ad hoc information
+talked push versus
+push versus pull
+approximation relevant documents
+document relevant query
+rank documents query
+good ranking function
+pivoted length normalization
+instantiate vector space
+discussion vector space
+discussed previous lecture
+vectors vector space
+sum matched query
+penalization long documents
+text retrieval systems
+fetch documents match
+matched query term
+construct inverted index
+evaluate text retrieval
+relevant document user
+top ranked documents
+feedback text retrieval
+maximum likelihood estimator
+unigram language model
+probabilities sum 1
+text mining paper
+probability word document
+reference language model
+specific smoothing methods
+move query vector
+active research area
+google file system
+ll cover
+reference books
+number topics
+big data
+news articles
+analyze data
+high quality
+people digest
+important role
+product reviews
+improve productivity
+ll talking
+convert big
+called text
+evaluating search
+system good
+step natural
+access relevant
+retrieval problem
+search applications
+order make
+main technique
+obtain understanding
+meaning sentence
+languages designed
+partial parsing
+complete understanding
+mentioned text
+special cases
+talk bit
+nlp techniques
+words ll
+lot information
+major search
+words related
+words occurred
+improve accuracy
+knowledge graph
+ve talked
+users access
+specific application
+users information
+takes initiative
+type query
+stable information
+system return
+return relevant
+works user
+keywords query
+user follow
+find information
+won work
+database retrieval
+documents web
+search problem
+sql query
+case text
+answers query
+method method
+word vocabulary
+documents longer
+user generally
+called document
+assume documents
+don make
+easy understand
+based scores
+assumption user
+answer user
+based assumption
+score based
+order implement
+definition relevance
+models based
+based similarity
+defined similarity
+kind models
+probabilistic models
+random variables
+models probabilistic
+function similar
+functions tend
+document matches
+word presidential
+common term
+reference end
+ll discuss
+give introduction
+lecture talked
+function called
+assumption make
+assume words
+place documents
+weights terms
+implement function
+term weights
+similarity measure
+continue discussion
+xi yi
+place document
+obvious choice
+words don
+don occur
+interpret score
+related document
+cover query
+match news
+d4 d3
+show documents
+don care
+document side
+query query
+basically means
+matching presidential
+d2 relevant
+carry content
+count term
+occur documents
+count documents
+log 1
+users judge
+idea weighting
+model general
+high score
+matching term
+nice property
+single term
+higher chance
+penalize long
+don penalize
+research paper
+document simply
+document longer
+normalization formula
+controlled parameter
+computing matched
+cosine measure
+combine scores
+word frequencies
+general ranking
+retrieval system
+create index
+scoring documents
+results user
+judgements documents
+feedback mechanism
+documents matched
+basic search
+search algorithms
+term query
+previous lectures
+distribution text
+words occur
+frequent words
+zipf law
+index construction
+lengths coding
+large numbers
+lot small
+fetch document
+delta code
+gamma coding
+level document
+main part
+document lens
+general form
+algorithm works
+pre computed
+easy extend
+entries inverted
+add 3
+term information
+document d1
+add 1
+information documents
+multiple machines
+retrieval algorithms
+documents don
+talked number
+answer question
+user studies
+improving search
+documents top
+measures quantify
+set queries
+ideal ranked
+relevance judgment
+return results
+depends users
+users system
+earlier lecture
+system system
+case system
+ten relevant
+recall ten
+relevant relevant
+retrieved relevant
+precision ten
+meaningful measure
+beta parameter
+means high
+perfect recall
+ranking problem
+called average
+level recall
+low level
+average average
+average positions
+item search
+rank position
+big difference
+ranking methods
+multiple levels
+marginally relevant
+top ten
+ranked document
+dcg ideal
+ideal dcg
+face problem
+top documents
+practical issues
+lot queries
+probability observe
+map ndcg
+function based
+estimate probability
+captures probability
+estimated probability
+count times
+don observe
+unseen documents
+unseen queries
+making assumption
+big table
+probability observing
+risk model
+probability text
+model text
+talk feedback
+lot times
+model query
+cross entropy
+positive documents
+terms important
+feedback model
+model estimate
+imagine compute
+approach simply
+word computer
+top model
+words generated
+model assign
+1 minus
+topic model
+model explain
+probability distribution
+related words
+generate text
+talked major
+based document
+john feels
+product probability
+major conference
+simple formula
+maximize probability
+image model
+related computer
+lm model
+context computer
+user pick
+presidential document
+generate query
+word update
+assign probability
+order documents
+lead ranking
+maximum inaudible
+author written
+taking sum
+words probability
+element document
+tf weighting
+probability collection
+documents tend
+smoothing methods
+specific form
+idea smoothing
+fixed coefficient
+idea simple
+observed text
+word network
+jm smoothing
+expected account
+dirichlet prior
+docking lens
+good document
+feedback called
+involve users
+learn related
+viewed users
+negative examples
+vector closer
+vector relevant
+web born
+link page
+score page
+item interesting
+item similarity
+user interests
+set threshold
+deliver good
+imagine system
+filtering decision
+feedback techniques
+utility lower
+optimal utility
+utility point
+ratings users
+objects user
+values function
+function training
+active user
+memory based
+average rating
+normalized ratings
+sum users
+missing values
+improve similarity
+system provide
+decision making
+function process
+key pair
+map functions
+pair key
+word count
+words line
+large scale
+ranking pages
+entry page
+links link
+online bookstore
+pointing page
+lot links
+ten papers
+random surfing
+server reach
+visiting page
+hand side
+transition probability
+random jumping
+transition metrics
+pagerank scores
+propagating scores
+page sum
+good authorities
+good hub
+good authority
+vector equal
+authority vector
+hypothesize probability
+depend query
+predict relevance
+make large
+intelligent information
+task support
+keyword queries
+text retrieval search
+retrieval search engines
+data mining specialization
+mine text data
+make binary decision
+relevant text data
+part speech tagging
+common sense knowledge
+language processing difficult
+processing difficult computers
+search engines today
+current search engines
+words representation remains
+mode information access
+user enter query
+talked high level
+level strategies text
+strategies text access
+queries typed users
+empirically defined problem
+problem empirically defined
+set relevant documents
+function rank documents
+ranking generally preferred
+probability ranking principle
+suggest pause lecture
+effective ranking function
+design ranking function
+binary random variable
+document respect query
+state art retrieval
+vector space retrieval
+space model special
+query vector space
+similarity query vector
+space model framework
+continue discussion vector
+query terms matched
+terms matched document
+inverse document frequency
+total number documents
+received high score
+build search engine
+basic idea inverted
+idea inverted index
+matching query terms
+talked vector space
+user interested topic
+save disk space
+discussion system implementation
+evaluation text retrieval
+cranfield evaluation methodology
+number relevant documents
+relevant documents collection
+precision recall numbers
+lot relevant documents
+trade precision recall
+continue discussion evaluation
+precision recall curve
+move relevant document
+relevant documents ranked
+likelihood retrieval model
+probability query document
+basic idea probabilistic
+idea probabilistic retrieval
+user clicked document
+makes lot sense
+imaginary relevant document
+document user mind
+sound lecture feedback
+query likelihood ranking
+likelihood retrieval function
+estimate document language
+language model called
+feedback language model
+original query model
+documents assumed random
+top rank documents
+ll common words
+feedback vector space
+high probability words
+number words document
+words related computer
+probability query word
+log probability word
+smoothing language model
+idf weighting document
+tf idf waiting
+idf waiting document
+improve retrieval accuracy
+original query vector
+important applications text
+applications text retrieval
+1 minus 10
+favor sigir papers
+machine learning combine
+improve robustness ranking
+key set values
+randomly jump page
+probability reaching page
+relevance related features
+vertical search engines
+provide task support
+intelligent information systems

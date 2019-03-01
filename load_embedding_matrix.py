@@ -13,6 +13,7 @@ import pandas as pd
 def load_NN_forward_backward(filepath):
 	forward = {}
 	backward = {}
+	bidi = {}
 	with open(filepath) as fp:
 		line = fp.readline()
 		curr_concept = ""
@@ -44,17 +45,20 @@ def load_NN_forward_backward(filepath):
 					forward[curr_concept] = []
 					backward[curr_concept] = []
 				line = fp.readline()
-
-	# pp = pprint.PrettyPrinter(indent=4)
-	# pp.pprint(forward)
-	# pp.pprint(backward)
+	
+	for concept in forward:
+		bidi[concept] = forward[concept]
+		bidi[concept].extend(backward[concept])
+	
 	F_embeddings = pd.DataFrame.from_dict(forward)
 	F_embeddings.to_csv(path_or_buf=filepath.replace('.txt',"_forward_embeddings.csv"), index=False)
 	B_embeddings = pd.DataFrame.from_dict(backward)
 	B_embeddings.to_csv(path_or_buf=filepath.replace('.txt',"_backward_embeddings.csv"), index=False)
+	BiDi_embeddings = pd.DataFrame.from_dict(bidi)
+	BiDi_embeddings.to_csv(path_or_buf=filepath.replace('.txt',"_bidi_embeddings.csv"), index=False)
 	print(F_embeddings)
 	print(B_embeddings)
-	return F_embeddings, B_embeddings
+	return F_embeddings, B_embeddings, BiDi_embeddings
 
 
 def load_word2vec(filepath):
@@ -63,6 +67,13 @@ def load_word2vec(filepath):
 
 def main():
 	load_NN_forward_backward("./concept-embeddings/chunker_bidirectional_embeddings/han_concept_embeddings.txt")
+	load_NN_forward_backward("./concept-embeddings/chunker_bidirectional_embeddings/zhai_concept_embeddings.txt")
+
+	load_NN_forward_backward("./concept-embeddings/chunker_bidirectional_embeddings/mooc1_concept_embeddings.txt")
+	load_NN_forward_backward("./concept-embeddings/chunker_bidirectional_embeddings/mooc2_concept_embeddings.txt")
+	load_NN_forward_backward("./concept-embeddings/chunker_bidirectional_embeddings/mooc3_concept_embeddings.txt")
+	load_NN_forward_backward("./concept-embeddings/chunker_bidirectional_embeddings/mooc4_concept_embeddings.txt")
+
 
 if __name__ == "__main__":
     main()
