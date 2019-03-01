@@ -261,7 +261,7 @@ def plot_clusters(X, centers, final_layers, final_qualities, header, EC_degree):
 		u = final_layers[l]
 		c = np.shape(u)[0]
 
-		if np.sum(u)>=1:
+		if np.sum(u)>=5:
 			plotted_layer[l] = 1
 			layer_plt = fig1.add_subplot(boxW,boxW,i)
 			layer_plt.set_title('Layer #'+str(l)+' clusters')
@@ -365,8 +365,8 @@ def main():
     X_mooc3, header_mooc3 = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/mooc3_concept_embeddings_bidi_embeddings.csv")
     X_mooc4, header_mooc4 = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/mooc4_concept_embeddings_bidi_embeddings.csv")
     
-    X = X_zhai
-    header = header_zhai
+    X = X_mooc3
+    header = header_mooc3
     print("X shape: ", np.shape(X))
 
     """ Default parameter values """
@@ -374,15 +374,18 @@ def main():
     """ GOOD PARAMS:
     	1. Han with backward embeddings: e = 0.005 , m = 2 , CLUSTERS = int(N/10),  p_toler = 1.001 , q_toler = 0.01
     	2. Han with BiDi embeddings: e = 0.005 , m = 2 , CLUSTERS = int(N/10), p_toler = 1.0002 , q_toler = 0.01
-    	3. Zhai with BiDi embeddings: e = 0.005 , m = 2 , CLUSTERS = int(N/10), 
+    	3. Zhai with BiDi embeddings: e = 0.005 , m = 2 , CLUSTERS = int(N/10), p_toler = 1.0004 , q_toler = 0.015
+    	4. MOOC1 with BiDi embeddings: e = 0.005 , m = 2 , CLUSTERS = int(N/2) , p_toler = 1.0015 , q_toler = 0.015
+    	5. MOOC2 with BiDi embeddings: e = 0.005 , m = 2 , CLUSTERS = int(N/2) , p_toler = 1.0015 , q_toler = 0.015
+    	6. MOOC3 with BiDi embeddings: e = 0.005 , m = 2 , CLUSTERS = int(N/2) , p_toler = 1.0015 , q_toler = 0.015
     """
     e = 0.005		 				# epsilon error threshold for optimizing the objective function
     m = 2							# 1.1 < m < 5 usually good - this approximates cluster quality
 
     N = np.shape(X)[1]
-    CLUSTERS = int(N/10)
-    p_toler = 1.0004
-    q_toler = 0.015
+    CLUSTERS = int(N/2)
+    p_toler = 1.0013
+    q_toler = 0.01
 
     """ Run layered_fcm() """
     centers, memberships, u_inits, distances, obj_fs, iters_run, fpc_vals = layered_fcm(X, CLUSTERS, e, m)

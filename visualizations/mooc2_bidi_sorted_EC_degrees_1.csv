@@ -1,0 +1,169 @@
+,0
+term,1.0
+meta,1.0
+query,0.9285714285714285
+generative model,0.8571428571428571
+filter,0.8214285714285714
+sensor,0.8214285714285714
+mining,0.75
+log - likelihood function,0.7142857142857142
+context,0.7142857142857142
+relation,0.6785714285714285
+bayesian,0.6785714285714285
+text - base prediction,0.6785714285714285
+inference,0.6785714285714285
+conditional probability,0.6428571428571428
+class,0.6428571428571428
+estimation,0.6071428571428571
+paradigmatic,0.6071428571428571
+vector,0.5714285714285714
+topic,0.5714285714285714
+redundancy,0.5357142857142857
+probability,0.5357142857142857
+correlation,0.5
+domain,0.5
+mixture model estimation,0.46428571428571425
+component model,0.46428571428571425
+word relation,0.46428571428571425
+text - base,0.46428571428571425
+feedback,0.46428571428571425
+text - based,0.46428571428571425
+review,0.42857142857142855
+category,0.39285714285714285
+learning,0.39285714285714285
+moment,0.3571428571428571
+probabilistic latent semantic analysis,0.3571428571428571
+mixture model,0.3571428571428571
+selection,0.3571428571428571
+topic analysis,0.3571428571428571
+version,0.3571428571428571
+machine,0.3214285714285714
+natural language analysis,0.3214285714285714
+term frequency,0.3214285714285714
+summarization,0.3214285714285714
+text,0.2857142857142857
+language model,0.2857142857142857
+rating,0.25
+emotion analysis,0.25
+view,0.25
+classification,0.25
+entity - relation,0.21428571428571427
+document frequency,0.21428571428571427
+distribution,0.21428571428571427
+sentiment analysis,0.21428571428571427
+background model,0.21428571428571427
+natural language,0.21428571428571427
+mean,0.17857142857142855
+paradgratical relation,0.17857142857142855
+aggregate,0.17857142857142855
+hill - climb algorithm,0.17857142857142855
+entropy,0.17857142857142855
+expectation - maximization,0.17857142857142855
+gaussian distribution,0.17857142857142855
+unigram,0.14285714285714285
+utility,0.14285714285714285
+natural language processing,0.14285714285714285
+tag,0.14285714285714285
+query expansion,0.14285714285714285
+statistic,0.14285714285714285
+document,0.14285714285714285
+human,0.14285714285714285
+idf weighting,0.14285714285714285
+latent semantic analysis,0.14285714285714285
+part - of - speech,0.14285714285714285
+loop,0.10714285714285714
+such distribution,0.10714285714285714
+analysis,0.10714285714285714
+text retrieval,0.10714285714285714
+scoring function,0.10714285714285714
+symmetric,0.10714285714285714
+dot product,0.10714285714285714
+social,0.07142857142857142
+so,0.07142857142857142
+text clustering,0.07142857142857142
+text datum,0.07142857142857142
+transformation,0.07142857142857142
+topic model,0.07142857142857142
+market research,0.07142857142857142
+text base,0.07142857142857142
+index,0.07142857142857142
+text review,0.07142857142857142
+compression,0.03571428571428571
+business,0.03571428571428571
+retrieval model,0.03571428571428571
+word distribution,0.03571428571428571
+text categorization,0.03571428571428571
+parameter,0.03571428571428571
+browse,0.03571428571428571
+posterior distribution,0.03571428571428571
+association,0.03571428571428571
+supervise topic model,0.03571428571428571
+granger,0.03571428571428571
+tag n,0.03571428571428571
+syntagmatic relation,0.03571428571428571
+regression,0.0
+recommender system,0.0
+word count,0.0
+rating analysis,0.0
+word,0.0
+weight word,0.0
+search,0.0
+weight,0.0
+vector space,0.0
+variable,0.0
+tf,0.0
+unseen word,0.0
+mutual information,0.0
+rank,0.0
+kl - divergence,0.0
+ir,0.0
+information theory,0.0
+information retrieval,0.0
+indirect,0.0
+impact,0.0
+idf,0.0
+graph,0.0
+event,0.0
+e,0.0
+document length,0.0
+discount,0.0
+degenerate,0.0
+decision support,0.0
+datum,0.0
+coverage,0.0
+common word,0.0
+common,0.0
+collection,0.0
+bigram,0.0
+bias,0.0
+background word,0.0
+background,0.0
+average,0.0
+iterative causal topic modeling,0.0
+knowledge,0.0
+property,0.0
+knowledge graph,0.0
+probability distribution,0.0
+posterior mode,0.0
+pattern annotation,0.0
+pattern,0.0
+partitioning,0.0
+parse,0.0
+paradigmatic relation,0.0
+overlap,0.0
+opinion holder,0.0
+opinion,0.0
+observer,0.0
+observed world,0.0
+normalization,0.0
+nlp,0.0
+ambiguity,0.0
+mining clustering,0.0
+metadata,0.0
+maximum a,0.0
+mathematical,0.0
+marginal,0.0
+map,0.0
+machine learning,0.0
+local maxima,0.0
+world,0.0

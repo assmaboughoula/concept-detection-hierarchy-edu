@@ -1,0 +1,725 @@
+,0
+AVA,1.0
+Synonyms,1.0
+corpusname,1.0
+OVA,1.0
+Feelings,1.0
+IUF,1.0
+Kolmogorov axioms,0.8275862068965517
+Compact clusters,0.7586206896551724
+Tight clusters,0.7586206896551724
+Presupposition in NLP,0.7241379310344828
+Gibbs sampling,0.7241379310344828
+reset command,0.6896551724137931
+Incremental crawling,0.6896551724137931
+NLTK toolkit,0.6551724137931034
+Stanford NLP toolkit,0.6551724137931034
+Sensors,0.6551724137931034
+Compression,0.6551724137931034
+Illinois NLP Curator toolkit,0.6206896551724138
+Magazine output,0.5862068965517241
+Geometric mean average precision,0.5862068965517241
+Blind feedback,0.5862068965517241
+LIBLINEAR algorithm,0.5517241379310345
+Subjective sensors,0.5172413793103449
+Breakeven point precision,0.5172413793103449
+SDI tion),0.48275862068965514
+Negative feelings,0.48275862068965514
+Compression ratio,0.48275862068965514
+Personalization in web searches,0.48275862068965514
+Supervised LDA,0.48275862068965514
+Generative models,0.48275862068965514
+Map Reduce paradigm,0.48275862068965514
+Integrity in text data access,0.4482758620689655
+Mixture models,0.4482758620689655
+TopicExtraction operator,0.4482758620689655
+Vectors,0.4482758620689655
+Centroid vectors,0.4482758620689655
+Collection language model,0.41379310344827586
+Statistical language models,0.41379310344827586
+Effectiveness in search engine evaluation,0.41379310344827586
+Search engine evaluation,0.41379310344827586
+Neural language model,0.41379310344827586
+Search engine toolkits,0.41379310344827586
+Correlations,0.41379310344827586
+Search engine implementation,0.41379310344827586
+Integer compression,0.41379310344827586
+Lifelong learning in web searches,0.3793103448275862
+Clickthroughs,0.3793103448275862
+Bitwise compression,0.3793103448275862
+Log-likelihood function,0.3793103448275862
+Filters,0.3793103448275862
+Multiple-level sentiment analysis,0.3793103448275862
+Mean reciprocal rank,0.3793103448275862
+NDCG@k score,0.3793103448275862
+Unimodel Beta,0.3793103448275862
+Unigrams,0.3793103448275862
+Properties,0.3793103448275862
+NetPLSA model,0.3793103448275862
+Reciprocal ranks,0.3793103448275862
+Component models,0.3448275862068966
+Spiders for web searches,0.3448275862068966
+Vertical search engines,0.3448275862068966
+Office documents,0.3448275862068966
+Logarithms in probabilistic retrieval model,0.3448275862068966
+Files in Google File System,0.3448275862068966
+Two-component mixture model,0.3448275862068966
+Anaphora resolution in natural language processing,0.3448275862068966
+Indexes,0.3448275862068966
+Metadata,0.3448275862068966
+Segmentation in LARA,0.3448275862068966
+Learning modules in content-based filtering,0.3448275862068966
+Crawlers,0.3103448275862069
+Lucene search engine toolkit,0.3103448275862069
+Sublinear transformation,0.3103448275862069
+Sticky phrases in Brown clustering,0.3103448275862069
+Signed-rank tests in search engine evaluation,0.3103448275862069
+Integration of information access in web searches,0.3103448275862069
+Bigram language model,0.3103448275862069
+Multi-level judgments in search engine evaluation,0.3103448275862069
+Queries,0.27586206896551724
+Forward indexes,0.27586206896551724
+Term vectors,0.27586206896551724
+Interactive task support in web searches,0.27586206896551724
+Inverted indexes,0.27586206896551724
+Domains,0.27586206896551724
+Navigating maps in multimode interactive access,0.27586206896551724
+Usability in search engine evaluation,0.27586206896551724
+Language models,0.27586206896551724
+gz_corpus input format,0.27586206896551724
+sLDA,0.27586206896551724
+NLP,0.27586206896551724
+Multimode interactive access,0.27586206896551724
+Accuracy in search engine evaluation,0.27586206896551724
+Citations,0.27586206896551724
+Sign tests in search engine evaluation,0.24137931034482757
+Unary bitwise compression,0.24137931034482757
+Topic analysis,0.24137931034482757
+Geographical networks,0.24137931034482757
+Content-based filtering,0.24137931034482757
+Terms,0.24137931034482757
+Access modes,0.24137931034482757
+Gamma bitwise compression,0.24137931034482757
+Random variables,0.24137931034482757
+n-gram language models,0.24137931034482757
+Bigrams,0.24137931034482757
+Hidden variables,0.24137931034482757
+Gamma function,0.24137931034482757
+Searches,0.24137931034482757
+Text-based prediction,0.20689655172413793
+Inferences,0.20689655172413793
+Ranking,0.20689655172413793
+Union operator,0.20689655172413793
+Expected value in Beta distribution,0.20689655172413793
+Interactive access,0.20689655172413793
+Scikit Learn toolkit,0.20689655172413793
+Policy design,0.20689655172413793
+LIBSVM package,0.20689655172413793
+Efficiency,0.20689655172413793
+Word relations,0.20689655172413793
+Linearly separable data points in linear classifiers,0.20689655172413793
+Syntagmatic relations,0.20689655172413793
+MRR,0.20689655172413793
+Maximum likelihood estimation,0.20689655172413793
+Distinguishing categories,0.20689655172413793
+classify command,0.20689655172413793
+list_filter filter,0.20689655172413793
+Entropy,0.1724137931034483
+Variables,0.1724137931034483
+Document language model,0.1724137931034483
+Scorers,0.1724137931034483
+Independent random variables,0.1724137931034483
+Google File System,0.1724137931034483
+Index sharding,0.1724137931034483
+Sentiment analysis,0.1724137931034483
+CG,0.1724137931034483
+International Components for Unicode,0.1724137931034483
+Pooling in search engine evaluation,0.1724137931034483
+Pearson correlation,0.1724137931034483
+Block compression,0.1724137931034483
+Parallel indexing and searching,0.1724137931034483
+TISs,0.1724137931034483
+Marginal probabilities,0.1724137931034483
+Matrices,0.1724137931034483
+Mining,0.1724137931034483
+Beta distribution,0.1724137931034483
+Transformations,0.1724137931034483
+Bayesian inference,0.1724137931034483
+map function,0.1724137931034483
+Cold start problem,0.1724137931034483
+Recommender systems,0.1724137931034483
+Configuration files,0.1724137931034483
+Dirichlet distribution,0.1724137931034483
+Data mining,0.1724137931034483
+Dependent random variables,0.1724137931034483
+MLE,0.13793103448275862
+Utility,0.13793103448275862
+Opinion mining,0.13793103448275862
+Q-function,0.13793103448275862
+Text information systems,0.13793103448275862
+Art retrieval models,0.13793103448275862
+Push access mode,0.13793103448275862
+Multinomial parameters in Bayesian estimate,0.13793103448275862
+Massung,0.13793103448275862
+Adjacency matrices,0.13793103448275862
+Content in opinion mining,0.13793103448275862
+Link analysis,0.13793103448275862
+length_filter filter,0.13793103448275862
+Associations mining,0.13793103448275862
+Decision modules in content-based filtering,0.13793103448275862
+Long-range jumps in multimode interactive access,0.13793103448275862
+Selection,0.13793103448275862
+Query vectors,0.13793103448275862
+Operators in text analysis systems,0.13793103448275862
+RMSE,0.13793103448275862
+Unified systems,0.13793103448275862
+Maps in multimode interactive access,0.13793103448275862
+Rankers for search engines,0.13793103448275862
+Scoring functions,0.13793103448275862
+Nearest-centroid classifiers,0.13793103448275862
+Probabilistic inference,0.13793103448275862
+Gaussian distribution,0.10344827586206896
+TREC filtering tasks,0.10344827586206896
+Classes,0.10344827586206896
+Scalability in web searches,0.10344827586206896
+Logical predicates in NLP,0.10344827586206896
+Symmetry in document clustering,0.10344827586206896
+Grammar learning,0.10344827586206896
+Perceptron classifiers,0.10344827586206896
+Similarity algorithm for clustering,0.10344827586206896
+Context,0.10344827586206896
+Unigram language models,0.10344827586206896
+Polarity analysis in sentiment classification,0.10344827586206896
+DCG,0.10344827586206896
+Contextual Probabilistic Latent Semantic Analysis,0.10344827586206896
+Positive feelings,0.10344827586206896
+Uniform priors in Dirichlet distribution,0.10344827586206896
+Practitioners reader category,0.10344827586206896
+Interpret operator,0.10344827586206896
+Twitter searches,0.10344827586206896
+p-values in search engine evaluation,0.10344827586206896
+Shadow analysis in NLP,0.10344827586206896
+System architecture in unified systems,0.10344827586206896
+Initialization modules in content-based filtering,0.10344827586206896
+Machine translation,0.10344827586206896
+Stylistic analysis in NLP,0.10344827586206896
+forward_index indexes,0.10344827586206896
+Divergence-from-randomness models,0.10344827586206896
+Statistical significance tests in search engine evaluation,0.10344827586206896
+EM algorithm maximization,0.10344827586206896
+Root-mean squared error,0.10344827586206896
+NDCG gain),0.10344827586206896
+Multivariate Gaussian distribution,0.10344827586206896
+Emotion analysis,0.10344827586206896
+Dendrograms,0.10344827586206896
+Modules in content-based filtering,0.10344827586206896
+Modification in NLP,0.10344827586206896
+Events,0.10344827586206896
+Organization in text information systems,0.10344827586206896
+tree_analyzer analyzer,0.10344827586206896
+Selective dissemination of information,0.10344827586206896
+Clustering bias,0.10344827586206896
+Spam in web searches,0.10344827586206896
+Collapsed Gibbs sampling,0.10344827586206896
+Views,0.10344827586206896
+F1 score,0.10344827586206896
+Collaborative filtering,0.06896551724137931
+Joint probabilities,0.06896551724137931
+Themes in CPLSA,0.06896551724137931
+One-vs-all,0.06896551724137931
+Aspect opinion analysis,0.06896551724137931
+Intersection operator,0.06896551724137931
+Berkeley study,0.06896551724137931
+Regression,0.06896551724137931
+Okapi BM25 model,0.06896551724137931
+Network supervised topic models,0.06896551724137931
+News summaries,0.06896551724137931
+C++ language,0.06896551724137931
+Navigational queries,0.06896551724137931
+Logarithm transformation,0.06896551724137931
+Conditional probabilities,0.06896551724137931
+Mutual information,0.06896551724137931
+Skip-gram neural language model,0.06896551724137931
+Significance tests in search engine evaluation,0.06896551724137931
+Multinomial distributions,0.06896551724137931
+Binomial distribution,0.06896551724137931
+Stop word removal,0.06896551724137931
+Story understanding,0.06896551724137931
+Pdf,0.06896551724137931
+Terrier search engine toolkit,0.06896551724137931
+Part-of-speech,0.06896551724137931
+Subjective statements vs,0.06896551724137931
+Targets in opinion mining,0.06896551724137931
+Parallel crawling,0.06896551724137931
+Pragmatic analysis in NLP,0.06896551724137931
+Optimization in web searches,0.06896551724137931
+Word segmentation in NLP,0.06896551724137931
+General EM algorithm,0.06896551724137931
+Exploration-exploitation tradeoff in content-based filtering,0.06896551724137931
+Delta bitwise compression,0.06896551724137931
+University of California Berkeley study,0.06896551724137931
+ICU Unicode),0.06896551724137931
+HTML files,0.06896551724137931
+Probability density function,0.06896551724137931
+Word distributions,0.06896551724137931
+E-discovery,0.06896551724137931
+Classification,0.06896551724137931
+Random observations in search engine evaluation,0.06896551724137931
+Normalized similarity algorithm,0.06896551724137931
+Web searches,0.06896551724137931
+Trends in web searches,0.06896551724137931
+Dirichlet prior smoothing,0.06896551724137931
+Redundancy,0.06896551724137931
+Translation,0.06896551724137931
+Gain in search engine evaluation,0.06896551724137931
+Syntactic ambiguity in NLP,0.034482758620689655
+MAP,0.034482758620689655
+META toolkit,0.034482758620689655
+Frequency transformation in paradigmatic relations,0.034482758620689655
+Fault tolerance in Google File System,0.034482758620689655
+Summarization,0.034482758620689655
+Concepts in vector space model,0.034482758620689655
+Visualization in text information systems,0.034482758620689655
+Common form of retrieval models,0.034482758620689655
+Feedback,0.034482758620689655
+Maximal marginal relevance reranking,0.034482758620689655
+Common sense knowledge in NLP,0.034482758620689655
+Overfitting problem,0.034482758620689655
+Ordinal regression,0.034482758620689655
+Feedback documents in unigram language model,0.034482758620689655
+Video data mining,0.034482758620689655
+Cleaning HTML files,0.034482758620689655
+Select operator,0.034482758620689655
+Bag-of-words,0.034482758620689655
+Anchor text in web searches,0.034482758620689655
+Scanning inverted indexes,0.034482758620689655
+G-means algorithm,0.034482758620689655
+Exhaustivity in sentiment classification,0.034482758620689655
+Extractive summarization,0.034482758620689655
+Expected overlap of words in paradigmatic relations,0.034482758620689655
+Normalized discounted cumulative gain,0.034482758620689655
+Normalization,0.034482758620689655
+Split counts in EM algorithm,0.034482758620689655
+Divisive clustering,0.034482758620689655
+Sparse priors in Dirichlet distribution,0.034482758620689655
+Bayes,0.034482758620689655
+Bayesian statistics,0.034482758620689655
+inverted_index indexes,0.034482758620689655
+Zipf’s law,0.034482758620689655
+Authority pages in web searches,0.034482758620689655
+BM25+ model,0.034482758620689655
+BM25 score,0.034482758620689655
+Named entity recognition,0.034482758620689655
+Stemmed words in vector space model,0.034482758620689655
+Bernoulli distribution,0.034482758620689655
+Query likelihood retrieval model,0.034482758620689655
+Search engine queries,0.034482758620689655
+BM25 model,0.034482758620689655
+Stemming process in META toolkit,0.034482758620689655
+Denial of service from crawlers,0.034482758620689655
+Multiple occurrences in vector space model,0.034482758620689655
+Pull access mode,0.034482758620689655
+Evaluation engine evaluation,0.034482758620689655
+Information retrieval,0.034482758620689655
+Bias,0.034482758620689655
+Product reviews in opinion mining,0.034482758620689655
+Discrete distributions,0.034482758620689655
+reduce function,0.034482758620689655
+DBLRU caches,0.034482758620689655
+Precision,0.034482758620689655
+High-level syntactic features,0.034482758620689655
+Hub pages in web searches,0.034482758620689655
+Advertising,0.034482758620689655
+Probabilistic latent semantic analysis,0.034482758620689655
+Threshold settings in content-based filtering,0.034482758620689655
+Brown clustering,0.034482758620689655
+Postings files for inverted indexes,0.034482758620689655
+Context variables in topic analysis,0.034482758620689655
+Therapist application,0.034482758620689655
+Jelinek-Mercer smoothing,0.034482758620689655
+IR,0.034482758620689655
+Icu_filter filter,0.034482758620689655
+Continuous distributions,0.034482758620689655
+Porter2 English Stemmer,0.034482758620689655
+Icu_tokenizer tokenizer,0.034482758620689655
+Regularizers in network supervised topic models,0.034482758620689655
+Posterior distribution,0.034482758620689655
+Joint analysis of text and structured data,0.034482758620689655
+ngram_pos_analyzer analyzer,0.034482758620689655
+Probabilistic retrieval models,0.034482758620689655
+Partitioning,0.034482758620689655
+Coverage,0.034482758620689655
+Long-term needs in push access mode,0.034482758620689655
+Instance-based classifiers,0.034482758620689655
+POS,0.034482758620689655
+Conditional entropy,0.034482758620689655
+Semantically related terms in clustering,0.034482758620689655
+Background models,0.034482758620689655
+Analyzers in META toolkit,0.034482758620689655
+Unsupervised clustering algorithms,0.034482758620689655
+Caching,0.034482758620689655
+Granger test,0.034482758620689655
+Probability distributions,0.034482758620689655
+Indirect citations in web searches,0.034482758620689655
+robots,0.034482758620689655
+Topic coverage,0.034482758620689655
+Categories,0.034482758620689655
+Shallow analysis in NLP,0.0
+Set retrieval evaluation,0.0
+Scientific research,0.0
+Spatiotemporal patterns in CPLSA,0.0
+Specificity in sentiment classification,0.0
+Sequences of words in NLP,0.0
+Social networks as context,0.0
+Average-link document clustering,0.0
+Short-range walks in multimode interactive access,0.0
+Single-link document clustering,0.0
+Semantic analysis in NLP,0.0
+BM25-F model,0.0
+Social science research,0.0
+Smoothing techniques,0.0
+Soft rules in text categorization,0.0
+Axiomatic thinking,0.0
+Selection-based text summarization,0.0
+Rule-based text categorization,0.0
+Similarity in clustering,0.0
+Short-term needs in pull access mode,0.0
+Similarity functions and measures,0.0
+SVM machines) classifiers,0.0
+Ruby language,0.0
+Sentence vectors in extractive summariza tion,0.0
+Sparse Beta,0.0
+Sparse data in Naive Bayes algorithm,0.0
+Social media in text data analysis,0.0
+BM25 TF transformation,0.0
+Separation in text clustering,0.0
+Text clustering,0.0
+Speech acts in NLP,0.0
+Vector space,0.0
+Wilcoxon signed-rank test,0.0
+Whitespace tokenizers,0.0
+Weka toolkit,0.0
+Weights,0.0
+WeightedTextObjectSet data type,0.0
+WeightedTextObjectSequence data type,0.0
+Weighted k-nearest neighbors algorithm,0.0
+Ad hoc retrieval,0.0
+Versions,0.0
+Add-1 smoothing,0.0
+Variable byte encoding,0.0
+Word counts,0.0
+Valence scoring,0.0
+VS retrieval models retrieval models,0.0
+Unsupervised machine learning,0.0
+Unstructured text access,0.0
+Unseen words,0.0
+Agglomerative clustering,0.0
+Under-constrained queries,0.0
+URLs and crawlers,0.0
+Aggregating,0.0
+Trigrams in frequency analysis,0.0
+Word association mining,0.0
+Word embedding in term clustering,0.0
+Training and training data,0.0
+libsvm_corpus file,0.0
+whitespace_tokenizer command,0.0
+vByte encoding,0.0
+score_term function,0.0
+Abstractive text summarization,0.0
+profile command,0.0
+porter2_stemmer filter,0.0
+no_evict_cache caches,0.0
+ngram_word_analyzer analyzer,0.0
+n-fold cross validation,0.0
+line_corpus input format,0.0
+libsvm_analyzer analyzer,0.0
+Word sense disambiguation in NLP,0.0
+file_corpus input format,0.0
+fetch_docs function,0.0
+Ad hoc information needs,0.0
+character_tokenizer tokenizer,0.0
+analyzers::tokenizers namespace,0.0
+analyzers::filters namespace,0.0
+WordNet ontology,0.0
+Word-level ambiguity in NLP,0.0
+Word vectors in text clustering,0.0
+Word valence scoring,0.0
+Transition matrices in PageRank,0.0
+All-vs-all,0.0
+Speech recognition,0.0
+Symmetric Beta,0.0
+Tags,0.0
+TR,0.0
+TF-IDF weighting,0.0
+TF weighting,0.0
+TF transformation,0.0
+TF,0.0
+SyntacticDiff method,0.0
+Syntactic structures in NLP,0.0
+Syntactic analysis in NLP,0.0
+Symmetric probabilities in information theory,0.0
+Symbolic approach in NLP,0.0
+Term IDs,0.0
+Supervised machine learning,0.0
+Architecture,0.0
+Student reader category,0.0
+Structured data,0.0
+Statistics,0.0
+Statistical machine learning,0.0
+State-of-the-art support vector machines,0.0
+Automatic evaluation in text clustering,0.0
+Split operator for text analysis,0.0
+Average precision,0.0
+Temporal trends in CPLSA,0.0
+Term clustering,0.0
+Topic maps in multimode interactive access,0.0
+Text organization in text information systems,0.0
+Topic coherence in time series context,0.0
+Tokenization,0.0
+Time series context in topic analysis,0.0
+Ambiguity,0.0
+Thesaurus discovery in NLP,0.0
+TextObjectSequence data type operators,0.0
+TextObject data type operators,0.0
+Text summarization,0.0
+Text retrieval,0.0
+Text representation in NLP,0.0
+Text management and analysis in unified systems,0.0
+Term frequency,0.0
+Text data understanding language processing,0.0
+Text data analysis overview,0.0
+Text data access,0.0
+Reviews,0.0
+Text categorization,0.0
+Text annotation,0.0
+Text,0.0
+Testing data,0.0
+Test collections in Cranfield evaluation methodology,0.0
+Term-at-a-time ranking,0.0
+Rocchio feedback,0.0
+Common words,0.0
+Retrieval models,0.0
+Kullback-Leibler divergence retrieval model,0.0
+Indri/Lemur search engine toolkit,0.0
+Indirect opinions,0.0
+Causal topic mining,0.0
+Incomplete data in EM algorithm,0.0
+Implicit feedback,0.0
+Impact,0.0
+Centroids in document clustering,0.0
+IDF,0.0
+Hyperparameters,0.0
+Humans,0.0
+Hill-climbing algorithm,0.0
+Hierarchical clustering,0.0
+HITS algorithm,0.0
+Graph mining,0.0
+Grammatical parse trees,0.0
+Google PageRank,0.0
+Classifiers in text categorization,0.0
+Generative classifiers,0.0
+Generation-based text summarization,0.0
+GFS,0.0
+Full structure parsing,0.0
+Frequency and frequency counts,0.0
+Frame of reference encoding,0.0
+Focused crawling,0.0
+Filter chains for tokenization,0.0
+Inferred opinions,0.0
+Information access in text information systems,0.0
+Information extraction,0.0
+Jaccard similarity,0.0
+Known item searches in ranked lists evaluation,0.0
+Knowledge provenance in unified systems,0.0
+Knowledge discovery in text summarization,0.0
+Knowledge acquisition in text information systems,0.0
+Knowledge Graph,0.0
+Key-value pairs in MapReduce,0.0
+Kernel trick for linear classifiers,0.0
+KL-divergence,0.0
+K-nearest neighbors,0.0
+K-means document clustering,0.0
+Joint distributions for mutual information,0.0
+Iterative algorithms for PageRank,0.0
+Information theory,0.0
+Iterative Causal Topic Modeling,0.0
+Business intelligence,0.0
+Inverted index chunks,0.0
+Inverse user frequency,0.0
+Inverse document frequency,0.0
+Intrusion detection,0.0
+Interpolation for smoothing methods,0.0
+CPLSA Semantic Analysis),0.0
+Instructor reader category,0.0
+Inlink counts in PageRank,0.0
+Initial values in EM algorithm,0.0
+Clusters and clustering,0.0
+Co-occurrences in mutual information,0.0
+Features for text categorization,0.0
+Cumulative gain,0.0
+Development sets for text categorization,0.0
+Design philosophy,0.0
+Dependency parsers,0.0
+Deep analysis in natural language processing,0.0
+Decision support,0.0
+Decision boundaries for linear classifiers,0.0
+Database retrieval,0.0
+Data-driven social science research mining for,0.0
+Data-User-Service Triangle,0.0
+Data types in text analysis,0.0
+Current technology,0.0
+Cross validation in text categorization,0.0
+Discounted cumulative gain,0.0
+Cranfield evaluation methodology,0.0
+Cosine similarity,0.0
+Corpus input formats in META toolkit,0.0
+Content analysis modules,0.0
+Constraints in PLSA,0.0
+Confusion matrices,0.0
+Conceptual framework in text information systems,0.0
+Collect function,0.0
+Complete-link document clustering,0.0
+Complete data for EM algorithm,0.0
+Compare operator,0.0
+Disaster response,0.0
+Discourse analysis in NLP,0.0
+Feature generation for tokenizers,0.0
+E step in EM algorithm,0.0
+F measure,0.0
+F -test for time series context,0.0
+Expectation-maximization,0.0
+Entity-relation re-creation,0.0
+Enron email dataset,0.0
+Empirically defined problems,0.0
+Email counts,0.0
+Eliza project,0.0
+Electronic discovery,0.0
+Coherence in text clustering,0.0
+Edit features in text categorization,0.0
+Dynamically generated content and crawlers,0.0
+Discriminative classifiers,0.0
+Dynamic coefficient interpolation in smoothing methods,0.0
+Double Barrel Least-Recently Used caches,0.0
+Dot products,0.0
+Coin flips,0.0
+Documents,0.0
+Document-at-a-time ranking,0.0
+Document length,0.0
+Document frequency,0.0
+Document clustering,0.0
+Document IDs,0.0
+Distances in clusters,0.0
+Browsing,0.0
+LRU,0.0
+Representative documents in search engine evaluation,0.0
+Lagrange Multiplier approach,0.0
+Predictive analysis for non-text data,0.0
+Precision-recall curves in ranked lists evaluation,0.0
+Power iteration for PageRank,0.0
+Posterior probability in Bayesian parameter estimation,0.0
+Pointwise Mutual Information,0.0
+Pivoted length normalization,0.0
+Perspective in text data analysis,0.0
+Personalized PageRank,0.0
+Baseline accuracy in text categorization,0.0
+Patterns,0.0
+Parsing,0.0
+Parameters,0.0
+Paradigmatic relations,0.0
+PageRank technique,0.0
+PLSA analysis,0.0
+PL2 model,0.0
+Overlap of words in paradigmatic relations,0.0
+Over-constrained queries,0.0
+Opinion summarization,0.0
+Opinion holders,0.0
+Opinion analysis in text summarization,0.0
+Observers,0.0
+Observed world,0.0
+Objective statements vs,0.0
+Normalized ratings in collaborative filtering,0.0
+Predictors features in joint analysis,0.0
+Bar-Hillel report,0.0
+Prior probability in Bayesian parameter estimation,0.0
+Random numbers in abstractive summa rization,0.0
+Repeated crawling,0.0
+Relevant word counts in EM algorithm,0.0
+Relevant text data,0.0
+Relevance and relevance judgments,0.0
+Recommendations in text information systems,0.0
+Recall in set retrieval evaluation,0.0
+Realization in abstractive summarization,0.0
+Real world properties about,0.0
+Ratings,0.0
+Ranked lists evaluation,0.0
+Random surfers in PageRank,0.0
+Random access decoding in compression,0.0
+Probability and statistics,0.0
+Query expansion,0.0
+Background words,0.0
+Python language,0.0
+Pseudo-segments for mutual information,0.0
+Pseudo feedback,0.0
+Pseudo data in LDA,0.0
+Pseudo counts,0.0
+Proximity heuristics for inverted indexes,0.0
+Producer-initiated recommendations,0.0
+Probability space,0.0
+Probability ranking principle,0.0
+Non-text data,0.0
+Nodes in word associations,0.0
+Newspaper output,0.0
+Linear classifiers in text categorization,0.0
+Machine learning,0.0
+MMR reranking,0.0
+M step,0.0
+Lower bound of likelihood in EM algorithm,0.0
+Low-level lexical features in text categoriza tion,0.0
+Logistic regression in sentiment classifica tion,0.0
+Logic-based approach in NLP,0.0
+Binomial estimation,0.0
+Bit vector representation,0.0
+Local maxima,0.0
+Linear interpolation in Jelinek-Mercer smoothing,0.0
+Likelihood and likelihood function,0.0
+Binary logistic regression,0.0
+Lexicons for inverted indexes,0.0
+Lexical analysis in NLP,0.0
+Length normalization,0.0
+Least-Recently Used,0.0
+Block world project,0.0
+Learners,0.0
+Lazy learners in text categorization,0.0
+Latent Rating Regression,0.0
+Latent Dirichlet Allocation,0.0
+Latent Aspect Rating Analysis,0.0
+Breadth-first crawler searches,0.0
+Machine-generated data,0.0
+Manual evaluation for text clustering,0.0
+Bayesian parameter estimation,0.0
+Model-based clustering algorithms,0.0
+Bayesian smoothing,0.0
+Negative feedback documents,0.0
+Bayes’ rule,0.0
+Natural language processing,0.0
+Natural language generation in text summarization,0.0
+Natural language,0.0
+Naive Bayes algorithm,0.0
+Beta-gamma threshold learning,0.0
+Multiple queries in ranked lists evaluation,0.0
+Absolute discounting,0.0
+Multiclass classification,0.0
+Model files for META toolkit,0.0
+Binary hidden variables in EM algorithm,0.0
+Big text data,0.0
+Mining topics from text,0.0
+Memory-based approach in collaborative filtering,0.0
+Measurements in search engine evaluation,0.0
+Binary classification,0.0
+Mean average precision,0.0
+Maximum a Posteriori,0.0
+Maximization algorithm for document clustering,0.0
+Matrix multiplication in PageRank,0.0
+Market research,0.0
+MapReduce framework,0.0
+word2vec skip-gram,0.0

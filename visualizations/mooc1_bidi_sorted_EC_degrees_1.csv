@@ -1,0 +1,196 @@
+,0
+fact,1.0
+term,0.8333333333333333
+query,0.8055555555555555
+context,0.7777777777777777
+vector -,0.75
+vector,0.75
+generative model,0.7222222222222222
+review,0.7222222222222222
+map function,0.6666666666666666
+mutual function,0.611111111111111
+collaborative,0.611111111111111
+inference,0.611111111111111
+conditional probability,0.5833333333333333
+confusion,0.5555555555555556
+disaster,0.5
+clickthrough,0.4722222222222222
+mining,0.4722222222222222
+feedback,0.41666666666666663
+from - randomness model,0.41666666666666663
+big,0.41666666666666663
+selection,0.38888888888888884
+course,0.38888888888888884
+query expansion,0.38888888888888884
+reduce,0.3611111111111111
+function,0.3611111111111111
+probability,0.3611111111111111
+divergence - from - randomness model,0.3333333333333333
+mixture model,0.3055555555555555
+classification,0.3055555555555555
+term frequency,0.3055555555555555
+redundancy,0.3055555555555555
+filter,0.3055555555555555
+term id,0.25
+language model,0.25
+scoring function,0.25
+summarization,0.2222222222222222
+mutual model,0.2222222222222222
+view,0.2222222222222222
+correlation,0.19444444444444442
+domain,0.16666666666666666
+scorer,0.16666666666666666
+reduce function,0.16666666666666666
+dirichlet prior smoothing,0.16666666666666666
+mercer,0.16666666666666666
+machine,0.16666666666666666
+class file,0.16666666666666666
+category,0.16666666666666666
+background model,0.16666666666666666
+idf weighting,0.1388888888888889
+start problem,0.1388888888888889
+class,0.1388888888888889
+document frequency,0.1111111111111111
+focus crawling,0.1111111111111111
+translation,0.1111111111111111
+gfs,0.1111111111111111
+text,0.1111111111111111
+obvious,0.08333333333333333
+rank,0.08333333333333333
+google file,0.08333333333333333
+empirically,0.08333333333333333
+index,0.08333333333333333
+human,0.08333333333333333
+tf weighting,0.05555555555555555
+collection,0.05555555555555555
+google file system,0.05555555555555555
+entropy,0.05555555555555555
+base filtering,0.05555555555555555
+model,0.05555555555555555
+content - base filtering,0.05555555555555555
+parallel crawling,0.05555555555555555
+dcg,0.05555555555555555
+map,0.05555555555555555
+scoring,0.027777777777777776
+cache,0.027777777777777776
+knowledge,0.027777777777777776
+matrix,0.027777777777777776
+database retrieval,0.027777777777777776
+natural language processing,0.027777777777777776
+recommender system,0.027777777777777776
+precision,0.027777777777777776
+word distribution,0.027777777777777776
+text access,0.027777777777777776
+server,0.027777777777777776
+crawler,0.027777777777777776
+document id,0.027777777777777776
+content - base,0.027777777777777776
+text categorization,0.0
+text research,0.0
+variable length,0.0
+text retrieval,0.0
+regression,0.0
+test,0.0
+vector learning,0.0
+vector space,0.0
+weight,0.0
+recommender,0.0
+query likelihood,0.0
+text information system,0.0
+tag,0.0
+rating,0.0
+word count,0.0
+rank principle,0.0
+text datum,0.0
+random,0.0
+tag pretty,0.0
+variable,0.0
+smoothing,0.0
+tf,0.0
+speech recognition,0.0
+sentiment analysis,0.0
+toolkit,0.0
+search system,0.0
+search engine,0.0
+search,0.0
+statistic,0.0
+tokenization,0.0
+support,0.0
+utility,0.0
+sample,0.0
+rocchio,0.0
+unigram,0.0
+retrieval model,0.0
+pseudo count,0.0
+unseen word,0.0
+system,0.0
+repeat,0.0
+transformation,0.0
+ad,0.0
+property,0.0
+collaborative filtering,0.0
+document length,0.0
+document,0.0
+discount,0.0
+decision support,0.0
+decision,0.0
+database,0.0
+cumulative gain,0.0
+crawling,0.0
+cranfield evaluation methodology,0.0
+coverage,0.0
+count,0.0
+content,0.0
+compression,0.0
+common word,0.0
+citation,0.0
+efficiency,0.0
+business,0.0
+browse,0.0
+bm score,0.0
+block,0.0
+bias,0.0
+bag - of - word,0.0
+b test,0.0
+axiomatic thinking,0.0
+average,0.0
+architecture,0.0
+analysis,0.0
+ambiguity,0.0
+aggregate,0.0
+ad hoc information need,0.0
+dot product,0.0
+entity extraction,0.0
+probability distribution,0.0
+link analysis,0.0
+pdf,0.0
+pattern,0.0
+parse,0.0
+parameter,0.0
+parallel,0.0
+observer,0.0
+normalization,0.0
+noise,0.0
+nlp,0.0
+need,0.0
+natural language,0.0
+mean,0.0
+machine learning,0.0
+ad hoc,0.0
+link,0.0
+f,0.0
+law,0.0
+knowledge graph,0.0
+kl - divergence,0.0
+ir,0.0
+inverse,0.0
+information theory,0.0
+information retrieval,0.0
+information extraction,0.0
+idf,0.0
+hits algorithm,0.0
+gain,0.0
+framework,0.0
+filter problem,0.0
+f measure,0.0
+zipf,0.0
