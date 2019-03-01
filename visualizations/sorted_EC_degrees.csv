@@ -1,0 +1,1015 @@
+,0
+StatSoft,1.0
+WordNet,1.0
+Clementine,1.0
+undersampling,1.0
+MineSet,1.0
+motifs,1.0
+AVA,1.0
+postpruning,1.0
+PROCLUS,1.0
+trimodal,1.0
+multimodal,1.0
+treemaps,1.0
+Wikipedia,1.0
+CRM,1.0
+BLAST,1.0
+neurodes,1.0
+bimodal,1.0
+extractors,1.0
+genomes,1.0
+BCubed recall metric,0.8591549295774648
+inferential statistics,0.8591549295774648
+perception-based classiﬁcation,0.7887323943661972
+naive Bayesian classiﬁcation,0.7464788732394366
+inconvertible constraints,0.7183098591549296
+squashing function,0.7042253521126761
+differential privacy,0.676056338028169
+randomization methods,0.647887323943662
+editing method,0.647887323943662
+shapelets method,0.647887323943662
+bitmapped join indexing,0.647887323943662
+COP k-means algorithm,0.6338028169014085
+trimmed mean,0.6056338028169014
+hamming distance,0.5774647887323944
+Baum-Welch algorithm,0.5633802816901409
+Viterbi algorithm,0.5633802816901409
+pyramid algorithm,0.5633802816901409
+instances,0.5352112676056339
+BCubed precision metric,0.5352112676056339
+microeconomic view,0.5211267605633803
+collaborative recommender systems,0.5211267605633803
+ubiquitous data mining,0.5211267605633803
+densiﬁcation power law,0.5070422535211268
+RIPPER,0.5070422535211268
+Bayes’ theorem,0.49295774647887325
+reduced support,0.49295774647887325
+survival analysis,0.4647887323943662
+stick ﬁgure visualization,0.4647887323943662
+phylogenetic trees,0.4647887323943662
+CHAID,0.4507042253521127
+closed patterns,0.4507042253521127
+discernibility matrix,0.4366197183098592
+load,0.4366197183098592
+tilted time windows,0.4225352112676056
+connectionist learning,0.3943661971830986
+Pareto distribution,0.3943661971830986
+ancestor cells,0.38028169014084506
+inductive databases,0.38028169014084506
+intradimensional association rules,0.38028169014084506
+signature-based detection,0.35211267605633806
+spatiotemporal data mining,0.35211267605633806
+core patterns,0.3380281690140845
+core descendants,0.3380281690140845
+generalized relations,0.323943661971831
+link prediction,0.3098591549295775
+ID3,0.3098591549295775
+working relations,0.3098591549295775
+variant graph patterns,0.29577464788732394
+subcube queries,0.29577464788732394
+normalization,0.29577464788732394
+patterns,0.28169014084507044
+monotonic constraints,0.28169014084507044
+cube space,0.28169014084507044
+object matching,0.28169014084507044
+predicates,0.28169014084507044
+pattern discovery,0.28169014084507044
+factor analysis,0.28169014084507044
+illustrated,0.26760563380281693
+compressed patterns,0.26760563380281693
+mutually exclusive rules,0.26760563380281693
+bar charts,0.26760563380281693
+dissimilarity,0.26760563380281693
+variance,0.2535211267605634
+linear regression,0.2535211267605634
+max patterns,0.2535211267605634
+splitting criterion,0.23943661971830987
+multitier data warehouses,0.23943661971830987
+unique rules,0.23943661971830987
+metrics,0.23943661971830987
+subsequence,0.22535211267605634
+smoothing,0.22535211267605634
+splitting attributes,0.22535211267605634
+positive tuples,0.22535211267605634
+cube shells,0.2112676056338028
+theoretical foundations,0.2112676056338028
+graphic displays,0.2112676056338028
+predicate sets,0.2112676056338028
+IR,0.2112676056338028
+genetic algorithms,0.1971830985915493
+ﬁeld overloading,0.1971830985915493
+split-point,0.1971830985915493
+pattern evaluation,0.1971830985915493
+SQL,0.18309859154929578
+point queries,0.18309859154929578
+chunking,0.18309859154929578
+pattern-trees,0.18309859154929578
+chunks,0.18309859154929578
+constraints,0.18309859154929578
+link mining,0.18309859154929578
+ChiMerge,0.16901408450704225
+proximity-based methods,0.16901408450704225
+false negatives,0.15492957746478875
+oversampling,0.15492957746478875
+sentiment classiﬁcation,0.15492957746478875
+social networks,0.15492957746478875
+invisible data mining,0.15492957746478875
+expectation-maximization,0.15492957746478875
+reachability density,0.15492957746478875
+weighted Euclidean distance,0.15492957746478875
+multivariate outlier detection,0.15492957746478875
+interestingness,0.15492957746478875
+multifeature cubes,0.15492957746478875
+percentiles,0.14084507042253522
+splitting subset,0.14084507042253522
+dispersion of data,0.14084507042253522
+standard deviation,0.14084507042253522
+graph pattern mining,0.14084507042253522
+top-k queries,0.14084507042253522
+BI,0.1267605633802817
+sequences,0.1267605633802817
+pattern-based clustering,0.1267605633802817
+absolute support,0.1267605633802817
+power law distribution,0.1267605633802817
+intracuboid query expansion,0.1267605633802817
+bootstrap method,0.1267605633802817
+iterative Pattern-Fusion,0.1267605633802817
+data segmentation,0.1267605633802817
+efﬁciency,0.1267605633802817
+time-series data,0.1267605633802817
+superset checking,0.1267605633802817
+synchronous generalization,0.11267605633802817
+bagging,0.11267605633802817
+facts,0.11267605633802817
+base cells,0.11267605633802817
+epoch updating,0.11267605633802817
+nominal attributes,0.11267605633802817
+iterative relocation techniques,0.11267605633802817
+hash-based technique,0.11267605633802817
+data migration tools,0.11267605633802817
+frequent pattern mining,0.11267605633802817
+gene expression,0.11267605633802817
+time-series data analysis,0.11267605633802817
+pivot,0.11267605633802817
+Semantic Web,0.09859154929577466
+confusion matrix,0.09859154929577466
+Hopkins statistic,0.09859154929577466
+objective interestingness measures,0.09859154929577466
+image data analysis,0.09859154929577466
+closed frequent itemsets,0.09859154929577466
+data marts,0.09859154929577466
+splitting rules,0.09859154929577466
+prior probability,0.09859154929577466
+spatiotemporal data analysis,0.09859154929577466
+market basket analysis,0.09859154929577466
+lazy learners,0.09859154929577466
+reachability distance,0.09859154929577466
+data scrubbing tools,0.09859154929577466
+DBSCAN,0.09859154929577466
+regression,0.09859154929577466
+dendrograms,0.08450704225352113
+web-document classiﬁcation,0.08450704225352113
+data/pattern analysis,0.08450704225352113
+square-error function,0.08450704225352113
+privacy-preserving data mining,0.08450704225352113
+core ratio,0.08450704225352113
+dice operation,0.08450704225352113
+networks,0.08450704225352113
+sparsest cuts,0.08450704225352113
+redundancy,0.08450704225352113
+lift,0.08450704225352113
+three-layer neural networks,0.08450704225352113
+initial working relations,0.08450704225352113
+sales campaign analysis,0.08450704225352113
+BUC,0.08450704225352113
+gradient descent strategy,0.08450704225352113
+graph index structures,0.08450704225352113
+posterior probability,0.08450704225352113
+similarity,0.07042253521126761
+cluster analysis,0.07042253521126761
+customer relationship management,0.07042253521126761
+data extraction,0.07042253521126761
+signiﬁcance levels,0.07042253521126761
+k-predicate sets,0.07042253521126761
+data mining,0.07042253521126761
+dissimilarity matrix,0.07042253521126761
+time-series forecasting,0.07042253521126761
+pattern analysis,0.07042253521126761
+harmonic mean,0.07042253521126761
+pattern clustering,0.07042253521126761
+probabilistic hierarchical clustering,0.07042253521126761
+antimonotonic constraints,0.07042253521126761
+pattern-based classiﬁcation,0.07042253521126761
+pattern evaluation measures,0.07042253521126761
+average,0.07042253521126761
+numeric prediction,0.07042253521126761
+discrepancy detection,0.07042253521126761
+Clustering Large Applications,0.07042253521126761
+subspace clustering,0.07042253521126761
+web mining,0.07042253521126761
+data streams,0.07042253521126761
+DIANA,0.07042253521126761
+noise ﬁltering,0.056338028169014086
+grid-based methods,0.056338028169014086
+items,0.056338028169014086
+pattern constraints,0.056338028169014086
+iceberg cubes,0.056338028169014086
+composite join indices,0.056338028169014086
+queries,0.056338028169014086
+k-medoids,0.056338028169014086
+generalized linear models,0.056338028169014086
+shell cubes,0.056338028169014086
+frequent patterns,0.056338028169014086
+frequency patterns,0.056338028169014086
+false positives,0.056338028169014086
+fact tables,0.056338028169014086
+ratio-scaled attributes,0.056338028169014086
+covariance,0.056338028169014086
+negative tuples,0.056338028169014086
+relevance analysis,0.056338028169014086
+negative patterns,0.056338028169014086
+C4,0.056338028169014086
+weight arithmetic mean,0.056338028169014086
+categorical attributes,0.056338028169014086
+CBLOF,0.056338028169014086
+RainForest,0.056338028169014086
+tag clouds,0.056338028169014086
+HilOut algorithm,0.056338028169014086
+Pattern-Fusion,0.04225352112676056
+stepwise forward selection,0.04225352112676056
+web directories,0.04225352112676056
+true positives,0.04225352112676056
+instance-based learners,0.04225352112676056
+moving-object data mining,0.04225352112676056
+simple random sample without replacement,0.04225352112676056
+statistics,0.04225352112676056
+simple random sample with replacement,0.04225352112676056
+cyber-physical systems,0.04225352112676056
+data,0.04225352112676056
+mode,0.04225352112676056
+probability,0.04225352112676056
+structural patterns,0.04225352112676056
+data mining systems,0.04225352112676056
+convertible constraints,0.04225352112676056
+item skipping,0.04225352112676056
+rare patterns,0.04225352112676056
+association analysis,0.04225352112676056
+uniform support,0.04225352112676056
+pattern-guided mining,0.04225352112676056
+pattern space pruning,0.04225352112676056
+Divisive Analysis,0.04225352112676056
+MaPle,0.04225352112676056
+DDPMine,0.04225352112676056
+support,0.04225352112676056
+query languages,0.04225352112676056
+scalability,0.04225352112676056
+interestingness constraints,0.04225352112676056
+time-variant data warehouses,0.04225352112676056
+subspaces,0.04225352112676056
+sensitivity analysis,0.04225352112676056
+pool-based approach,0.04225352112676056
+farthest-neighbor clustering algorithm,0.04225352112676056
+clustering,0.04225352112676056
+clusters,0.04225352112676056
+δ-bicluster algorithm,0.04225352112676056
+transfer learning,0.04225352112676056
+iceberg condition,0.04225352112676056
+colossal patterns,0.04225352112676056
+sparse data,0.04225352112676056
+AdaBoost,0.028169014084507043
+concept hierarchy generation,0.028169014084507043
+data discretization,0.028169014084507043
+frequent pattern-based classiﬁcation,0.028169014084507043
+negative correlation,0.028169014084507043
+supremum distance,0.028169014084507043
+interval-scaled attributes,0.028169014084507043
+support vectors,0.028169014084507043
+cluster-based local outlier factor,0.028169014084507043
+lossless compression,0.028169014084507043
+concept characterization,0.028169014084507043
+boxplots,0.028169014084507043
+concept hierarchies,0.028169014084507043
+schemas,0.028169014084507043
+data source view,0.028169014084507043
+shared dimensions,0.028169014084507043
+hard constraints,0.028169014084507043
+Clustering Large Applications based upon Randomized Search,0.028169014084507043
+planning and analysis tools,0.028169014084507043
+loan payment prediction,0.028169014084507043
+soft constraints,0.028169014084507043
+analytical processing,0.028169014084507043
+interdimensional association rules,0.028169014084507043
+search engines,0.028169014084507043
+scatter plots,0.028169014084507043
+data validation,0.028169014084507043
+agglomerative hierarchical method,0.028169014084507043
+evaluation metrics,0.028169014084507043
+principle components analysis,0.028169014084507043
+probabilistic clusters,0.028169014084507043
+Google,0.028169014084507043
+content-based retrieval,0.028169014084507043
+clustering with obstacles problem,0.028169014084507043
+constraint-guided mining,0.028169014084507043
+frequent itemset mining,0.028169014084507043
+item merging,0.028169014084507043
+cuboids,0.028169014084507043
+clustering tendency assessment,0.028169014084507043
+clustering space,0.028169014084507043
+true negatives,0.028169014084507043
+speciﬁcity measure,0.028169014084507043
+IBM Intelligent Miner,0.028169014084507043
+nonlinear SVMs,0.028169014084507043
+unordered attributes,0.028169014084507043
+contextual attributes,0.028169014084507043
+IF-THEN rules,0.028169014084507043
+precision measure,0.028169014084507043
+interpretability,0.014084507042253521
+analysis of variance,0.014084507042253521
+base cuboids,0.014084507042253521
+telecommunications industry,0.014084507042253521
+ﬁnancial data analysis,0.014084507042253521
+k-anonymity method,0.014084507042253521
+negatively skewed data,0.014084507042253521
+gain ratio,0.014084507042253521
+Classiﬁcation based on Multiple Association Rules,0.014084507042253521
+random walk,0.014084507042253521
+cluster computing,0.014084507042253521
+linearly inseparable data,0.014084507042253521
+linearly,0.014084507042253521
+k-fold cross-validation,0.014084507042253521
+Classiﬁcation based on Predictive Association Rules,0.014084507042253521
+k-means clustering,0.014084507042253521
+inverted indexes,0.014084507042253521
+FindCBLOF algorithm,0.014084507042253521
+refresh,0.014084507042253521
+symbolic sequences,0.014084507042253521
+clustering quality measurement,0.014084507042253521
+intrusion detection,0.014084507042253521
+MOLAP,0.014084507042253521
+selection dimensions,0.014084507042253521
+support vector machines,0.014084507042253521
+distributions,0.014084507042253521
+representative patterns,0.014084507042253521
+query-driven approach,0.014084507042253521
+learning,0.014084507042253521
+drill-across operation,0.014084507042253521
+query models,0.014084507042253521
+partitioning,0.014084507042253521
+kernel function,0.014084507042253521
+partition matrix,0.014084507042253521
+holdout method,0.014084507042253521
+quantile plots,0.014084507042253521
+dimensionality reduction methods,0.014084507042253521
+data characterization,0.014084507042253521
+business query view,0.014084507042253521
+data matrix,0.014084507042253521
+probability and statistical theory,0.014084507042253521
+data generalization,0.014084507042253521
+data focusing,0.014084507042253521
+indexes,0.014084507042253521
+Star-Cubing,0.014084507042253521
+case-based reasoning,0.014084507042253521
+consecutive rules,0.014084507042253521
+Worlds-with-Worlds,0.014084507042253521
+numerosity reduction,0.014084507042253521
+constraint-based clustering,0.014084507042253521
+data auditing tools,0.014084507042253521
+data objects,0.014084507042253521
+OPTICS,0.014084507042253521
+information networks,0.014084507042253521
+Tanimoto coefﬁcient,0.014084507042253521
+classiﬁers,0.014084507042253521
+multiclass classiﬁcation,0.014084507042253521
+multidimensional OLAP,0.014084507042253521
+predictive statistics,0.014084507042253521
+cost complexity pruning algorithm,0.014084507042253521
+multidimensional histograms,0.014084507042253521
+social science/social studies data mining,0.014084507042253521
+sparsity coefﬁcient,0.014084507042253521
+holistic measures,0.014084507042253521
+data models,0.014084507042253521
+grid-based outlier detection,0.014084507042253521
+data preprocessing,0.014084507042253521
+decision tree induction,0.014084507042253521
+dimensionality reduction,0.014084507042253521
+dimension/level,0.014084507042253521
+semantic annotations,0.014084507042253521
+substructures,0.014084507042253521
+quantitative association rules,0.014084507042253521
+geographic data warehouses,0.014084507042253521
+neighborhoods,0.014084507042253521
+materialization,0.014084507042253521
+concept description,0.014084507042253521
+global outliers,0.014084507042253521
+maximal frequent itemsets,0.014084507042253521
+binary attributes,0.014084507042253521
+decision trees,0.014084507042253521
+decision tree analysis,0.014084507042253521
+Markov chains,0.014084507042253521
+graph data,0.014084507042253521
+positive correlation,0.014084507042253521
+data transformation,0.014084507042253521
+data visualization,0.014084507042253521
+data selection,0.014084507042253521
+adaptive probabilistic networks,0.014084507042253521
+sequential pattern mining,0.014084507042253521
+subspace clustering methods,0.014084507042253521
+possibility theory,0.0
+trends,0.0
+uncertainty sampling,0.0
+positively skewed data,0.0
+two-layer neural networks,0.0
+triangle inequality,0.0
+two sample t-test,0.0
+tuples,0.0
+two-level hash index structure,0.0
+pixel-oriented visualization,0.0
+parallel and distributed data-intensive mining algorithms,0.0
+unimodal,0.0
+operational metadata,0.0
+visual data mining,0.0
+online transaction processing,0.0
+online analytical processing,0.0
+online analytical mining,0.0
+one-versus-all,0.0
+one-pass cube computation,0.0
+one-class model,0.0
+warehouse database servers,0.0
+warehouse refresh software,0.0
+waterfall method,0.0
+numeric data,0.0
+numeric attributes,0.0
+wavelet coefﬁcients,0.0
+null-transactions,0.0
+null-invariant measures,0.0
+null rules,0.0
+wavelet transforms,0.0
+nonvolatile data warehouses,0.0
+nonparametric statistical methods,0.0
+noisy data,0.0
+web search engines,0.0
+no materialization,0.0
+wrappers,0.0
+neural networks,0.0
+z-score normalization,0.0
+δ-pCluster,0.0
+networked data,0.0
+nested loop algorithm,0.0
+ﬁve-number summary,0.0
+visible points,0.0
+ordered attributes,0.0
+univariate Gaussian mixture model,0.0
+ordering,0.0
+univariate distribution,0.0
+univariate outlier detection,0.0
+unordered rules,0.0
+unsupervised learning,0.0
+unsupervised outlier detection,0.0
+upper approximation,0.0
+user interaction,0.0
+values,0.0
+variables,0.0
+path-based similarity,0.0
+partitioning methods,0.0
+version space,0.0
+vertical data format,0.0
+partial materialization,0.0
+partial distance method,0.0
+parametric statistical methods,0.0
+parametric data reduction,0.0
+parallel coordinates,0.0
+prediction,0.0
+pairwise comparison,0.0
+pairwise alignment,0.0
+video data analysis,0.0
+virtual warehouses,0.0
+outliers,0.0
+visibility graphs,0.0
+outlier subgraphs,0.0
+outlier detection,0.0
+outlier analysis,0.0
+ordinal attributes,0.0
+trend analysis,0.0
+star schema,0.0
+prediction cubes,0.0
+negative transfer,0.0
+subjective interestingness measures,0.0
+subject-oriented data warehouses,0.0
+shared-partitions,0.0
+shared-sorts,0.0
+sub-itemset pruning,0.0
+shell fragments,0.0
+structures,0.0
+subset testing,0.0
+structure similarity search,0.0
+shrinking diameter,0.0
+sigmoid function,0.0
+signiﬁcance measure,0.0
+signiﬁcance tests,0.0
+silhouette coefﬁcient,0.0
+subset checking,0.0
+sequential covering algorithm,0.0
+similarity measures,0.0
+self-training,0.0
+scalable computation,0.0
+science applications,0.0
+summary fact tables,0.0
+sum of the squared error,0.0
+search space pruning,0.0
+second guess heuristic,0.0
+substitution matrices,0.0
+sequence data analysis,0.0
+semi-ofﬂine materialization,0.0
+semi-supervised classiﬁcation,0.0
+semi-supervised learning,0.0
+semi-supervised outlier detection,0.0
+subspace search methods,0.0
+sensitivity measure,0.0
+structural data analysis,0.0
+structural context-based similarity,0.0
+sampling,0.0
+statistical databases,0.0
+spatial data,0.0
+spatial data mining,0.0
+statistical models,0.0
+statistical hypothesis test,0.0
+specialized SQL servers,0.0
+statistical descriptions,0.0
+spectral clustering,0.0
+sparse data cubes,0.0
+speech recognition,0.0
+speed,0.0
+spiral method,0.0
+statistical data mining,0.0
+starnet query model,0.0
+star-trees,0.0
+statistical outlier detection methods,0.0
+space-ﬁlling curve,0.0
+similarity searches,0.0
+singular value decomposition,0.0
+strong association rules,0.0
+stream data,0.0
+simultaneous aggregation,0.0
+single-dimensional association rules,0.0
+single-linkage algorithm,0.0
+stratiﬁed samples,0.0
+skewed data,0.0
+soft clustering,0.0
+slice operation,0.0
+small-world phenomenon,0.0
+stratiﬁed cross-validation,0.0
+snowﬂake schema,0.0
+stepwise backward elimination,0.0
+statistical theory,0.0
+sampling cubes,0.0
+supervised learning,0.0
+transactions,0.0
+querying function,0.0
+quality control,0.0
+timeliness,0.0
+quantile-quantile plots,0.0
+quartiles,0.0
+threshold-moving approach,0.0
+text mining,0.0
+rag bag criterion,0.0
+top-down subspace search,0.0
+random forests,0.0
+random sampling,0.0
+star-nodes,0.0
+test tuples,0.0
+random subsampling,0.0
+test sets,0.0
+top-down design approach,0.0
+top-down view,0.0
+term-frequency vectors,0.0
+transaction reduction,0.0
+predictive analysis,0.0
+predictive mining tasks,0.0
+predictors,0.0
+prepruning,0.0
+prime relations,0.0
+transactional databases,0.0
+probabilistic model-based clustering,0.0
+pruning,0.0
+training,0.0
+topic model,0.0
+proximity measures,0.0
+top-k strategies,0.0
+top-k patterns/rules,0.0
+proﬁles,0.0
+terminating conditions,0.0
+temporal data,0.0
+supervised outlier detection,0.0
+rough set approach,0.0
+relative signiﬁcance,0.0
+repetition,0.0
+replication,0.0
+retail industry,0.0
+robustness,0.0
+roll-up operation,0.0
+row enumeration,0.0
+relational OLAP,0.0
+rule ordering,0.0
+rule pruning,0.0
+rule quality measures,0.0
+rule-based classiﬁcation,0.0
+rules for constraints,0.0
+samples,0.0
+relational databases,0.0
+regression analysis,0.0
+technologies,0.0
+tables,0.0
+taxonomy formation,0.0
+range,0.0
+targeted marketing,0.0
+range queries,0.0
+ranking,0.0
+target classes,0.0
+recall measure,0.0
+surface web,0.0
+recognition rate,0.0
+recommender systems,0.0
+recursive partitioning,0.0
+t-test,0.0
+symmetric binary dissimilarity,0.0
+redundancy-aware top-k patterns,0.0
+text data,0.0
+AGNES,0.0
+nearest-neighbor clustering algorithm,0.0
+class conditional independence,0.0
+business intelligence,0.0
+business metadata,0.0
+cannot-link constraints,0.0
+case updating,0.0
+cells,0.0
+central tendency measures,0.0
+centroid distance,0.0
+chi-square test,0.0
+class comparisons,0.0
+class imbalance problem,0.0
+bottom-up design approach,0.0
+class label attributes,0.0
+class-based ordering,0.0
+class/concept descriptions,0.0
+classes,0.0
+classiﬁcation,0.0
+classiﬁcation-based outlier detection,0.0
+closed data cubes,0.0
+closed graphs,0.0
+closure checking,0.0
+bottom-up subspace search,0.0
+boosting,0.0
+asymmetric binary dissimilarity,0.0
+backpropagation,0.0
+attribute construction,0.0
+attribute selection measures,0.0
+attribute subset selection,0.0
+attribute vectors,0.0
+attribute-oriented induction,0.0
+attributes,0.0
+audio data mining,0.0
+automatic classiﬁcation,0.0
+background knowledge,0.0
+behavioral attributes,0.0
+bivariate distribution,0.0
+believability,0.0
+biases,0.0
+biclustering,0.0
+biclusters,0.0
+bin boundaries,0.0
+binning,0.0
+biological sequences,0.0
+bipartite graphs,0.0
+bitmap indexing,0.0
+cloud computing,0.0
+cluster samples,0.0
+clustering features,0.0
+cosine similarity,0.0
+contrasting classes,0.0
+conﬁdence,0.0
+conﬂict resolution strategy,0.0
+correlation analysis,0.0
+correlation coefﬁcient,0.0
+correlation rules,0.0
+correlation-based clustering methods,0.0
+correlations,0.0
+cosine measure,0.0
+cotraining,0.0
+clustering-based methods,0.0
+credit policy analysis,0.0
+cross-validation,0.0
+crossover operation,0.0
+cube gradient analysis,0.0
+cuboid trees,0.0
+curse of dimensionality,0.0
+customer retention analysis,0.0
+data classiﬁcation,0.0
+data cleaning,0.0
+continuous attributes,0.0
+contingency tables,0.0
+contextual outliers,0.0
+contextual outlier detection,0.0
+clustering-based outlier detection,0.0
+clustering-based quantitative associations,0.0
+co-location patterns,0.0
+collective outlier detection,0.0
+collective outliers,0.0
+combined signiﬁcance,0.0
+complete-linkage algorithm,0.0
+completeness,0.0
+complex data types,0.0
+compression,0.0
+computer science applications,0.0
+concept comparison,0.0
+conditional probability table,0.0
+constraint-based mining,0.0
+constraint-based patterns/rules,0.0
+constraint-based sequential pattern mining,0.0
+context indicators,0.0
+context modeling,0.0
+context units,0.0
+asymmetric binary similarity,0.0
+associative classiﬁcation,0.0
+near-match patterns/rules,0.0
+FP-growth,0.0
+Chameleon,0.0
+Chernoff faces,0.0
+Classiﬁcation Based on Associations,0.0
+Constrained Vector Quantization Error algorithm,0.0
+DENCLUE,0.0
+DNA chips,0.0
+Eclat,0.0
+Euclidean distance,0.0
+FOIL,0.0
+FP-trees,0.0
+CPAR Association Rules,0.0
+Forest-RC,0.0
+Frag-Shells,0.0
+Gini index,0.0
+Grubb’s test,0.0
+IQR,0.0
+Jaccard coefﬁcient,0.0
+Karush-Kuhn-Tucker,0.0
+Kulczynski measure,0.0
+Laplacian correction,0.0
+CVQE algorithm,0.0
+CN2,0.0
+association rules,0.0
+Bayesian belief networks,0.0
+AVC-group,0.0
+AVC-set,0.0
+Agglomerative Nesting,0.0
+Apriori algorithm,0.0
+Apriori property,0.0
+Apriori pruning method,0.0
+BIRCH,0.0
+BOAT Tree construction,0.0
+Basic Local Alignment Search Tool,0.0
+Bayesian classiﬁcation,0.0
+CMAR Association Rules,0.0
+Boolean association rules,0.0
+Boolean attributes,0.0
+CART,0.0
+CBA,0.0
+CELL method,0.0
+CF-trees,0.0
+CLARA,0.0
+CLARANS based upon Randomized Search,0.0
+CLIQUE,0.0
+Mahalanobis distance,0.0
+Manhattan distance,0.0
+Minimum Description Length,0.0
+anomalies,0.0
+afﬁnity matrix,0.0
+aggregate cells,0.0
+aggregation,0.0
+algebraic measures,0.0
+algorithms,0.0
+all conﬁdence measure,0.0
+all-versus-all,0.0
+angle-based outlier detection,0.0
+angle-based outlier factor,0.0
+anomaly mining,0.0
+Minkowski distance,0.0
+anomaly-based detection,0.0
+antimonotonic measures,0.0
+antimonotonicity,0.0
+apex cuboids,0.0
+application domain-speciﬁc semantics,0.0
+application-speciﬁc outlier detection,0.0
+applications,0.0
+approximate patterns,0.0
+arrays,0.0
+advanced database systems,0.0
+advanced data analysis,0.0
+ad hoc data mining,0.0
+active learning,0.0
+Ng-Jordan-Weiss algorithm,0.0
+PAM,0.0
+Partitioning Around Medoids,0.0
+Pearson’s correlation coefﬁcient,0.0
+Probability-Based Ensemble,0.0
+ROC curves,0.0
+SAS Enterprise Miner,0.0
+SCAN Networks,0.0
+STING,0.0
+SVMs,0.0
+SimRank,0.0
+Structural Clustering Algorithm for Networks,0.0
+Student’s t-test,0.0
+TrAdaBoost,0.0
+World Wide Web,0.0
+absolute-error criterion,0.0
+abstraction levels,0.0
+accuracy,0.0
+activation function,0.0
+data constraints,0.0
+data cube aggregation,0.0
+data cube computation,0.0
+knowledge bases,0.0
+intercuboid query expansion,0.0
+interquartile range,0.0
+itemsets,0.0
+join indexing,0.0
+k-distance neighborhoods,0.0
+k-means,0.0
+k-nearest-neighbor classiﬁcation,0.0
+kernel density estimation,0.0
+knowledge,0.0
+knowledge discovery,0.0
+interactive data mining,0.0
+knowledge discovery from data,0.0
+knowledge extraction,0.0
+knowledge mining,0.0
+knowledge type constraints,0.0
+l-diversity method,0.0
+language model,0.0
+lattice of cuboids,0.0
+learning rates,0.0
+leave-one-out,0.0
+interactive mining,0.0
+intelligent query answering,0.0
+data cubes,0.0
+imbalance problem,0.0
+hierarchical methods,0.0
+hierarchical visualization,0.0
+high-dimensional data,0.0
+high-dimensional data clustering,0.0
+histograms,0.0
+horizontal data format,0.0
+hybrid OLAP,0.0
+hybrid-dimensional association rules,0.0
+icon-based visualization,0.0
+imbalance ratio,0.0
+integrators,0.0
+incremental data mining,0.0
+indexing,0.0
+information age,0.0
+information extraction systems,0.0
+information gain,0.0
+information processing,0.0
+information retrieval,0.0
+informativeness model,0.0
+integrated data warehouses,0.0
+likelihood ratio statistic,0.0
+local outlier factor,0.0
+local proximity-based outliers,0.0
+multilevel association rules,0.0
+model selection,0.0
+models,0.0
+modularity,0.0
+multidimensional association rules,0.0
+multidimensional data analysis,0.0
+multidimensional data mining,0.0
+multidimensional data model,0.0
+multidimensional databases,0.0
+multilayer feed-forward neural networks,0.0
+multimedia data,0.0
+log-linear models,0.0
+multimedia data analysis,0.0
+multimedia data mining,0.0
+multiple linear regression,0.0
+multiple sequence alignment,0.0
+multiple-phase clustering,0.0
+multiway array aggregation,0.0
+must-link constraints,0.0
+mutation operator,0.0
+mutual information,0.0
+mixture models,0.0
+mixed-effect models,0.0
+missing values,0.0
+minimum support threshold,0.0
+logistic function,0.0
+lossy compression,0.0
+lower approximation,0.0
+machine learning,0.0
+majority voting,0.0
+margin,0.0
+max conﬁdence measure,0.0
+maximum marginal hyperplane,0.0
+maximum normed residual test,0.0
+mean,0.0
+measures,0.0
+median,0.0
+metadata,0.0
+metarule-guided mining,0.0
+midrange,0.0
+min-max normalization,0.0
+minimal interval size,0.0
+minimal spanning tree algorithm,0.0
+minimum conﬁdence threshold,0.0
+hidden Markov model,0.0
+heterogeneous transfer learning,0.0
+heterogeneous networks,0.0
+distance measures,0.0
+directed acyclic graphs,0.0
+discovery-driven exploration,0.0
+discrete Fourier transform,0.0
+discrete attributes,0.0
+discrete wavelet transform,0.0
+discretization,0.0
+discriminant analysis,0.0
+discriminant rules,0.0
+discriminative frequent pattern-based classiﬁcation,0.0
+distance-based cluster analysis,0.0
+e-commerce,0.0
+distance-based outlier detection,0.0
+distributed data mining,0.0
+distributed privacy preservation,0.0
+distributive measures,0.0
+divisive hierarchical method,0.0
+document classiﬁcation,0.0
+documents,0.0
+drill-down operation,0.0
+drill-through operation,0.0
+direct discriminative pattern mining,0.0
+dimensions,0.0
+dimensional cells,0.0
+dimension tables,0.0
+data dispersion,0.0
+data integration,0.0
+data quality,0.0
+data reduction,0.0
+data rich but information poor,0.0
+data security-enhancing techniques,0.0
+data types,0.0
+data warehouses,0.0
+database management systems,0.0
+database queries,0.0
+databases,0.0
+decimal scaling,0.0
+deep web,0.0
+default rules,0.0
+density estimation,0.0
+density-based methods,0.0
+density-based outlier detection,0.0
+descendant cells,0.0
+descriptive mining tasks,0.0
+dynamic itemset counting,0.0
+eager learners,0.0
+grouping variables,0.0
+generative model,0.0
+frequent itemsets,0.0
+frequent subgraphs,0.0
+front-end client layer,0.0
+full materialization,0.0
+fuzzy clustering,0.0
+fuzzy logic,0.0
+fuzzy sets,0.0
+gateways,0.0
+generalization,0.0
+geodesic distance,0.0
+elbow method,0.0
+geometric projection visualization,0.0
+global constants,0.0
+graph and network data clustering,0.0
+graph cuts,0.0
+greedy hill-climbing,0.0
+greedy methods,0.0
+group-based support,0.0
+group-by clause,0.0
+grouping attributes,0.0
+fraudulent analysis,0.0
+forward algorithm,0.0
+fact constellation,0.0
+extraction/transformation/loading,0.0
+email spam ﬁltering,0.0
+engineering applications,0.0
+ensemble methods,0.0
+enterprise warehouses,0.0
+entity identiﬁcation problem,0.0
+entity-relationship,0.0
+equal-frequency histograms,0.0
+equal-width histograms,0.0
+equivalence classes,0.0
+error rates,0.0
+error-correcting codes,0.0
+evolution,0.0
+evolutionary searches,0.0
+exception-based,0.0
+exceptions,0.0
+exhaustive rules,0.0
+expected values,0.0
+exploratory data mining mining,0.0
+extraction,0.0
+ﬁxed-width clustering,0.0
