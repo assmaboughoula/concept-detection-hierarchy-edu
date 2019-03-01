@@ -1,0 +1,170 @@
+aggregate
+topic analysis
+information theory
+text - base
+rating
+mining clustering
+moment
+gaussian distribution
+kl - divergence
+latent semantic analysis
+vector
+world
+paradigmatic
+nlp
+component model
+natural language
+classification
+indirect
+probabilistic latent semantic analysis
+so
+posterior mode
+estimation
+browse
+search
+class
+sentiment analysis
+paradigmatic relation
+background model
+correlation
+idf weighting
+document
+ir
+local maxima
+relation
+dot product
+average
+supervise topic model
+review
+language model
+association
+opinion holder
+weight
+rank
+tag n
+graph
+transformation
+collection
+weight word
+symmetric
+word
+entropy
+tag
+index
+compression
+natural language analysis
+topic
+redundancy
+meta
+regression
+query expansion
+parse
+probability distribution
+e
+property
+hill - climb algorithm
+text - base prediction
+term frequency
+document length
+text - based
+text
+machine
+text clustering
+topic model
+event
+unigram
+maximum a
+normalization
+business
+word count
+pattern
+common
+term
+partitioning
+mixture model estimation
+knowledge
+background
+observed world
+mixture model
+tf
+version
+parameter
+syntagmatic relation
+vector space
+text datum
+scoring function
+text base
+sensor
+loop
+decision support
+context
+text review
+entity - relation
+such distribution
+iterative causal topic modeling
+information retrieval
+pattern annotation
+bias
+impact
+degenerate
+bigram
+view
+machine learning
+learning
+marginal
+granger
+category
+natural language processing
+mean
+knowledge graph
+recommender system
+map
+unseen word
+summarization
+mining
+domain
+overlap
+bayesian
+human
+word
+mutual information
+word relation
+text retrieval
+retrieval model
+statistic
+datum
+emotion analysis
+query
+mathematical
+background word
+paradgratical relation
+filter
+analysis
+observer
+word distribution
+inference
+common word
+document frequency
+discount
+feedback
+coverage
+rating analysis
+utility
+log - likelihood function
+market research
+text categorization
+idf
+variable
+expectation - maximization
+ambiguity
+probability
+distribution
+social
+opinion
+metadata
+selection
+generative model
+part - of - speech
+conditional probability
+latent semantic analysis
+posterior distribution

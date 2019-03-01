@@ -1,0 +1,851 @@
+text data
+text mining
+conditional entropy
+likelihood function
+mutual information
+solve problem
+time series
+text retrieval
+data mining
+word distribution
+mixture model
+probability word
+sound lecture
+random variable
+em algorithm
+topic model
+contextual text mining
+natural language
+real world
+paradigmatic relation
+estimate parameters
+lower bound
+words occur
+related words
+background model
+opinion holder
+natural language processing
+topics text
+syntagmatic relations
+common words
+topic models
+word distributions
+parameter values
+interested knowing
+information retrieval
+probabilities words
+machine learning
+language model
+sentiment analysis
+background words
+text data text
+maximum likelihood estimate
+solving problem
+special case
+topic mining
+text representation
+sequence words
+level representation
+cat dog
+general idea
+probability text
+logistical regression
+text based prediction
+topic mining analysis
+probability observing word
+maximum likelihood estimator
+address problem
+opinion mining
+number topics
+hidden variable
+high probabilities
+generating word
+generative model
+sentiment classification
+big text data
+data text data
+distribution generate word
+kinds data
+human effort
+sum 1
+random variables
+word observed
+words document
+probability distribution
+topic theta
+small probability
+higher probability
+high probability
+aspect ratings
+text data mining
+correlated time series
+social media
+actionable knowledge
+related text
+word occurs
+stock prices
+time period
+word associations
+paradigmatic relations
+discover topics
+context variables
+topic 1
+word topic
+topic coverage
+probability theta
+coverage topic
+words vocabulary
+model parameters
+data points
+objective function
+text mining analytics
+discover syntagmatic relations
+words tend occur
+probabilistic topic models
+research topics
+techniques text
+analysis text
+high level
+kind data
+slide shows
+syntagmatic relation
+entropy function
+inside sum
+product probability
+fair coin
+makes sense
+simply normalize
+pseudo segments
+candidate word
+observed world
+knowledge language
+make sense
+data set
+semantic analysis
+lot applications
+lot interesting
+major topics
+similarity context
+basic idea
+word context
+word cat
+similarity function
+main idea
+scoring function
+weights words
+probabilities sum
+probability generating
+background topic
+hidden variables
+hurricane katrina
+optimization problem
+top words
+model data
+today wednesday
+generating model
+bayesian estimation
+topic modeling
+aspect weights
+united nations
+mining text data
+syntagmatic relation discovery
+completely biased coin
+text text data
+real world variables
+opinion mining sentiment
+mining sentiment analysis
+part speech tags
+vector space model
+aspect rating analysis
+general techniques
+decision making
+basic concepts
+occurs sentence
+reaches maximum
+special cases
+entropy meat
+original entropy
+words word
+syntagmatical relations
+probabilities word
+total number
+count words
+probability data
+paradigmatical relations
+news articles
+context information
+meta data
+general topics
+parse tree
+analysis techniques
+representation text
+topics covered
+general ideas
+assume words
+pick word
+people opinions
+define topic
+music lecture
+maximize likelihood
+bayes rule
+log likelihood
+probability mass
+higher probabilities
+conditional probability
+component models
+product reviews
+causal topics
+results show
+text categorization
+reviews ratings
+ratings aspects
+social network
+categorization problem
+beta values
+text context
+text retrieval text
+retrieval text mining
+word association mining
+lecture continue discussing
+mine text data
+word based representation
+context cat context
+count word document
+coverage topics document
+maximize probability observed
+latent semantic analysis
+unigram language models
+high probability words
+latent aspect rating
+average aspect ratings
+word text
+data discover
+discover interesting
+mining techniques
+covers text
+cover general
+combine kinds
+mining algorithms
+statistical language
+average score
+lot text
+make decision
+case text
+data small
+data data
+lot data
+discovering relations
+eats occurs
+eats words
+words eats
+doesn occur
+information theory
+values random
+negative sign
+0 1
+interesting question
+reach maximum
+probability 1
+assume text
+eats occurred
+presence eats
+conditional probabilities
+knowing eats
+word w1
+correlated words
+syntagmatical relation
+words high
+words strongly
+occurrences words
+sum words
+previous slide
+compute probabilities
+compute probability
+estimate probabilities
+count word
+normalize counts
+counts words
+represent context
+context word
+context similarity
+relations words
+generating text
+pay attention
+mining content
+interesting variable
+time location
+cover topics
+lot things
+problem word
+deeper analysis
+string characters
+make mistakes
+general robust
+words text
+iphone 6
+left context
+call context
+discover paradigmatic
+pseudo document
+words general
+measure similarity
+words context
+answer question
+context documents
+distribution words
+give probability
+dot product
+number documents
+idf weighting
+retrieval models
+research articles
+presidential election
+topics time
+topic covered
+collection text
+text documents
+theta theta
+coverage topics
+document covers
+em algorithms
+computing maximum
+topic word
+interested computing
+maximum estimate
+generate word
+observed evidence
+probability background
+probability choosing
+text generated
+word background
+guess values
+values variables
+step step
+collect data
+improve estimate
+generation parameters
+probability 0
+multiple topics
+flooding city
+slide earlier
+sum cases
+distribution topics
+term topic
+topical terms
+complicated topics
+related topic
+related terms
+topic distribution
+set topics
+design model
+fit data
+model generation
+sequences words
+arg max
+posterior probability
+theta values
+simple case
+component model
+understand people
+opinion expressed
+opinion representation
+make decisions
+text stream
+analyze topics
+don time
+york times
+provide context
+text analysis
+order categories
+weights aspects
+logistic regression
+level rating
+means rating
+predict rating
+detailed understanding
+inferred weights
+expensive hotels
+cheaper hotels
+data collected
+predictive model
+additional data
+effective predictors
+partition data
+interesting ways
+trends topics
+variations topic
+text retrieval search
+retrieval search engines
+text data generated
+digest text data
+turn text data
+data actionable knowledge
+text mining techniques
+language processing techniques
+text mining algorithms
+high quality information
+text mining systems
+original text data
+humans subjective sensors
+text data important
+present absent segment
+presence absence word
+called maximum likelihood
+total number segments
+content text data
+mine knowledge observer
+analyzing text data
+partition text data
+analyze text data
+represent text data
+part speech tagging
+understand natural language
+applied text data
+representing text data
+text mining applications
+probability randomly picked
+matching frequent term
+topic word distribution
+word distribution generate
+probabilistic latent semantic
+theta word distribution
+observing word distribution
+background language model
+design scoring function
+words describe topic
+generative model text
+text mining paper
+multiplied probability observing
+probability choosing component
+opinion holder opinion
+holder opinion target
+external time series
+ordinal logistical regression
+weighted average aspect
+computer science
+pattern discovery
+generate text
+kinds text
+reviews product
+extract knowledge
+business intelligence
+kinds techniques
+relevant data
+reference books
+practical techniques
+techniques general
+programming assignments
+listed bottom
+text analytics
+results people
+knowledge discover
+discover text
+don necessarily
+view text
+world perspective
+express observed
+mining problems
+general problem
+mining problem
+kind mining
+relation discovery
+talk discover
+words tend
+tend occur
+occur context
+easier predict
+occur sentence
+harder predict
+means word
+1 0
+log probability
+probability equals
+intuitively makes
+entropy word
+entropy capture
+occur segment
+upper bound
+means knowing
+conditional entropies
+w1 w3
+ll discuss
+information discover
+entropy reduction
+ranking based
+relation mining
+words related
+eats predicting
+picking word
+joint distribution
+variables independent
+constraint probabilities
+observe word
+observed data
+technique called
+time explain
+similarity words
+don words
+statistical approaches
+interesting variations
+text article
+general data
+process generating
+entity relation
+main goal
+knowledge observer
+observed word
+left side
+mining knowledge
+important prediction
+analyzing text
+data generally
+data time
+time periods
+analyze text
+data based
+data form
+represent text
+talk topic
+talk opinion
+based text
+content analysis
+foundation text
+dog chasing
+prepositional phrase
+make inferences
+speech act
+order understand
+entities relations
+statistical analysis
+model text
+depending context
+learning techniques
+statistical methods
+representing text
+frequent words
+words positive
+positive words
+interesting analysis
+word boundaries
+representation robust
+extracted text
+important role
+column shows
+interesting applications
+topic analysis
+winning features
+features products
+syntactic structures
+information network
+means words
+words paradigmatic
+valid sentence
+paradigmatical relation
+semantically related
+cat sit
+positive negative
+similar context
+ll words
+general context
+context words
+left word
+paradigmatically related
+share similar
+idea discovering
+compute similarity
+define similarity
+lot words
+bag words
+measuring similarity
+words share
+assign weights
+retrieval techniques
+idea approach
+document context
+document vector
+overlap words
+word document
+interpreted probability
+contexts identical
+match word
+matching word
+word eats
+occur frequently
+address problems
+talk solve
+solve problems
+raw count
+function shown
+frequency words
+frequent word
+linear transformation
+high frequency
+transformation function
+problem set
+documents collection
+word sum
+terms lower
+weights terms
+talked text
+task definition
+discover knowledge
+discovery topics
+knowledge world
+context analyzing
+topics discover
+pi ij
+probability document
+set values
+extent document
+define theta
+mixture models
+words topic
+probability values
+explained background
+separate words
+order distribution
+infer distribution
+distribution word
+generated theta
+prior model
+guess distribution
+basically probability
+text theta
+generated text
+word higher
+higher likelihood
+things happen
+observed text
+inferred values
+words believed
+parameters interested
+additional information
+estimate parameter
+hill climbing
+probabilities background
+word counts
+words probabilities
+parameters estimate
+starting point
+current guess
+predicting values
+values hidden
+introduce probabilistic
+basic topic
+government response
+city orleans
+vocabulary set
+flip coin
+topic topic
+understand probability
+important parameters
+large collection
+topic document
+unknown parameters
+model detail
+estimate coverage
+topics coverage
+probability selecting
+give word
+model discover
+worded distributions
+representing topic
+describe topic
+simply count
+text document
+problems approach
+describe complicated
+probability words
+general imagine
+smaller probabilities
+model model
+set parameters
+give data
+set probability
+maximum probability
+lambda star
+discovered text
+model generating
+smaller probability
+model called
+probability today
+observe data
+topic text
+word probability
+estimating parameters
+maximizing likelihood
+characterize topic
+prior knowledge
+prior belief
+explain data
+define prior
+posterior distribution
+bayesian inference
+data point
+probabilistic models
+case topic
+unique words
+optimal solution
+lagrange multiplier
+order maximize
+choosing model
+ways generating
+generated model
+assigned high
+larger probability
+ll talk
+test data
+define opinion
+understand opinion
+opinion content
+understanding opinion
+context opinion
+opinion sentiment
+review text
+vary lot
+read reviews
+search engine
+directly related
+series context
+news stream
+correlated external
+topics correlated
+causal relation
+simple results
+suggested readings
+find details
+big data
+data applications
+combine text
+pattern annotation
+talked mine
+statistical learning
+review common
+complex features
+big picture
+polarity analysis
+mining general
+2 1
+beta parameters
+classifier distinguish
+regression classifiers
+training data
+alpha values
+reviewer cares
+ratings aspect
+unified model
+rating based
+normal distribution
+multivariate gaussian
+parameters lambda
+latent regression
+regression model
+generation text
+prices hotels
+characterize content
+human involved
+topics context
+sigir papers
+time context
+views topics
+location texas
+afghanistan war
+killing people
+common topics
+impose constraints
+adjacent nodes
+nodes network
+topic distributions
+coherent topics
+harnessing big text
+generate text data
+kind text data
+knowledge text data
+people digest text
+text data actionable
+relevant text data
+small amount relevant
+lot text data
+topics text mining
+patterns text data
+text data interpret
+text data data
+data generated humans
+text data produced
+lecture syntagmatic relation
+words occur left
+word present absent
+probability random variable
+coin shows head
+association mining analysis
+discovering syntagmatic relations
+predict presence absence
+presence absence meat
+predict meat occurs
+conditional entropy w1
+mutual information eats
+relation syntagmatic relation
+represent context word
+paradigmatic relation discovery
+text mining problem
+joint mining text
+mining text text
+joint analysis text
+generating text data
+case text data
+knowledge mine text
+text data prediction
+text data provide
+text data analysis
+mine word associations
+common sense knowledge
+require human effort
+understand text data
+occur similar context
+words occur cat
+similar context cat
+compute similarity context
+randomly picked words
+idf stands inverse
+stands inverse document
+inverse document frequency
+high frequency terms
+talked solve problem
+mining kind knowledge
+probability word text
+probability choosing background
+probability word generated
+converge local maximum
+original likelihood function
+topic government response
+word mixture model
+word generated background
+coverage topic document
+model unigram language
+probabilistic topic model
+assemble words distribution
+sum words vocabulary
+probability observed data
+unigram language model
+probability observing text
+continue discussing probabilistic
+maximize likelihood function
+mixture unigram language
+background word distribution
+mixture model general
+text mining understand
+discover causal topics
+continue discussing contextual
+discussing contextual text
+time series data
+important issues presidential
+issues presidential election
+interpret patterns discovered
+predictors prediction problem
+text categorization technique
+rating range 1
+sentiment weights words
+top ten reviewers
+covered sets articles
+social network context
+cover similar topics

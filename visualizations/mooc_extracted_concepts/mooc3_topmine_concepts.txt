@@ -1,0 +1,400 @@
+pattern discovery
+phrase mining
+sequential pattern mining
+frequent pattern mining
+pattern mining
+frequent patterns
+data mining
+transaction database
+interesting thing
+null transactions
+topic modeling
+find patterns
+data sets
+data streams
+conditional pattern base
+frequent itemsets
+support confidence
+project database
+projected database
+data stream
+minimum support
+frequent itemset
+general philosophy
+negative correlated
+sequential patterns
+sequence database
+element id
+visual primitives
+support vector machine
+quality phrases
+support count
+find frequent
+frequent pattern
+closed pattern
+algorithm called
+milk coffee
+multi dimensional
+quality phrase
+topic modelling
+zip code
+mining quality phrases
+copy paste bugs
+transaction data
+set items
+introduce interesting
+super pattern
+item set
+scan database
+derive frequent
+method called
+negatively correlated
+imbalance ratio
+min support
+vector machine
+machine learning
+bucket size
+source code
+pattern mining methods
+frequent 1 itemsets
+transactions milk coffee
+text data
+data set
+stream data
+association rules
+itemset frequent
+support threshold
+max patterns
+reduce number
+mining closed
+frequent item
+item sets
+interesting method
+main memory
+eating cereal
+2 milk
+mine patterns
+participation ratio
+training data
+topic model
+good phrase
+lots research
+minimum support threshold
+number null transactions
+closed sequential patterns
+based sequential pattern
+click streams
+association rule
+point view
+frequent items
+max pattern
+support 1
+candidate generation
+candidate set
+candidate sets
+ll find
+fp tree
+interesting algorithm
+single item
+develop efficient
+null invariance
+null invariant
+higher level
+p1 p2
+interesting study
+shopping basket
+sequence id
+mining spatial
+colocation patterns
+sparse data
+research papers
+strong tea
+feature selection
+epsilon times
+number buckets
+find copy paste
+vertical data format
+frequent item sets
+null invariant measures
+means number transactions
+number transactions milk
+consecutive time stamps
+natural language processing
+visual pattern discovery
+software bugs
+pattern analysis
+pattern based
+3 5
+beer diaper
+conditional probability
+mining find
+closed patterns
+1 2
+1 50
+real support
+based apriori
+method developed
+generation test
+candidate itemsets
+candidate itemset
+large number
+tree projection
+interesting property
+sigma times
+mining method
+pattern base
+read paper
+contingency table
+play basketball
+playing basketball
+hans peter
+martin pfeifle
+milk bread
+pattern means
+small number
+pattern distance
+means support
+frequent subsequences
+find length
+sequence 1
+algorithm developed
+efficient algorithm
+find periodicity
+periodic patterns
+reference spots
+phrasal segmentation
+phrase construction
+information retrieval
+support vector
+phrase quality
+standard deviation
+feature extraction
+feature vector
+feel comfortable
+frequency count
+find bugs
+bug detection
+forget change
+pattern mining applications
+frequent 2 itemsets
+left hand side
+interesting pattern mining
+lift chi square
+multi level association
+study interesting issue
+interesting issue called
+issue called mining
+pattern mining algorithm
+constraint based sequential
+length 2 sequential
+phrases training data
+quality topic models
+high quality phrases
+privacy preserving data
+preserving data mining
+cluster analysis
+shopping transaction
+social media
+mining frequent
+basic concepts
+lessons module
+sequential pattern
+computer science
+sound session
+copy paste
+subspace clustering
+transaction ids
+relative support
+60 percent
+50 percent
+frequent 1
+2 itemsets
+divided support
+means frequent
+100 choose
+pattern support
+time introduced
+suppose frequent
+apriori property
+published vldb
+based vertical
+developed year
+year 2000
+apriori algorithm
+find real
+real frequent
+return frequent
+similar thing
+pretty simple
+solve problem
+line work
+partitioning method
+property called
+called itemset
+partition database
+global candidate
+hashing pruning
+apriori principle
+save lot
+general idea
+mining approach
+frequent single
+single items
+conditional database
+item frequent
+support 2
+occurs times
+partition projection
+predict database
+discuss mining
+ll frequent
+projective database
+patterns rules
+interesting measures
+knowledge base
+chi square
+interesting case
+good measures
+max confidence
+kulczynski measure
+000 transactions
+000 cases
+cases buying
+research paper
+multi level
+low level
+patterns show
+lower level
+level rules
+kinds items
+kind rule
+data cube
+quantitative association
+find interesting
+gender female
+subset population
+paper published
+negative patterns
+good definition
+pretty small
+10 power
+1 10
+measure based
+discuss interesting
+compressed patterns
+support counts
+theta cover
+directly mine
+shopping sequences
+dna sequences
+time stamp
+time series
+customer shopping
+means ab
+vertical format
+called spade
+called prefixspan
+called clospan
+apriori based
+frequent sequence
+introduce algorithm
+element 2
+position holder
+pseudo projection
+support 20
+spatial association
+study refined
+spatial colocation
+higher participating
+single feature
+feature patterns
+trajectory pattern
+busy traffic
+symbolic sequence
+density based
+movement patterns
+mining periodic
+mining phrases
+previous phrase
+phrases training
+tiny training
+part speech
+mining topic
+adjacent unigrams
+phrase ranking
+knowledge discovery
+mine frequent
+rectified frequency
+words phrase
+food good
+small set
+set training
+classification process
+frequent documents
+wiki phrase
+wiki phrases
+pre processing
+big data
+stream mining
+stream querying
+manku motwani
+1 epsilon
+end bucket
+count error
+false positive
+common patterns
+code locations
+map token
+statements middle
+unchanged ratio
+image analysis
+counting problem
+data privacy
+hide data
+data perturbation
+heart problem
+attribute perturbation
+worst case
+data mining specialization
+patterns massive data
+mining frequent patterns
+quality phrases text
+phrases text data
+set minimum support
+association rule mining
+lose support information
+care support anymore
+property frequent patterns
+pattern growth approach
+number candidate sets
+fit main memory
+set hash entry
+suppose minimum support
+pattern mining method
+chi square good
+level association rules
+min support threshold
+dimensional association rules
+inter dimensional association
+length 1 sequential
+1 sequential pattern
+2 sequential pattern
+trajectory pattern mining
+mining semantics rich
+semantics rich movement
+rich movement patterns
+frequent movement pattern
+important thing mining
+pattern mining phrase
+generate good phrases
+support vector machines
+generate high quality
+vector machine phrase
+pretty high quality
+phrasal segmentation phrase
+pattern mining data
+mining data streams
+lossy counting algorithm
+output frequent item
+yy zhou group
+invisible pattern mining

@@ -101,7 +101,8 @@ def retain_clusters(X, centers, memberships, p_toler, q_toler):
 		big_p = np.max(u)
 		small_p = np.min(u)
 		# min_p = (big_p+small_p)*p_toler
-		min_p = 1.001/(np.shape(u)[0])  ## GOOD NUMERATORS: 1.001
+		# min_p = 1.001/(np.shape(u)[0])  ## GOOD NUMERATORS: 1.001
+		min_p = p_toler/(np.shape(u)[0])
 
 		""" Prune layer membership matrix according to min_p """
 		
@@ -364,20 +365,24 @@ def main():
     X_mooc3, header_mooc3 = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/mooc3_concept_embeddings_bidi_embeddings.csv")
     X_mooc4, header_mooc4 = load_embeddings("./concept-embeddings/chunker_bidirectional_embeddings/mooc4_concept_embeddings_bidi_embeddings.csv")
     
-    X = X_han
-    header = header_han
+    X = X_zhai
+    header = header_zhai
     print("X shape: ", np.shape(X))
 
     """ Default parameter values """
     
+    """ GOOD PARAMS:
+    	1. Han with backward embeddings: e = 0.005 , m = 2 , CLUSTERS = int(N/10),  p_toler = 1.001 , q_toler = 0.01
+    	2. Han with BiDi embeddings: e = 0.005 , m = 2 , CLUSTERS = int(N/10), p_toler = 1.0002 , q_toler = 0.01
+    	3. Zhai with BiDi embeddings: e = 0.005 , m = 2 , CLUSTERS = int(N/10), 
+    """
     e = 0.005		 				# epsilon error threshold for optimizing the objective function
     m = 2							# 1.1 < m < 5 usually good - this approximates cluster quality
 
     N = np.shape(X)[1]
     CLUSTERS = int(N/10)
-    # CLUSTERS = int(np.shape(X)[1]/2)
-    p_toler = 0.7 	## GOOD ONES: 0.5
-    q_toler = 0.01 	## GOOD ONES: 0.01
+    p_toler = 1.0004
+    q_toler = 0.015
 
     """ Run layered_fcm() """
     centers, memberships, u_inits, distances, obj_fs, iters_run, fpc_vals = layered_fcm(X, CLUSTERS, e, m)

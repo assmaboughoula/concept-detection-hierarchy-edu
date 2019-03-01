@@ -1,0 +1,195 @@
+empirically
+aggregate
+information theory
+hits algorithm
+probability
+kl - divergence
+tf weighting
+vector
+nlp
+citation
+tag
+classification
+browse
+sentiment analysis
+text research
+test
+idf weighting
+cache
+vector -
+mercer
+dot product
+average
+review
+from - randomness model
+start problem
+term id
+rating
+ad hoc information need
+scoring
+index
+collaborative
+ad
+matrix
+zipf
+query expansion
+parallel
+document length
+rocchio
+text
+reduce function
+link
+axiomatic thinking
+mutual model
+repeat
+unigram
+business
+database
+base filtering
+tf
+parameter
+vector space
+mixture model
+information extraction
+content
+compression
+entity extraction
+block
+database retrieval
+crawling
+machine learning
+mean
+knowledge graph
+recommender system
+big
+framework
+domain
+dirichlet prior smoothing
+precision
+reduce
+text retrieval
+link analysis
+fact
+query
+scorer
+analysis
+b test
+word distribution
+gfs
+query likelihood
+crawler
+gain
+document frequency
+class
+filter problem
+feedback
+coverage
+utility
+summarization
+text access
+google file
+content - base
+focus crawling
+search engine
+generative model
+statistic
+correlation
+function
+decision
+document id
+cumulative gain
+content - base filtering
+collection
+divergence - from - randomness model
+variable length
+bm score
+map function
+natural language
+cranfield evaluation methodology
+search
+need
+background model
+document
+f measure
+tag pretty
+collaborative filtering
+language model
+weight
+rank
+dcg
+toolkit
+ir
+course
+disaster
+google file system
+redundancy
+bag - of - word
+regression
+confusion
+parse
+pdf
+probability distribution
+efficiency
+property
+term frequency
+machine
+clickthrough
+translation
+random
+noise
+normalization
+ad hoc
+word count
+pattern
+count
+term
+rank principle
+knowledge
+class file
+speech recognition
+model
+inverse
+text datum
+architecture
+server
+support
+decision support
+context
+sample
+search system
+tokenization
+bias
+text information system
+view
+transformation
+system
+category
+natural language processing
+map
+selection
+mining
+human
+retrieval model
+scoring function
+entropy
+discount
+vector learning
+observer
+inference
+common word
+obvious
+law
+smoothing
+filter
+text categorization
+idf
+variable
+information retrieval
+ambiguity
+mutual function
+recommender
+parallel crawling
+unseen word
+pseudo count
+conditional probability
+f

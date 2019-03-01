@@ -1,0 +1,181 @@
+closeness
+predicate
+distribution -
+array
+model
+individualized
+multi
+probability
+top
+cba
+t
+false negative
+apriori
+shopping basket
+sequence
+classification
+data stream
+pattern
+test
+trend
+average
+classifier
+epsilon
+extraction
+chunk
+network
+stream length
+pattern mining
+table
+clustering
+learn
+c
+pattern discovery
+apriori property
+information processing
+distribution
+anomaly
+text
+sql
+hiding
+range
+machine
+database
+data visualization
+itemset counting
+rectify
+uncertainty
+subsequence mining
+pattern -
+boost
+property
+value
+gene
+compression
+constraint
+datum mining
+imbalance ratio
+min
+subsequence
+massive
+machine learning
+concept hierarchy
+datum format
+transaction
+pseudo - code
+density - base method
+mean
+okay
+statistic analysis
+minimum description length
+active
+neighborhood
+query
+similarity
+hour
+id
+pattern mining method
+fp - tree
+null
+redundancy
+association rule
+false positive
+accuracy
+generalization
+application
+algorithm
+prediction
+squared test
+statistic
+pattern analysis
+measure
+partition
+positive
+imply
+imbalance
+close
+vector
+unigram guide
+cluster analysis
+association
+subspace clustering
+indexing
+stream
+eclat
+class
+subgraph
+support vector machine
+similarity search
+document
+structure
+coke
+but
+pretty
+combine significance
+sensitive
+rank
+outlier
+exception
+prune
+random forest
+knowledge discovery
+true
+datum
+z
+gsp
+efficiency
+instance
+discretization
+itemset mining
+support threshold
+pattern evaluation
+itemset
+variable
+support vector
+partition method
+error rate
+knowledge
+bag
+chi
+assert quality
+popularity
+language
+median
+markov
+technology
+support
+mutual information
+frequent
+actually
+information retrieval
+mining
+bias
+test
+method
+lift
+confidence
+dimension
+machine
+speech
+item
+shopping
+prefix
+order
+index
+hybrid tree
+apriori mining
+data cube
+level
+fp -
+support ratio
+snippet
+cluster
+interestingness
+training
+completeness
+approximate
+semantic
+standard deviation
+correlation
+attribute
+active learning
